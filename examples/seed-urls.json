@@ -1,0 +1,11 @@
+[
+  {"url":"https://dayreplay.app/","classification":"adjacent","note":"Large wordmark; bot protection may obscure the launch page."},
+  {"url":"https://hermes-agent.nousresearch.com/","classification":"adjacent","note":"Huge editorial hero without the accent-word-and-period construction."},
+  {"url":"https://openclaw.ai/","classification":"exact"},
+  {"url":"https://souva.app/","classification":"exact"},
+  {"url":"https://pdfmarkdown.app/","classification":"exact"},
+  {"url":"https://www.vibesolve.ai/","classification":"variant","note":"Repeated hard-stop imperatives and a rotating final line."},
+  {"url":"https://finterm.ai/","classification":"exact"},
+  {"url":"https://lucid.earthpilot.ai/","classification":"variant","note":"Accent-colored terminal word without italics."},
+  {"url":"https://kastra.ai/","classification":"exact","note":"Gradient-text branch."}
+]

@@ -1,0 +1,29 @@
+{
+  "capturedFor": "Show HN hero-pattern scan, July 2026",
+  "captureDate": "2026-07-14",
+  "viewport": {"width": 1440, "height": 900, "deviceScaleFactor": 1},
+  "capture": {"waitMs": 1800, "quality": 78},
+  "gallery": {
+    "columns": 3,
+    "tileWidth": 960,
+    "tileHeight": 600,
+    "gap": 12,
+    "background": "#101012",
+    "quality": 84,
+    "output": "assets/showhn-hero-pattern-gallery.webp"
+  },
+  "entries": [
+    {"rank": 1, "galleryPosition": 1, "slug": "larasend", "url": "https://larasend.com/", "hero": "The email dashboard AWS never built."},
+    {"rank": 2, "galleryPosition": 2, "slug": "mobilerun", "url": "https://mobilerun.ai/", "hero": "Give your AI Agent a phone."},
+    {"rank": 3, "galleryPosition": 3, "slug": "slapmetrics", "url": "https://www.slapmetrics.com/", "hero": "Stripe sale just dinged. Your Mac moaned."},
+    {"rank": 4, "galleryPosition": 4, "slug": "shellular", "url": "https://shellular.dev/", "hero": "Your dev environment, in your pocket."},
+    {"rank": 5, "galleryPosition": 6, "slug": "heyalo", "url": "https://heyalo.ai/", "hero": "Win the call while you're still on it."},
+    {"rank": 6, "galleryPosition": 8, "slug": "parchmint", "url": "https://parchmint.app/", "hero": "Markdown, as the model reads it."},
+    {"rank": 7, "galleryPosition": 5, "slug": "ghostmeet", "url": "https://ghostmeet.sshlab.dev/", "hero": "The invisible AI meeting assistant."},
+    {"rank": 8, "galleryPosition": 12, "slug": "kastra", "url": "https://kastra.ai/", "hero": "Authorization for AI systems.", "removeText": ["We use cookies"]},
+    {"rank": 9, "galleryPosition": 11, "slug": "clusy", "url": "https://www.clusy.io/", "hero": "Ask for the experiment. Clusy runs every branch."},
+    {"rank": 10, "galleryPosition": 7, "slug": "containix", "url": "https://containix.dev/", "hero": "Build. Push. Pull. Reference."},
+    {"rank": 11, "galleryPosition": 9, "slug": "rekody", "url": "https://rekody.com/", "hero": "You talk. It types."},
+    {"rank": 12, "galleryPosition": 10, "slug": "examinerly", "url": "https://examinerly.com/", "hero": "The one thing blocking your Band 7."}
+  ]
+}
