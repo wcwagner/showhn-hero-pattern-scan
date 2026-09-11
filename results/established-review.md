@@ -10,7 +10,7 @@ Checked 2026-09-11 at 06:10 UTC with headless Chromium, 1440x1000 viewport, docu
 
 ## Adjacent, do not silently count as strict match
 
-- Notion — https://www.notion.com/ — “Where teams and agents [Think] together.” Rotating word inside blue rounded badge, 72px vs 96px outer heading, all same face/color. Visually distinct pattern; include only if William wants the broader category. Homepage customer logos include OpenAI, Figma, Ramp, Cursor, Vercel, Nvidia, Volvo, L’Oreal and Discord.
+- Notion — https://www.notion.com/ — “Where teams and agents [Think] together.” Rotating word inside blue rounded badge, 72px vs 96px outer heading, all same face/color. Visually distinct badge treatment, excluded from the phrase-emphasis gallery. Homepage customer logos include OpenAI, Figma, Ramp, Cursor, Vercel, Nvidia, Volvo, L’Oreal and Discord.
 
 ## Excluded
 
