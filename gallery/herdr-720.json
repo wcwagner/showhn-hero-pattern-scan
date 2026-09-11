@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-09-11T05:40:20.231Z",
+  "url": "https://herdr.dev/",
+  "finalUrl": "https://herdr.dev/",
+  "viewport": {
+    "width": 720,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "colorScheme": "light",
+  "waitMs": 1800,
+  "domModifications": false,
+  "screenshot": "assets/september-screenshots/herdr-720.webp",
+  "title": "Herdr: the runtime coding agents run on",
+  "hero": "Run them anywhere. Leave them running.",
+  "outerHTML": "<h1>Run them <em>anywhere.</em> Leave them running.</h1>",
+  "h1Bounds": {
+    "x": 21,
+    "y": 162.140625,
+    "width": 633.90625,
+    "height": 83.625,
+    "top": 162.140625,
+    "right": 654.90625,
+    "bottom": 245.765625,
+    "left": 21
+  },
+  "fontSize": "47.52px"
+}

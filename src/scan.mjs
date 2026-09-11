@@ -7,13 +7,14 @@ const DAY_SECONDS = 86_400;
 const SKIP_HOSTS = /(^|\.)(github\.com|gitlab\.com|bitbucket\.org|youtube\.com|youtu\.be|x\.com|twitter\.com|apps\.apple\.com|play\.google\.com|pypi\.org|npmjs\.com|crates\.io|huggingface\.co|arxiv\.org|substack\.com|medium\.com|dev\.to|news\.ycombinator\.com)$/i;
 
 function parseArgs(argv) {
-  const options = { concurrency: 8, timeout: 12_000, top: 100, limit: Infinity };
+  const options = { source: 'showhn', concurrency: 8, timeout: 12_000, top: 100, limit: Infinity };
   for (let i = 0; i < argv.length; i += 1) {
     const key = argv[i];
     if (!key.startsWith('--')) continue;
     const value = argv[++i];
     if (value === undefined) throw new Error(`Missing value for ${key}`);
-    if (key === '--start') options.start = value;
+    if (key === '--source') options.source = value.toLowerCase();
+    else if (key === '--start') options.start = value;
     else if (key === '--end') options.end = value;
     else if (key === '--output') options.output = value;
     else if (key === '--concurrency') options.concurrency = Number(value);
@@ -32,8 +33,18 @@ function parseArgs(argv) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(options.start) || !/^\d{4}-\d{2}-\d{2}$/.test(options.end)) {
     throw new Error('Dates must use YYYY-MM-DD.');
   }
+  if (epoch(options.start) >= epoch(options.end)) throw new Error('--start must precede --end.');
+  if (!['showhn', 'uneed'].includes(options.source)) {
+    throw new Error('--source must be showhn or uneed.');
+  }
   if (!Number.isInteger(options.concurrency) || options.concurrency < 1 || options.concurrency > 32) {
     throw new Error('--concurrency must be an integer from 1 to 32.');
+  }
+  for (const key of ['timeout', 'top', 'limit']) {
+    if (key === 'limit' && options[key] === Infinity) continue;
+    if (!Number.isSafeInteger(options[key]) || options[key] < 1) {
+      throw new Error(`--${key} must be a positive integer.`);
+    }
   }
   return options;
 }
@@ -50,7 +61,7 @@ async function getJSON(url) {
   return response.json();
 }
 
-async function fetchCorpus(start, end) {
+async function fetchShowHNCorpus(start, end) {
   const firstEpoch = epoch(start);
   const endEpoch = epoch(end);
   if (firstEpoch >= endEpoch) throw new Error('--start must precede --end.');
@@ -71,6 +82,44 @@ async function fetchCorpus(start, end) {
 
   return [...new Map(hits.map(hit => [hit.objectID, hit])).values()]
     .filter(hit => /^Show HN:/i.test(hit.title || ''));
+}
+
+function dateRange(start, end) {
+  const dates = [];
+  const cursor = new Date(`${start}T00:00:00Z`);
+  const stop = new Date(`${end}T00:00:00Z`);
+  while (cursor < stop) {
+    dates.push(cursor.toISOString().slice(0, 10));
+    cursor.setUTCDate(cursor.getUTCDate() + 1);
+  }
+  return dates;
+}
+
+async function fetchUneedCorpus(start, end) {
+  const dates = dateRange(start, end);
+  const daily = [];
+  for (const date of dates) {
+    const url = new URL('https://www.uneed.best/api/tools/get-ladder');
+    url.search = new URLSearchParams({ type: 'daily', date });
+    const products = await getJSON(url);
+    daily.push(products.map(product => ({
+      objectID: `uneed-${product.id}-${date}`,
+      created_at: date,
+      title: `Uneed: ${product.name}`,
+      url: product.url,
+      source: {
+        name: 'uneed',
+        listingUrl: `https://www.uneed.best/tool/${product.slug}`,
+        description: product.description || ''
+      }
+    })));
+  }
+  return daily.flat();
+}
+
+async function fetchCorpus(source, start, end) {
+  if (source === 'uneed') return fetchUneedCorpus(start, end);
+  return fetchShowHNCorpus(start, end);
 }
 
 function eligible(hit) {
@@ -190,7 +239,7 @@ async function inspectPage(browser, hit, timeout) {
       };
     });
 
-    if (!hero) return { id: hit.objectID, title: hit.title, url: hit.url, status: 'no-h1' };
+    if (!hero) return { id: hit.objectID, title: hit.title, url: hit.url, source: hit.source, status: 'no-h1' };
     const italic = hero.descendants.some(child => child.italic);
     const accent = hero.descendants.some(child => child.colorDiff);
     const gradient = hero.descendants.some(child => child.gradient);
@@ -216,6 +265,7 @@ async function inspectPage(browser, hit, timeout) {
       createdAt: hit.created_at,
       title: hit.title,
       url: hit.url,
+      source: hit.source,
       finalUrl: page.url(),
       status: 'ok',
       score,
@@ -224,19 +274,22 @@ async function inspectPage(browser, hit, timeout) {
       hero
     };
   } catch (error) {
-    return { id: hit.objectID, title: hit.title, url: hit.url, status: 'error', error: String(error.message).slice(0, 240) };
+    return { id: hit.objectID, title: hit.title, url: hit.url, source: hit.source, status: 'error', error: String(error.message).slice(0, 240) };
   } finally {
     await context.close();
   }
 }
 
-function summarize(corpus, eligibleHits, uniquePages, results) {
+function summarize(source, corpus, eligibleHits, uniquePages, results) {
   const rendered = results.filter(result => result.status === 'ok');
   const count = predicate => rendered.filter(predicate).length;
   return {
-    showHNSubmissions: corpus.length,
+    source,
+    submissions: corpus.length,
+    ...(source === 'showhn' ? { showHNSubmissions: corpus.length } : {}),
     eligibleLandingPageSubmissions: eligibleHits.length,
     uniqueLandingPages: uniquePages.length,
+    inspectedLandingPages: results.length,
     renderedWithH1: rendered.length,
     errors: results.filter(result => result.status === 'error').length,
     noH1: results.filter(result => result.status === 'no-h1').length,
@@ -256,10 +309,13 @@ function summarize(corpus, eligibleHits, uniquePages, results) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  const corpus = await fetchCorpus(options.start, options.end);
+  const corpus = await fetchCorpus(options.source, options.start, options.end);
   const eligibleHits = corpus.filter(eligible);
-  const uniquePages = dedupe(eligibleHits).slice(0, options.limit);
-  console.error(`Show HN: ${corpus.length}; landing links: ${eligibleHits.length}; unique pages queued: ${uniquePages.length}`);
+  const uniquePages = dedupe(eligibleHits);
+  const queuedPages = [...uniquePages]
+    .sort((a, b) => (b.created_at || '').localeCompare(a.created_at || '') || String(a.objectID).localeCompare(String(b.objectID)))
+    .slice(0, options.limit);
+  console.error(`${options.source}: ${corpus.length}; landing links: ${eligibleHits.length}; unique pages: ${uniquePages.length}; queued: ${queuedPages.length}`);
 
   const browser = await chromium.launch({ headless: true });
   const results = [];
@@ -267,9 +323,9 @@ async function main() {
   async function worker() {
     while (true) {
       const index = cursor++;
-      if (index >= uniquePages.length) return;
-      results.push(await inspectPage(browser, uniquePages[index], options.timeout));
-      if (results.length % 25 === 0) console.error(`Rendered ${results.length}/${uniquePages.length}`);
+      if (index >= queuedPages.length) return;
+      results.push(await inspectPage(browser, queuedPages[index], options.timeout));
+      if (results.length % 25 === 0) console.error(`Rendered ${results.length}/${queuedPages.length}`);
     }
   }
   await Promise.all(Array.from({ length: options.concurrency }, () => worker()));
@@ -279,12 +335,15 @@ async function main() {
   const report = {
     metadata: {
       generatedAt: new Date().toISOString(),
+      source: options.source,
+      selection: { order: 'newest-first', limit: Number.isFinite(options.limit) ? options.limit : null, limited: queuedPages.length < uniquePages.length },
+      renderer: { blockedResources: ['image', 'media', 'font'], settleMs: 500, timeoutMs: options.timeout },
       range: { start: options.start, endExclusive: options.end },
       viewport: { width: 1440, height: 1000 },
       thresholds: { largePixels: 52, hugePixels: 68, sentenceCharacters: [18, 220] },
       exclusions: String(SKIP_HOSTS)
     },
-    summary: summarize(corpus, eligibleHits, uniquePages, results),
+    summary: summarize(options.source, corpus, eligibleHits, uniquePages, results),
     top: ranked.slice(0, options.top),
     results
   };

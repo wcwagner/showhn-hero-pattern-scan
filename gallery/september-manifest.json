@@ -1,0 +1,104 @@
+{
+  "capturedFor": "September 2026 live examples; separate from historical scan",
+  "captureDate": "2026-09-11",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "capture": {
+    "waitMs": 1800,
+    "quality": 80,
+    "directory": "assets/september-screenshots",
+    "timeoutMs": 30000,
+    "resume": true,
+    "continueOnError": true
+  },
+  "gallery": {
+    "columns": 2,
+    "tileWidth": 720,
+    "tileHeight": 450,
+    "gap": 8,
+    "quality": 84,
+    "output": "assets/september-hero-pattern-gallery.webp"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "slug": "herdr",
+      "url": "https://herdr.dev/",
+      "hero": "Run them anywhere. Leave them running.",
+      "provenance": "User-nominated live example, not a result of the bounded Show HN scan."
+    },
+    {
+      "rank": 2,
+      "slug": "eggverse-co",
+      "url": "https://eggverse.co/",
+      "hero": "Small eggs. Big escapes.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49651638",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 11
+    },
+    {
+      "rank": 3,
+      "slug": "codepress-dev",
+      "url": "https://codepress.dev/",
+      "hero": "Ship as fast as OpenAI and Anthropic.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49649762",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 11
+    },
+    {
+      "rank": 4,
+      "slug": "subdomains-jsmon-sh",
+      "url": "https://subdomains.jsmon.sh",
+      "hero": "Query 3.5 Billion Subdomains. Instantly.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49642517",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 11
+    },
+    {
+      "rank": 5,
+      "slug": "romy-is",
+      "url": "https://romy.is",
+      "hero": "You built it. Meet the 100 people who need it.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49642433",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 11
+    },
+    {
+      "rank": 6,
+      "slug": "yzhstudio-com",
+      "url": "https://yzhstudio.com/",
+      "hero": "Apps That Work For You. Not On You.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49642212",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 11
+    },
+    {
+      "rank": 7,
+      "slug": "www-startupsonx-com",
+      "url": "https://www.startupsonx.com/",
+      "hero": "Get your startup seen.",
+      "sourceListing": "https://news.ycombinator.com/item?id=49647487",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": true,
+      "score": 10
+    },
+    {
+      "rank": 8,
+      "slug": "talleyrand-app",
+      "url": "https://talleyrand.app/",
+      "hero": "Ask better questions",
+      "sourceListing": "https://news.ycombinator.com/item?id=49646061",
+      "sourceReport": "results/showhn-2026-09-04--2026-09-10-limited.json",
+      "strictSignature": false,
+      "score": 10
+    }
+  ]
+}

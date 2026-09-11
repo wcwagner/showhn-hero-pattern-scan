@@ -1,0 +1,490 @@
+{
+  "capturedFor": "50 high-confidence, non-seed slopmark examples, July 2026",
+  "captureDate": "2026-07-14",
+  "selection": {
+    "rule": "strictSignature && score >= 12",
+    "corpora": [
+      "showhn",
+      "uneed"
+    ],
+    "uniqueHosts": true,
+    "exclude": "examples/seed-urls.json"
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "capture": {
+    "waitMs": 1800,
+    "quality": 74,
+    "directory": "assets/slopmark-screenshots",
+    "timeoutMs": 30000,
+    "resume": false,
+    "continueOnError": true
+  },
+  "gallery": {
+    "columns": 10,
+    "tileWidth": 288,
+    "tileHeight": 180,
+    "gap": 5,
+    "background": "#101012",
+    "quality": 84,
+    "output": "assets/slopmark-evidence-wall.webp"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "slug": "blyft-app",
+      "corpus": "uneed",
+      "score": 16,
+      "url": "https://blyft.app/",
+      "hero": "From One Idea to a Fully Branded Startup Automatically.",
+      "sourceListing": "https://www.uneed.best/tool/blyft",
+      "removeText": [
+        "BUILD. LAUNCH. DONE"
+      ]
+    },
+    {
+      "rank": 2,
+      "slug": "heard-dev",
+      "corpus": "uneed",
+      "score": 15,
+      "url": "https://heard.dev/",
+      "hero": "Give your coding agents a voice.",
+      "sourceListing": "https://www.uneed.best/tool/heard"
+    },
+    {
+      "rank": 3,
+      "slug": "larasend-com",
+      "corpus": "showhn",
+      "score": 14,
+      "url": "https://larasend.com/",
+      "hero": "The email dashboard AWS never built.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48819834"
+    },
+    {
+      "rank": 4,
+      "slug": "mobilerun-ai",
+      "corpus": "showhn",
+      "score": 14,
+      "url": "https://mobilerun.ai/",
+      "hero": "Give your AI Agent a phone.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48828874"
+    },
+    {
+      "rank": 5,
+      "slug": "slapmetrics-com",
+      "corpus": "showhn",
+      "score": 14,
+      "url": "https://www.slapmetrics.com/",
+      "hero": "Stripe sale just dinged. Your Mac moaned.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48848694"
+    },
+    {
+      "rank": 6,
+      "slug": "leadstack-dev",
+      "corpus": "uneed",
+      "score": 14,
+      "url": "https://www.leadstack.dev/",
+      "hero": "The CRM agencies actually own.",
+      "sourceListing": "https://www.uneed.best/tool/leadstack-dev"
+    },
+    {
+      "rank": 7,
+      "slug": "clusy-io",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://www.clusy.io/",
+      "hero": "Ask for the experiment. Clusy runs every branch.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48844551"
+    },
+    {
+      "rank": 8,
+      "slug": "containix-dev",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://containix.dev/",
+      "hero": "Build. Push. Pull. Reference.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48881604"
+    },
+    {
+      "rank": 9,
+      "slug": "examinerly-com",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://examinerly.com/",
+      "hero": "The one thing blocking your Band 7.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48908550"
+    },
+    {
+      "rank": 10,
+      "slug": "gate-ravenlabs-studio",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://gate.ravenlabs.studio/",
+      "hero": "Swap one URL. See everything.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48906881"
+    },
+    {
+      "rank": 11,
+      "slug": "ghostmeet-sshlab-dev",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://ghostmeet.sshlab.dev/",
+      "hero": "The invisible AI meeting assistant.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48826330"
+    },
+    {
+      "rank": 12,
+      "slug": "heyalo-ai",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://heyalo.ai/",
+      "hero": "Win the call while you're still on it.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48816317"
+    },
+    {
+      "rank": 14,
+      "slug": "parchmint-app",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://parchmint.app/",
+      "hero": "Markdown, as the model reads it.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48832387"
+    },
+    {
+      "rank": 15,
+      "slug": "rekody-com",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://rekody.com/",
+      "hero": "You talk. It types.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48897934"
+    },
+    {
+      "rank": 16,
+      "slug": "shellular-dev",
+      "corpus": "showhn",
+      "score": 13,
+      "url": "https://shellular.dev/",
+      "hero": "Your dev environment, in your pocket.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48818124"
+    },
+    {
+      "rank": 17,
+      "slug": "earlyconversions-com",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://earlyconversions.com/",
+      "hero": "Stop renting leads. Start owning them.",
+      "sourceListing": "https://www.uneed.best/tool/early-conversions"
+    },
+    {
+      "rank": 18,
+      "slug": "keepember-com",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://keepember.com/en",
+      "hero": "Remember everything about the people you love.",
+      "sourceListing": "https://www.uneed.best/tool/keepember"
+    },
+    {
+      "rank": 19,
+      "slug": "pluged-ai",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://pluged.ai/",
+      "hero": "Your video, edited in minutes. Just describe what you want.",
+      "sourceListing": "https://www.uneed.best/tool/pluged-ai"
+    },
+    {
+      "rank": 20,
+      "slug": "prio-sh",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://prio.sh/",
+      "hero": "Run your company, not your inbox.",
+      "sourceListing": "https://www.uneed.best/tool/prio"
+    },
+    {
+      "rank": 21,
+      "slug": "shiplog-webarc-one",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://shiplog.webarc.one/",
+      "hero": "You forget 70% of your ideas in 24 hours.",
+      "sourceListing": "https://www.uneed.best/tool/shiplog"
+    },
+    {
+      "rank": 22,
+      "slug": "spendwithpip-com",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://spendwithpip.com/",
+      "hero": "Before you spend, check Pip.",
+      "sourceListing": "https://www.uneed.best/tool/pip"
+    },
+    {
+      "rank": 23,
+      "slug": "unfumble-app",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://unfumble.app/",
+      "hero": "Autopilot for your keyboard.",
+      "sourceListing": "https://www.uneed.best/tool/unfumble"
+    },
+    {
+      "rank": 24,
+      "slug": "visionboardai-org",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://visionboardai.org/?utm_source=uneed&utm_medium=directory&utm_campaign=v1",
+      "hero": "Turn who you want to become into today's plan.",
+      "sourceListing": "https://www.uneed.best/tool/visionboardai"
+    },
+    {
+      "rank": 25,
+      "slug": "yieldscope-io",
+      "corpus": "uneed",
+      "score": 13,
+      "url": "https://yieldscope.io/en/",
+      "hero": "Every crypto rate. Ranked by who you can trust.",
+      "sourceListing": "https://www.uneed.best/tool/yieldscope"
+    },
+    {
+      "rank": 26,
+      "slug": "billotter-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://billotter.com/",
+      "hero": "Invoice done. Coffee still hot.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48832365"
+    },
+    {
+      "rank": 27,
+      "slug": "boards-reindent-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://boards.reindent.com/",
+      "hero": "The project board that writes itself while you build.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48832603"
+    },
+    {
+      "rank": 28,
+      "slug": "choji-ai",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://choji.ai/agents/slack",
+      "hero": "Never have to open up another tool again. Choji's Slack agent files, codes, and ships PRs.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48909234"
+    },
+    {
+      "rank": 29,
+      "slug": "contextvault-dev",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://www.contextvault.dev/",
+      "hero": "The shared memory layer for your AI and your team.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48900288"
+    },
+    {
+      "rank": 31,
+      "slug": "diffforge-ai",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://diffforge.ai/",
+      "hero": "Manage Multiple Agents, Design Cross-Device Loops, Inside the AI Coding Forge.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48890319"
+    },
+    {
+      "rank": 32,
+      "slug": "edgarkit-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://edgarkit.com/",
+      "hero": "SEC EDGAR data, built for developers.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48905891"
+    },
+    {
+      "rank": 33,
+      "slug": "evenkeelhq-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://evenkeelhq.com/",
+      "hero": "Clear money tools for people who work for themselves.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48855128"
+    },
+    {
+      "rank": 35,
+      "slug": "flareover-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://www.flareover.com/",
+      "hero": "Leave the orange cloud. Without breaking your site.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48830737"
+    },
+    {
+      "rank": 36,
+      "slug": "jot-arunbrahma-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://jot.arunbrahma.com/",
+      "hero": "Capture any thought in a single keystroke.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48828496"
+    },
+    {
+      "rank": 37,
+      "slug": "loerei-github-io",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://loerei.github.io/HoverSource/",
+      "hero": "From pixel to source file in one keystroke.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48872839"
+    },
+    {
+      "rank": 38,
+      "slug": "mcp-billing-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://mcp-billing.com/",
+      "hero": "Ship auth and billing for your MCP server today. Not next week.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48907181"
+    },
+    {
+      "rank": 39,
+      "slug": "onprem-console-getoffgridai-co",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://onprem-console.getoffgridai.co/",
+      "hero": "Win your industry. Put AI to work Put AI to work across the whole company.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48891076"
+    },
+    {
+      "rank": 41,
+      "slug": "pixailer-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://pixailer.com/",
+      "hero": "Create realistic group photos in record time.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48870446"
+    },
+    {
+      "rank": 42,
+      "slug": "savva-ai",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://www.savva.ai/",
+      "hero": "Live Longer. Feel Better. Health Autopilot.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48817727"
+    },
+    {
+      "rank": 43,
+      "slug": "sekor-eu-org",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://sekor.eu.org/psycho-odin/",
+      "hero": "Your music. The track.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48909216"
+    },
+    {
+      "rank": 44,
+      "slug": "servicebeard-app",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://servicebeard.app/",
+      "hero": "Turn support mailboxes into issue beards boards.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48870152"
+    },
+    {
+      "rank": 45,
+      "slug": "sphinx-fyi",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://sphinx.fyi/",
+      "hero": "Don't doomscroll your brain away.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48832054"
+    },
+    {
+      "rank": 46,
+      "slug": "tokentime-bar",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://tokentime.bar/",
+      "hero": "Screen Time but for your tokens.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48876348"
+    },
+    {
+      "rank": 47,
+      "slug": "waffy-io",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://waffy.io/",
+      "hero": "AUTONOMOUS BROWSER AGENT.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48901133"
+    },
+    {
+      "rank": 48,
+      "slug": "worthithabits-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://worthithabits.com/",
+      "hero": "Your coffee money is worth way more later.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48844449"
+    },
+    {
+      "rank": 49,
+      "slug": "zero2robot-com",
+      "corpus": "showhn",
+      "score": 12,
+      "url": "https://zero2robot.com/",
+      "hero": "Build a robot brain. No robot required.",
+      "sourceListing": "https://news.ycombinator.com/item?id=48855965"
+    },
+    {
+      "rank": 50,
+      "slug": "coati-sec-com",
+      "corpus": "uneed",
+      "score": 12,
+      "url": "https://coati-sec.com/",
+      "hero": "Send vendor questionnaires. Let AI audit their policies for compliance gaps.",
+      "sourceListing": "https://www.uneed.best/tool/coati"
+    },
+    {
+      "rank": 51,
+      "slug": "metricsense-ai",
+      "corpus": "uneed",
+      "score": 12,
+      "url": "https://metricsense.ai/",
+      "hero": "Your dashboard tells you what happened. Your customers already said why.",
+      "sourceListing": "https://www.uneed.best/tool/metricsense"
+    },
+    {
+      "rank": 52,
+      "slug": "movewise-customdesignprints-com-au",
+      "corpus": "uneed",
+      "score": 12,
+      "url": "https://movewise.customdesignprints.com.au/",
+      "hero": "Your entire move. One command centre.",
+      "sourceListing": "https://www.uneed.best/tool/movewise"
+    },
+    {
+      "rank": 53,
+      "slug": "roninpeptides-ca",
+      "corpus": "uneed",
+      "score": 12,
+      "url": "https://roninpeptides.ca/",
+      "hero": "Research peptides, verified.",
+      "sourceListing": "https://www.uneed.best/tool/ronin-peptides"
+    },
+    {
+      "rank": 54,
+      "slug": "voxcraft-app",
+      "corpus": "uneed",
+      "score": 12,
+      "url": "https://voxcraft.app/",
+      "hero": "Speak naturally. Get polished text.",
+      "sourceListing": "https://www.uneed.best/tool/voxcraft"
+    }
+  ]
+}

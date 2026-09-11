@@ -7,5 +7,6 @@
   {"url":"https://www.vibesolve.ai/","classification":"variant","note":"Repeated hard-stop imperatives and a rotating final line."},
   {"url":"https://finterm.ai/","classification":"exact"},
   {"url":"https://lucid.earthpilot.ai/","classification":"variant","note":"Accent-colored terminal word without italics."},
-  {"url":"https://kastra.ai/","classification":"exact","note":"Gradient-text branch."}
+  {"url":"https://kastra.ai/","classification":"exact","note":"Gradient-text branch."},
+  {"url":"https://clawback.md/","classification":"exact","note":"Accent-colored terminal word."}
 ]

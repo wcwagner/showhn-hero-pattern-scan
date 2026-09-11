@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Reproducible scan for the punctuated, accent-word landing-page hero pattern in Show HN launches.",
+  "description": "Reproducible scan for the slopmark: the punctuated, accent-word landing-page hero pattern.",
   "scripts": {
     "scan": "node src/scan.mjs",
+    "scan:uneed": "node src/scan.mjs --source uneed",
     "inspect": "node src/inspect-pages.mjs",
     "gallery": "node src/gallery.mjs --manifest gallery/manifest.json",
     "gallery:compose": "node src/gallery.mjs --manifest gallery/manifest.json --compose-only",
+    "gallery:uneed": "node src/gallery.mjs --manifest gallery/uneed-manifest.json",
+    "gallery:uneed:compose": "node src/gallery.mjs --manifest gallery/uneed-manifest.json --compose-only",
+    "gallery:slopmark": "node src/gallery.mjs --manifest gallery/slopmark-wall-manifest.json",
+    "gallery:slopmark:compose": "node src/gallery.mjs --manifest gallery/slopmark-wall-manifest.json --compose-only",
     "check": "node --check src/scan.mjs && node --check src/inspect-pages.mjs && node --check src/gallery.mjs"
   },
   "engines": {

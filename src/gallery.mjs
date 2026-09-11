@@ -23,10 +23,24 @@ const commonOverlaySelectors = [
   'iframe[title*="chat" i]'
 ];
 
+async function withTimeout(promise, timeoutMs, label) {
+  let timer;
+  try {
+    return await Promise.race([
+      promise,
+      new Promise((_, reject) => {
+        timer = setTimeout(() => reject(new Error(`${label} exceeded ${timeoutMs}ms`)), timeoutMs);
+      })
+    ]);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function capture(manifest, root) {
   const { width, height, deviceScaleFactor = 1 } = manifest.viewport;
-  const screenshotDirectory = path.join(root, 'assets', 'screenshots');
-  await fs.rm(screenshotDirectory, { recursive: true, force: true });
+  const screenshotDirectory = path.resolve(root, manifest.capture.directory || 'assets/screenshots');
+  if (!manifest.capture.resume) await fs.rm(screenshotDirectory, { recursive: true, force: true });
   await fs.mkdir(screenshotDirectory, { recursive: true });
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -36,14 +50,25 @@ async function capture(manifest, root) {
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/135 Safari/537.36'
   });
 
+  const failures = [];
   for (const entry of [...manifest.entries].sort((a, b) => a.rank - b.rank)) {
+    const output = path.join(screenshotDirectory, `${String(entry.rank).padStart(2, '0')}-${entry.slug}.webp`);
+    if (manifest.capture.resume) {
+      try {
+        await fs.access(output);
+        console.error(`Keeping ${entry.rank}. ${entry.slug}`);
+        continue;
+      } catch {}
+    }
     const page = await context.newPage();
     console.error(`Capturing ${entry.rank}. ${entry.slug}: ${entry.url}`);
     try {
-      await page.goto(entry.url, { waitUntil: 'domcontentloaded', timeout: entry.timeoutMs || 20_000 });
-      await page.waitForTimeout(entry.waitMs || manifest.capture.waitMs || 1_500);
-      await page.evaluate(() => window.scrollTo(0, 0));
-      await page.addStyleTag({ content: `
+      await withTimeout((async () => {
+        await page.goto(entry.url, { waitUntil: 'domcontentloaded', timeout: entry.timeoutMs || 20_000 });
+        await page.waitForTimeout(entry.waitMs || manifest.capture.waitMs || 1_500);
+        await page.evaluate(() => window.scrollTo(0, 0));
+        try {
+          await page.addStyleTag({ content: `
         *, *::before, *::after {
           animation-delay: 0s !important;
           animation-duration: 0.001s !important;
@@ -52,35 +77,41 @@ async function capture(manifest, root) {
           caret-color: transparent !important;
         }
         ${[...commonOverlaySelectors, ...(entry.hide || [])].join(', ')} { display: none !important; }
-      ` });
-      await page.evaluate(phrases => {
-        for (const phrase of phrases) {
-          const candidate = [...document.querySelectorAll('body *')]
-            .filter(element => element.children.length === 0)
-            .find(element => (element.textContent || '').includes(phrase));
-          if (!candidate) continue;
-          let target = candidate;
-          for (let depth = 0; depth < 8 && target.parentElement; depth += 1) {
-            if (getComputedStyle(target).position === 'fixed') break;
-            target = target.parentElement;
-          }
-          target.remove();
+          ` });
+        } catch (error) {
+          console.error(`Could not inject cleanup styles for ${entry.slug}: ${error.message}`);
         }
-      }, entry.removeText || []);
-      await page.waitForTimeout(100);
-      const png = await page.screenshot({ type: 'png', fullPage: false });
-      const output = path.join(screenshotDirectory, `${String(entry.rank).padStart(2, '0')}-${entry.slug}.webp`);
-      await sharp(png)
-        .resize(width, height, { fit: 'cover', position: 'top' })
-        .webp({ quality: manifest.capture.quality || 78, effort: 6 })
-        .toFile(output);
+        await page.evaluate(phrases => {
+          for (const phrase of phrases) {
+            const candidate = [...document.querySelectorAll('body *')]
+              .filter(element => element.children.length === 0)
+              .find(element => (element.textContent || '').includes(phrase));
+            if (!candidate) continue;
+            let target = candidate;
+            for (let depth = 0; depth < 8 && target.parentElement; depth += 1) {
+              if (getComputedStyle(target).position === 'fixed') break;
+              target = target.parentElement;
+            }
+            target.remove();
+          }
+        }, entry.removeText || []);
+        await page.waitForTimeout(100);
+        const png = await page.screenshot({ type: 'png', fullPage: false });
+        await sharp(png)
+          .resize(width, height, { fit: 'cover', position: 'top' })
+          .webp({ quality: manifest.capture.quality || 78, effort: 6 })
+          .toFile(output);
+      })(), entry.captureTimeoutMs || manifest.capture.timeoutMs || 30_000, entry.url);
     } catch (error) {
-      throw new Error(`Capture failed for ${entry.url}: ${error.message}`);
+      if (!manifest.capture.continueOnError) throw new Error(`Capture failed for ${entry.url}: ${error.message}`);
+      failures.push({ entry, error: error.message });
+      console.error(`Skipping ${entry.url}: ${error.message}`);
     } finally {
       await page.close();
     }
   }
   await browser.close();
+  return failures;
 }
 
 async function compose(manifest, root) {
@@ -91,10 +122,11 @@ async function compose(manifest, root) {
   const width = config.columns * config.tileWidth + (config.columns - 1) * config.gap;
   const height = rows * config.tileHeight + (rows - 1) * config.gap;
   const composites = [];
+  const screenshotDirectory = path.resolve(root, manifest.capture.directory || 'assets/screenshots');
 
   for (let index = 0; index < entries.length; index += 1) {
     const entry = entries[index];
-    const input = path.join(root, 'assets', 'screenshots', `${String(entry.rank).padStart(2, '0')}-${entry.slug}.webp`);
+    const input = path.join(screenshotDirectory, `${String(entry.rank).padStart(2, '0')}-${entry.slug}.webp`);
     const tile = await sharp(input)
       .resize(config.tileWidth, config.tileHeight, { fit: 'cover', position: 'top' })
       .toBuffer();
@@ -119,7 +151,12 @@ async function main() {
   const manifestPath = path.resolve(options.manifest);
   const root = path.resolve(path.dirname(manifestPath), '..');
   const manifest = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
-  if (!options.composeOnly) await capture(manifest, root);
+  if (!options.composeOnly) {
+    const failures = await capture(manifest, root);
+    if (failures.length) {
+      throw new Error(`Capture failures: ${failures.map(({ entry }) => entry.slug).join(', ')}`);
+    }
+  }
   await compose(manifest, root);
 }
 

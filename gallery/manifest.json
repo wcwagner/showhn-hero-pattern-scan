@@ -1,6 +1,6 @@
 {
-  "capturedFor": "Show HN hero-pattern scan, July 2026",
-  "captureDate": "2026-07-14",
+  "capturedFor": "Curated slopmark reference gallery, July 2026",
+  "captureDate": "2026-07-19",
   "viewport": {"width": 1440, "height": 900, "deviceScaleFactor": 1},
   "capture": {"waitMs": 1800, "quality": 78},
   "gallery": {
@@ -20,7 +20,7 @@
     {"rank": 5, "galleryPosition": 6, "slug": "heyalo", "url": "https://heyalo.ai/", "hero": "Win the call while you're still on it."},
     {"rank": 6, "galleryPosition": 8, "slug": "parchmint", "url": "https://parchmint.app/", "hero": "Markdown, as the model reads it."},
     {"rank": 7, "galleryPosition": 5, "slug": "ghostmeet", "url": "https://ghostmeet.sshlab.dev/", "hero": "The invisible AI meeting assistant."},
-    {"rank": 8, "galleryPosition": 12, "slug": "kastra", "url": "https://kastra.ai/", "hero": "Authorization for AI systems.", "removeText": ["We use cookies"]},
+    {"rank": 8, "galleryPosition": 12, "slug": "clawback", "url": "https://clawback.md/", "hero": "Stop paying for tokens twice."},
     {"rank": 9, "galleryPosition": 11, "slug": "clusy", "url": "https://www.clusy.io/", "hero": "Ask for the experiment. Clusy runs every branch."},
     {"rank": 10, "galleryPosition": 7, "slug": "containix", "url": "https://containix.dev/", "hero": "Build. Push. Pull. Reference."},
     {"rank": 11, "galleryPosition": 9, "slug": "rekody", "url": "https://rekody.com/", "hero": "You talk. It types."},
