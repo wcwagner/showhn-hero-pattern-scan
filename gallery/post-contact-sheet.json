@@ -1,0 +1,285 @@
+{
+  "description": "Twenty-one selected accent-phrase landing-page heroes, arranged in progressively denser rows for the Slopmark post. This curated illustration is not a prevalence estimate.",
+  "output": "assets/slopmark-contact-sheet.webp",
+  "width": 1800,
+  "height": 1215,
+  "gap": 10,
+  "background": "#fdfcfa",
+  "quality": 86,
+  "rows": [
+    {
+      "count": 1,
+      "height": 300
+    },
+    {
+      "count": 2,
+      "height": 300
+    },
+    {
+      "count": 4,
+      "height": 250
+    },
+    {
+      "count": 6,
+      "height": 185
+    },
+    {
+      "count": 8,
+      "height": 140
+    }
+  ],
+  "entries": [
+    {
+      "slug": "rekody",
+      "url": "https://rekody.com/",
+      "hero": "You talk. It types.",
+      "file": "assets/screenshots/11-rekody.webp",
+      "crop": {
+        "left": 294,
+        "top": 198,
+        "width": 852,
+        "height": 142
+      }
+    },
+    {
+      "slug": "larasend",
+      "url": "https://larasend.com/",
+      "hero": "The email dashboard AWS never built.",
+      "file": "assets/screenshots/01-larasend.webp",
+      "crop": {
+        "left": 280,
+        "top": 140,
+        "width": 880,
+        "height": 295
+      }
+    },
+    {
+      "slug": "heard",
+      "url": "https://heard.dev/",
+      "hero": "Give your coding agents a voice.",
+      "file": "assets/uneed-screenshots/01-heard.webp",
+      "crop": {
+        "left": 360,
+        "top": 135,
+        "width": 716,
+        "height": 240
+      }
+    },
+    {
+      "slug": "prio",
+      "url": "https://prio.sh/",
+      "hero": "Run your company, not your inbox.",
+      "file": "assets/uneed-screenshots/07-prio.webp",
+      "crop": {
+        "left": 146,
+        "top": 225,
+        "width": 517,
+        "height": 293
+      }
+    },
+    {
+      "slug": "clusy",
+      "url": "https://www.clusy.io/",
+      "hero": "Ask for the experiment. Clusy runs every branch.",
+      "file": "assets/screenshots/09-clusy.webp",
+      "crop": {
+        "left": 118,
+        "top": 115,
+        "width": 784,
+        "height": 444
+      }
+    },
+    {
+      "slug": "shellular",
+      "url": "https://shellular.dev/",
+      "hero": "Your dev environment, in your pocket.",
+      "file": "assets/screenshots/04-shellular.webp",
+      "crop": {
+        "left": 259,
+        "top": 0,
+        "width": 918,
+        "height": 520
+      }
+    },
+    {
+      "slug": "leadstack",
+      "url": "https://www.leadstack.dev/",
+      "hero": "The CRM agencies actually own.",
+      "file": "assets/uneed-screenshots/02-leadstack.webp",
+      "crop": {
+        "left": 406,
+        "top": 179,
+        "width": 625,
+        "height": 354
+      }
+    },
+    {
+      "slug": "mobilerun",
+      "url": "https://mobilerun.ai/",
+      "hero": "Give your AI Agent a phone.",
+      "file": "assets/screenshots/02-mobilerun.webp",
+      "crop": {
+        "left": 75,
+        "top": 236,
+        "width": 501,
+        "height": 319
+      }
+    },
+    {
+      "slug": "parchmint",
+      "url": "https://parchmint.app/",
+      "hero": "Markdown, as the model reads it.",
+      "file": "assets/screenshots/06-parchmint.webp",
+      "crop": {
+        "left": 160,
+        "top": 217,
+        "width": 489,
+        "height": 311
+      }
+    },
+    {
+      "slug": "heyalo",
+      "url": "https://heyalo.ai/",
+      "hero": "Win the call while you're still on it.",
+      "file": "assets/screenshots/05-heyalo.webp",
+      "crop": {
+        "left": 80,
+        "top": 30,
+        "width": 594,
+        "height": 378
+      }
+    },
+    {
+      "slug": "keepember",
+      "url": "https://keepember.com/en",
+      "hero": "Remember everything about the people you love.",
+      "file": "assets/uneed-screenshots/05-keepember.webp",
+      "crop": {
+        "left": 167,
+        "top": 176,
+        "width": 578,
+        "height": 368
+      }
+    },
+    {
+      "slug": "slapmetrics",
+      "url": "https://www.slapmetrics.com/",
+      "hero": "Stripe sale just dinged. Your Mac moaned.",
+      "file": "assets/screenshots/03-slapmetrics.webp",
+      "crop": {
+        "left": 106,
+        "top": 166,
+        "width": 615,
+        "height": 391
+      }
+    },
+    {
+      "slug": "examinerly",
+      "url": "https://examinerly.com/",
+      "hero": "The one thing blocking your Band 7.",
+      "file": "assets/screenshots/12-examinerly.webp",
+      "crop": {
+        "left": 161,
+        "top": 151,
+        "width": 449,
+        "height": 286
+      }
+    },
+    {
+      "slug": "pip",
+      "url": "https://spendwithpip.com/",
+      "hero": "Before you spend, check Pip.",
+      "file": "assets/uneed-screenshots/03-pip.webp",
+      "crop": {
+        "left": 164,
+        "top": 185,
+        "width": 579,
+        "height": 376
+      }
+    },
+    {
+      "slug": "yieldscope",
+      "url": "https://yieldscope.io/en/",
+      "hero": "Every crypto rate. Ranked by who you can trust.",
+      "file": "assets/uneed-screenshots/06-yieldscope.webp",
+      "crop": {
+        "left": 131,
+        "top": 0,
+        "width": 890,
+        "height": 577
+      }
+    },
+    {
+      "slug": "visionboardai",
+      "url": "https://visionboardai.org/",
+      "hero": "Turn who you want to become into today's plan.",
+      "file": "assets/uneed-screenshots/08-visionboardai.webp",
+      "crop": {
+        "left": 412,
+        "top": 129,
+        "width": 617,
+        "height": 400
+      }
+    },
+    {
+      "slug": "voxcraft",
+      "url": "https://voxcraft.app/",
+      "hero": "Speak naturally. Get polished text.",
+      "file": "assets/uneed-screenshots/09-voxcraft.webp",
+      "crop": {
+        "left": 511,
+        "top": 98,
+        "width": 415,
+        "height": 269
+      }
+    },
+    {
+      "slug": "freelymemo",
+      "url": "https://www.freelymemo.xyz/",
+      "hero": "Your thoughts, always within reach.",
+      "file": "assets/uneed-screenshots/11-freelymemo.webp",
+      "crop": {
+        "left": 133,
+        "top": 182,
+        "width": 470,
+        "height": 305
+      }
+    },
+    {
+      "slug": "zero2robot-com",
+      "url": "https://zero2robot.com/",
+      "hero": "Build a robot brain. No robot required.",
+      "file": "assets/slopmark-screenshots/49-zero2robot-com.webp",
+      "crop": {
+        "left": 381,
+        "top": 94,
+        "width": 443,
+        "height": 288
+      }
+    },
+    {
+      "slug": "ghostmeet",
+      "url": "https://ghostmeet.sshlab.dev/",
+      "hero": "The invisible AI meeting assistant.",
+      "file": "assets/screenshots/07-ghostmeet.webp",
+      "crop": {
+        "left": 115,
+        "top": 204,
+        "width": 660,
+        "height": 428
+      }
+    },
+    {
+      "slug": "herdr",
+      "url": "https://herdr.dev/",
+      "hero": "Run them anywhere. Leave them running.",
+      "file": "assets/september-screenshots/01-herdr.webp",
+      "crop": {
+        "left": 12,
+        "top": 0,
+        "width": 1288,
+        "height": 835
+      }
+    }
+  ]
+}

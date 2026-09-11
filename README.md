@@ -178,6 +178,62 @@ node src/gallery.mjs --manifest gallery/september-manifest.json
 
 The original July reports and screenshot directories are preserved. The September pass uses the same style thresholds as July; the scanner changes only clarify limiting, record rendering settings, validate numeric arguments, and select bounded samples newest first.
 
+## YC Spring 2026: complete public directory cohort
+
+The September 11 follow-up collects every **currently public** [Spring 2026 YC directory record](https://www.ycombinator.com/companies?batch=Spring%202026), not only the search hits. It records separate membership flags for the directory's `query=ai` result and literal, case-insensitive whole-word `AI` in the company name. The directory query searches text with prefix matching: it can match “aircraft,” so it is not an AI-company classification.
+
+| Scope | Companies | Observed heroes | Italic phrase | Other highlighted phrase | No match | Missing data |
+|---|---:|---:|---:|---:|---:|---:|
+| Complete public Spring 2026 batch | 193 | 174 | 16 | 32 | 126 | 19 |
+| Directory `query=ai` subset | 156 | 144 | 16 | 25 | 103 | 12 |
+| Literal `AI` in company name | 7 | 7 | 2 | 2 | 3 | 0 |
+
+These are deterministic detector outputs, not counts of AI-generated websites or manually confirmed examples. Missing data includes unavailable pages, blocking, and no detectable first-viewport hero; it is never counted as a negative result. Hidden or unlaunched cohort members cannot be collected from the public directory.
+
+### Reproduce the cohort and crawl
+
+```sh
+npm run source:yc
+npm run scan:yc
+node src/yc-contact-sheet.mjs --selection italic
+node src/yc-contact-sheet.mjs --selection audit
+npm test
+```
+
+`src/yc-source.mjs` reads the public directory frontend's search configuration and queries its intended public index. The public restricted search credential stays in memory and is never logged or saved. [Cohort records](results/yc-spring-2026-cohort.json), [per-page observations](results/yc-spring-2026-2026-09-11.json), and [screenshots](assets/yc-spring-2026-screenshots/) preserve batch, URLs, names, query membership, timestamps, missing-data status, DOM fragments, typography runs, and screenshot geometry.
+
+### Detector v2.1 and validation
+
+The YC detector is separate from the historical July scoring system. It selects the largest visible heading-like text in a fixed 1440×900 viewport, using semantic H1 as a tie-break. It requires a proposition of 12–220 characters, at least two words, and type at least 44px. It compares actual text runs and does **not** require a terminal period. Normal fonts and images are loaded; video/audio resources are blocked.
+
+A phrase can differ by italics, font family, font weight (at least 200), gradient use, or RGB distance (at least 40 on 0–255 channels). Runs below 70% of the dominant font size are excluded to avoid treating small labels as hero emphasis. Adjacent runs with identical styling are merged so letter-by-letter spans remain detectable. Unsupported computed color spaces are ignored conservatively for color-only detection. Each result retains the applied settings and classifier version. The initial YC observations were collected with v2.0 classifications, then all saved text runs were rescored with frozen v2.1; the report preserves both versions. Future runs use v2.1 directly.
+
+Nine deterministic/browser fixtures cover meaningful edge cases: no period, whole-heading italics, tiny subtitles, nearly identical colors, real color contrast, split-letter spans, weight-only emphasis, missing heroes, and small-logo H1 versus a dominant H2.
+
+A separate agent visually labeled a [24-page sample](gallery/yc-audit-selection.json), chosen by SHA-256 of company-profile URLs independently of predictions and reviewed without classifier output. There were 8 visual matches, 15 nonmatches, and 1 uncertain animated heading. Frozen v2.1 agreed on 20 of the 23 adjudicated pages and missed 3; it produced no false positives in this small sample. This is a sanity check, not a general accuracy estimate. [Labels and disagreements](results/yc-spring-2026-visual-audit.json) remain inspectable. The misses expose known limitations: propositions split across separate headings (Mochatrade, Plena Health), and a visibly emphasized line smaller than the conservative run-size threshold (Zolvo).
+
+The two existing curated 12-image sets are positive-enriched references, not an independent test set. A [current revisit of those 24 URLs](results/positive-reference-revisit-2026-09-11.json) produced 20 matches, 3 current nonmatches, and 1 blocked page. Heard and EarlyConversions had changed substantially. This measures present-day agreement with historical reference URLs; it does not rescore the old screenshots or establish precision/recall.
+
+The [italic candidate contact sheet](assets/yc-spring-2026-italic-1.webp) is visually reviewable, but still contains detector candidates. For example, Thomas selected a subtitle beneath a much larger graphic wordmark; it should be excluded from a curated gallery. Rotating text can duplicate or concatenate words in captured DOM, and screenshot timing can differ slightly from typography extraction.
+
+### Curated YC post image
+
+The final [15-example YC contact sheet](assets/yc-spring-2026-contact-sheet.webp) selects visually reviewed italic-phrase candidates from this cohort. Its [manifest](gallery/yc-post-contact-sheet.json) preserves company names, YC/source URLs, screenshot paths, and crop coordinates. Thomas is excluded; TakeCareOS uses a manually reviewed crop of the complete heading. Selection is editorial, not a new prevalence estimate; the [independent visual audit and detector misses](results/yc-spring-2026-visual-audit.json) remain separate.
+
+```sh
+node src/contact-sheet.mjs gallery/yc-post-contact-sheet.json
+```
+
+## Compact post contact sheet
+
+The post's graduated-density, 21-example contact sheet uses archived screenshots only:
+
+```sh
+node src/contact-sheet.mjs
+```
+
+Its layout and provenance are recorded in [gallery/post-contact-sheet.json](gallery/post-contact-sheet.json); the output is [assets/slopmark-contact-sheet.webp](assets/slopmark-contact-sheet.webp).
+
 ## Caveats
 
 - Pages change. A rerun measures the current landing page, not necessarily what appeared on launch day.

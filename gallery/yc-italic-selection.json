@@ -1,0 +1,135 @@
+{
+  "report": "results/yc-spring-2026-2026-09-11.json",
+  "selection": "italic",
+  "rule": "All italic deterministic classifications; not visually verified labels.",
+  "entries": [
+    {
+      "index": 1,
+      "name": "AbInitio Bio",
+      "id": "31484",
+      "yc_url": "https://www.ycombinator.com/companies/abinitio-bio",
+      "website": "https://www.abinitio-bio.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31484.webp"
+    },
+    {
+      "index": 2,
+      "name": "Arctic Health",
+      "id": "31552",
+      "yc_url": "https://www.ycombinator.com/companies/arctic-health",
+      "website": "https://arctic.health",
+      "screenshot": "assets/yc-spring-2026-screenshots/31552.webp"
+    },
+    {
+      "index": 3,
+      "name": "Elyra",
+      "id": "31388",
+      "yc_url": "https://www.ycombinator.com/companies/elyra",
+      "website": "https://www.elyrasystems.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31388.webp"
+    },
+    {
+      "index": 4,
+      "name": "Foresight",
+      "id": "30737",
+      "yc_url": "https://www.ycombinator.com/companies/foresight",
+      "website": "https://foresight.tt/",
+      "screenshot": "assets/yc-spring-2026-screenshots/30737.webp"
+    },
+    {
+      "index": 5,
+      "name": "Fuchsia",
+      "id": "31102",
+      "yc_url": "https://www.ycombinator.com/companies/fuchsia",
+      "website": "https://getfuchsia.ai/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31102.webp"
+    },
+    {
+      "index": 6,
+      "name": "General Aviation",
+      "id": "31501",
+      "yc_url": "https://www.ycombinator.com/companies/general-aviation",
+      "website": "https://generalaviation.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31501.webp"
+    },
+    {
+      "index": 7,
+      "name": "Hub",
+      "id": "31375",
+      "yc_url": "https://www.ycombinator.com/companies/hub",
+      "website": "https://hub.xyz",
+      "screenshot": "assets/yc-spring-2026-screenshots/31375.webp"
+    },
+    {
+      "index": 8,
+      "name": "Infera",
+      "id": "31441",
+      "yc_url": "https://www.ycombinator.com/companies/infera",
+      "website": "https://www.infera.bio",
+      "screenshot": "assets/yc-spring-2026-screenshots/31441.webp"
+    },
+    {
+      "index": 9,
+      "name": "Kinect",
+      "id": "31520",
+      "yc_url": "https://www.ycombinator.com/companies/kinect",
+      "website": "https://www.trykinect.ai/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31520.webp"
+    },
+    {
+      "index": 10,
+      "name": "Kuli",
+      "id": "31473",
+      "yc_url": "https://www.ycombinator.com/companies/kuli",
+      "website": "https://kuli.one",
+      "screenshot": "assets/yc-spring-2026-screenshots/31473.webp"
+    },
+    {
+      "index": 11,
+      "name": "Saudara AI",
+      "id": "31481",
+      "yc_url": "https://www.ycombinator.com/companies/saudara-ai",
+      "website": "https://saudara.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31481.webp"
+    },
+    {
+      "index": 12,
+      "name": "shotwell.ai",
+      "id": "31400",
+      "yc_url": "https://www.ycombinator.com/companies/shotwellai",
+      "website": "http://shotwell.ai/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31400.webp"
+    },
+    {
+      "index": 13,
+      "name": "Standard Signal",
+      "id": "31330",
+      "yc_url": "https://www.ycombinator.com/companies/standard-signal",
+      "website": "https://standardsignal.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31330.webp"
+    },
+    {
+      "index": 14,
+      "name": "Taiga",
+      "id": "31418",
+      "yc_url": "https://www.ycombinator.com/companies/taiga",
+      "website": "https://taigabilling.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31418.webp"
+    },
+    {
+      "index": 15,
+      "name": "TakeCareOS",
+      "id": "30963",
+      "yc_url": "https://www.ycombinator.com/companies/takecareos",
+      "website": "https://takecareos.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/30963.webp"
+    },
+    {
+      "index": 16,
+      "name": "Thomas",
+      "id": "31563",
+      "yc_url": "https://www.ycombinator.com/companies/thomas",
+      "website": "https://madebythomas.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31563.webp"
+    }
+  ]
+}

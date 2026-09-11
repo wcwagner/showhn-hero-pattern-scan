@@ -1,0 +1,199 @@
+{
+  "report": "results/yc-spring-2026-2026-09-11.json",
+  "selection": "audit",
+  "rule": "First 24 company-profile URLs ordered by SHA-256, independent of model/classifier output. Missing-data rows remain in sample.",
+  "entries": [
+    {
+      "index": 1,
+      "name": "flowscope",
+      "id": "31538",
+      "yc_url": "https://www.ycombinator.com/companies/flowscope",
+      "website": "https://flowscope.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31538.webp"
+    },
+    {
+      "index": 2,
+      "name": "Cignara",
+      "id": "31117",
+      "yc_url": "https://www.ycombinator.com/companies/cignara",
+      "website": "https://cignara.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31117.webp"
+    },
+    {
+      "index": 3,
+      "name": "Discovered Materials",
+      "id": "31362",
+      "yc_url": "https://www.ycombinator.com/companies/discovered-materials",
+      "website": "https://discoveredmaterials.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31362.webp"
+    },
+    {
+      "index": 4,
+      "name": "Nine Fives",
+      "id": "31366",
+      "yc_url": "https://www.ycombinator.com/companies/nine-fives",
+      "website": "https://ninefives.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31366.webp"
+    },
+    {
+      "index": 5,
+      "name": "General Instinct",
+      "id": "31456",
+      "yc_url": "https://www.ycombinator.com/companies/general-instinct",
+      "website": "https://general-instinct.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31456.webp"
+    },
+    {
+      "index": 6,
+      "name": "Kimpton",
+      "id": "31420",
+      "yc_url": "https://www.ycombinator.com/companies/kimpton",
+      "website": "https://kimpton.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31420.webp"
+    },
+    {
+      "index": 7,
+      "name": "Superset",
+      "id": "31222",
+      "yc_url": "https://www.ycombinator.com/companies/superset",
+      "website": "https://www.superset.sh/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31222.webp"
+    },
+    {
+      "index": 8,
+      "name": "Mochatrade",
+      "id": "31529",
+      "yc_url": "https://www.ycombinator.com/companies/mochatrade",
+      "website": "https://www.mochatrade.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31529.webp"
+    },
+    {
+      "index": 9,
+      "name": "YouArt",
+      "id": "31517",
+      "yc_url": "https://www.ycombinator.com/companies/youart",
+      "website": "https://youart.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31517.webp"
+    },
+    {
+      "index": 10,
+      "name": "Clara",
+      "id": "31063",
+      "yc_url": "https://www.ycombinator.com/companies/clara-2",
+      "website": "http://askclara.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31063.webp"
+    },
+    {
+      "index": 11,
+      "name": "Allowance",
+      "id": "31447",
+      "yc_url": "https://www.ycombinator.com/companies/allowance",
+      "website": "https://useallowance.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31447.webp"
+    },
+    {
+      "index": 12,
+      "name": "LightSprint",
+      "id": "31360",
+      "yc_url": "https://www.ycombinator.com/companies/lightsprint",
+      "website": "https://lightsprint.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31360.webp"
+    },
+    {
+      "index": 13,
+      "name": "Dispatch",
+      "id": "31294",
+      "yc_url": "https://www.ycombinator.com/companies/dispatch",
+      "website": "https://dispatch.space/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31294.webp"
+    },
+    {
+      "index": 14,
+      "name": "TesterArmy",
+      "id": "31491",
+      "yc_url": "https://www.ycombinator.com/companies/testerarmy",
+      "website": "https://tester.army",
+      "screenshot": "assets/yc-spring-2026-screenshots/31491.webp"
+    },
+    {
+      "index": 15,
+      "name": "Pairio",
+      "id": "31417",
+      "yc_url": "https://www.ycombinator.com/companies/pairio",
+      "website": "https://pairio.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31417.webp"
+    },
+    {
+      "index": 16,
+      "name": "Hedge",
+      "id": "31323",
+      "yc_url": "https://www.ycombinator.com/companies/hedge",
+      "website": "https://www.hedgespecialty.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31323.webp"
+    },
+    {
+      "index": 17,
+      "name": "qomplement",
+      "id": "31396",
+      "yc_url": "https://www.ycombinator.com/companies/qomplement",
+      "website": "https://qomplement.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31396.webp"
+    },
+    {
+      "index": 18,
+      "name": "Reason Machines",
+      "id": "31458",
+      "yc_url": "https://www.ycombinator.com/companies/reason-machines",
+      "website": "https://reasonmachines.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31458.webp"
+    },
+    {
+      "index": 19,
+      "name": "Tasklet",
+      "id": "31470",
+      "yc_url": "https://www.ycombinator.com/companies/tasklet-2",
+      "website": "https://tasklet.ai",
+      "screenshot": "assets/yc-spring-2026-screenshots/31470.webp"
+    },
+    {
+      "index": 20,
+      "name": "AquaShield",
+      "id": "31487",
+      "yc_url": "https://www.ycombinator.com/companies/aquashield",
+      "website": "https://aquashieldai.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31487.webp"
+    },
+    {
+      "index": 21,
+      "name": "Replicas",
+      "id": "31345",
+      "yc_url": "https://www.ycombinator.com/companies/replicas",
+      "website": "https://replicas.dev",
+      "screenshot": "assets/yc-spring-2026-screenshots/31345.webp"
+    },
+    {
+      "index": 22,
+      "name": "Pavoot",
+      "id": "31398",
+      "yc_url": "https://www.ycombinator.com/companies/pavoot",
+      "website": "https://pavoot.com",
+      "screenshot": "assets/yc-spring-2026-screenshots/31398.webp"
+    },
+    {
+      "index": 23,
+      "name": "Zolvo",
+      "id": "31385",
+      "yc_url": "https://www.ycombinator.com/companies/zolvo",
+      "website": "https://zolvo.com/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31385.webp"
+    },
+    {
+      "index": 24,
+      "name": "Plena Health",
+      "id": "31493",
+      "yc_url": "https://www.ycombinator.com/companies/plena-health",
+      "website": "https://www.plena.health/",
+      "screenshot": "assets/yc-spring-2026-screenshots/31493.webp"
+    }
+  ]
+}

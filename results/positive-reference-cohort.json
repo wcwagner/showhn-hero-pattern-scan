@@ -1,0 +1,199 @@
+{
+  "source": "gallery/manifest.json and gallery/uneed-manifest.json",
+  "batch": "Historical curated positive references, revisited September 11",
+  "total": 24,
+  "items": [
+    {
+      "name": "larasend",
+      "website": "https://larasend.com/",
+      "objectID": "reference-larasend",
+      "yc_url": "https://larasend.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/01-larasend.webp"
+    },
+    {
+      "name": "mobilerun",
+      "website": "https://mobilerun.ai/",
+      "objectID": "reference-mobilerun",
+      "yc_url": "https://mobilerun.ai/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/02-mobilerun.webp"
+    },
+    {
+      "name": "slapmetrics",
+      "website": "https://www.slapmetrics.com/",
+      "objectID": "reference-slapmetrics",
+      "yc_url": "https://www.slapmetrics.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/03-slapmetrics.webp"
+    },
+    {
+      "name": "shellular",
+      "website": "https://shellular.dev/",
+      "objectID": "reference-shellular",
+      "yc_url": "https://shellular.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/04-shellular.webp"
+    },
+    {
+      "name": "heyalo",
+      "website": "https://heyalo.ai/",
+      "objectID": "reference-heyalo",
+      "yc_url": "https://heyalo.ai/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/05-heyalo.webp"
+    },
+    {
+      "name": "parchmint",
+      "website": "https://parchmint.app/",
+      "objectID": "reference-parchmint",
+      "yc_url": "https://parchmint.app/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/06-parchmint.webp"
+    },
+    {
+      "name": "ghostmeet",
+      "website": "https://ghostmeet.sshlab.dev/",
+      "objectID": "reference-ghostmeet",
+      "yc_url": "https://ghostmeet.sshlab.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/07-ghostmeet.webp"
+    },
+    {
+      "name": "clawback",
+      "website": "https://clawback.md/",
+      "objectID": "reference-clawback",
+      "yc_url": "https://clawback.md/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/08-clawback.webp"
+    },
+    {
+      "name": "clusy",
+      "website": "https://www.clusy.io/",
+      "objectID": "reference-clusy",
+      "yc_url": "https://www.clusy.io/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/09-clusy.webp"
+    },
+    {
+      "name": "containix",
+      "website": "https://containix.dev/",
+      "objectID": "reference-containix",
+      "yc_url": "https://containix.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/10-containix.webp"
+    },
+    {
+      "name": "rekody",
+      "website": "https://rekody.com/",
+      "objectID": "reference-rekody",
+      "yc_url": "https://rekody.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/11-rekody.webp"
+    },
+    {
+      "name": "examinerly",
+      "website": "https://examinerly.com/",
+      "objectID": "reference-examinerly",
+      "yc_url": "https://examinerly.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/12-examinerly.webp"
+    },
+    {
+      "name": "heard",
+      "website": "https://heard.dev/",
+      "objectID": "reference-heard",
+      "yc_url": "https://heard.dev/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/01-heard.webp"
+    },
+    {
+      "name": "leadstack",
+      "website": "https://www.leadstack.dev/",
+      "objectID": "reference-leadstack",
+      "yc_url": "https://www.leadstack.dev/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/02-leadstack.webp"
+    },
+    {
+      "name": "pip",
+      "website": "https://spendwithpip.com/",
+      "objectID": "reference-pip",
+      "yc_url": "https://spendwithpip.com/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/03-pip.webp"
+    },
+    {
+      "name": "earlyconversions",
+      "website": "https://earlyconversions.com/",
+      "objectID": "reference-earlyconversions",
+      "yc_url": "https://earlyconversions.com/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/04-earlyconversions.webp"
+    },
+    {
+      "name": "keepember",
+      "website": "https://keepember.com/en",
+      "objectID": "reference-keepember",
+      "yc_url": "https://keepember.com/en",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/05-keepember.webp"
+    },
+    {
+      "name": "yieldscope",
+      "website": "https://yieldscope.io/en/",
+      "objectID": "reference-yieldscope",
+      "yc_url": "https://yieldscope.io/en/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/06-yieldscope.webp"
+    },
+    {
+      "name": "prio",
+      "website": "https://prio.sh/",
+      "objectID": "reference-prio",
+      "yc_url": "https://prio.sh/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/07-prio.webp"
+    },
+    {
+      "name": "visionboardai",
+      "website": "https://visionboardai.org/",
+      "objectID": "reference-visionboardai",
+      "yc_url": "https://visionboardai.org/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/08-visionboardai.webp"
+    },
+    {
+      "name": "voxcraft",
+      "website": "https://voxcraft.app/",
+      "objectID": "reference-voxcraft",
+      "yc_url": "https://voxcraft.app/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/09-voxcraft.webp"
+    },
+    {
+      "name": "roninpeptides",
+      "website": "https://roninpeptides.ca/",
+      "objectID": "reference-roninpeptides",
+      "yc_url": "https://roninpeptides.ca/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/10-roninpeptides.webp"
+    },
+    {
+      "name": "freelymemo",
+      "website": "https://www.freelymemo.xyz/",
+      "objectID": "reference-freelymemo",
+      "yc_url": "https://www.freelymemo.xyz/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/11-freelymemo.webp"
+    },
+    {
+      "name": "siliform",
+      "website": "https://www.siliform.ai/",
+      "objectID": "reference-siliform",
+      "yc_url": "https://www.siliform.ai/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/12-siliform.webp"
+    }
+  ]
+}

@@ -1,0 +1,2669 @@
+{
+  "metadata": {
+    "startedAt": "2026-09-11T05:57:09.648Z",
+    "finishedAt": "2026-09-11T05:57:26.294Z",
+    "cohortFile": "results/positive-reference-cohort.json",
+    "cohortSource": "gallery/manifest.json and gallery/uneed-manifest.json",
+    "batch": "Historical curated positive references, revisited September 11",
+    "detector": {
+      "version": "2.1.0",
+      "minFontSize": 44,
+      "minCharacters": 12,
+      "maxCharacters": 220,
+      "minPhraseLetters": 2,
+      "minWeightContrast": 200,
+      "minColorDistance": 40,
+      "minRunSizeRatio": 0.7,
+      "punctuationRequired": false
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "rendering": {
+      "blockedResources": [
+        "media"
+      ],
+      "fontWaitLimitMs": 2000,
+      "settleMs": 1200,
+      "concurrency": 4
+    },
+    "purpose": "Visual-pattern candidate finding. No inference of AI authorship. Search match is YC directory query scope, not an AI-industry label."
+  },
+  "summary": {
+    "fullBatch": {
+      "companies": 24,
+      "observed": 23,
+      "matched": 20,
+      "italicPhrase": 18,
+      "highlightedPhrase": 2,
+      "noMatch": 3,
+      "missingData": 1
+    },
+    "directoryAIQuery": {
+      "companies": 0,
+      "observed": 0,
+      "matched": 0,
+      "italicPhrase": 0,
+      "highlightedPhrase": 0,
+      "noMatch": 0,
+      "missingData": 0
+    },
+    "literalAIInName": {
+      "companies": 0,
+      "observed": 0,
+      "matched": 0,
+      "italicPhrase": 0,
+      "highlightedPhrase": 0,
+      "noMatch": 0,
+      "missingData": 0
+    }
+  },
+  "results": [
+    {
+      "name": "clawback",
+      "website": "https://clawback.md/",
+      "objectID": "reference-clawback",
+      "yc_url": "https://clawback.md/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/08-clawback.webp",
+      "observedAt": "2026-09-11T05:57:13.567Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "clawback — claw back your wasted AI spend | clawback",
+      "finalUrl": "https://clawback.md/",
+      "hero": {
+        "text": "Stop paying for tokens twice.",
+        "tag": "h1",
+        "size": 76,
+        "box": {
+          "x": 160,
+          "y": 144,
+          "width": 633.59375,
+          "height": 155.03125
+        },
+        "runs": [
+          {
+            "text": "Stop paying for",
+            "italic": false,
+            "color": "oklch(0.96 0.008 85)",
+            "family": "\"Onest Variable\", system-ui, sans-serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 76,
+            "box": {
+              "x": 160,
+              "y": 134,
+              "width": 533.9375,
+              "height": 97
+            }
+          },
+          {
+            "text": "tokens",
+            "italic": false,
+            "color": "oklch(0.96 0.008 85)",
+            "family": "\"Onest Variable\", system-ui, sans-serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 76,
+            "box": {
+              "x": 160,
+              "y": 211.515625,
+              "width": 251.671875,
+              "height": 97
+            }
+          },
+          {
+            "text": "twice.",
+            "italic": false,
+            "color": "oklch(0.62 0.2 27)",
+            "family": "\"Onest Variable\", system-ui, sans-serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 76,
+            "box": {
+              "x": 411.671875,
+              "y": 211.515625,
+              "width": 206.875,
+              "height": 97
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"font-heading text-[3rem] font-medium leading-[1.02] tracking-[-0.02em] sm:text-[4rem] lg:text-[4.75rem]\">Stop paying for<br>tokens <span class=\"text-ploy-accent-secondary\">twice.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.05277777777777778,
+        "bodyFontRatio": 4.75,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "no-match",
+        "matched": false,
+        "flags": {
+          "italic": false,
+          "color": false,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "No contrasting phrase within the dominant hero."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-clawback.webp"
+    },
+    {
+      "name": "clusy",
+      "website": "https://www.clusy.io/",
+      "objectID": "reference-clusy",
+      "yc_url": "https://www.clusy.io/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/09-clusy.webp",
+      "observedAt": "2026-09-11T05:57:14.350Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Clusy — AI Notebook IDE for Jupyter",
+      "finalUrl": "https://www.clusy.io/",
+      "hero": {
+        "text": "The AI IDE for Jupyter notebooks.",
+        "tag": "h1",
+        "size": 78.4,
+        "box": {
+          "x": 336,
+          "y": 144,
+          "width": 768,
+          "height": 167.0625
+        },
+        "runs": [
+          {
+            "text": "The AI IDE for",
+            "italic": false,
+            "color": "rgb(32, 24, 19)",
+            "family": "\"Libre Baskerville\", \"Libre Baskerville Fallback\", Georgia, \"Times New Roman\", serif",
+            "weight": 700,
+            "gradient": false,
+            "size": 78.4,
+            "box": {
+              "x": 419.40625,
+              "y": 136,
+              "width": 601.171875,
+              "height": 97
+            }
+          },
+          {
+            "text": "Jupyter notebooks.",
+            "italic": true,
+            "color": "rgb(128, 71, 30)",
+            "family": "\"Libre Baskerville\", \"Libre Baskerville Fallback\", Georgia, \"Times New Roman\", serif",
+            "weight": 700,
+            "gradient": false,
+            "size": 78.4,
+            "box": {
+              "x": 376.671875,
+              "y": 221.53125,
+              "width": 686.640625,
+              "height": 97
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"font-serif-display rise rise-2 text-[clamp(2.5rem,6.4vw,4.9rem)] font-bold leading-[1.04] tracking-[-0.015em] text-ink\">The AI IDE for<span class=\"mt-1 block italic text-accent\">Jupyter notebooks.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.05444444444444445,
+        "bodyFontRatio": 4.9,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-clusy.webp"
+    },
+    {
+      "name": "containix",
+      "website": "https://containix.dev/",
+      "objectID": "reference-containix",
+      "yc_url": "https://containix.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/10-containix.webp",
+      "observedAt": "2026-09-11T05:57:14.351Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "containix — Nix flakes, native to Kubernetes.",
+      "finalUrl": "https://containix.dev/",
+      "hero": {
+        "text": "Build. Push. Pull. Reference.",
+        "tag": "h1",
+        "size": 158.4,
+        "box": {
+          "x": 166,
+          "y": 140.5,
+          "width": 1108,
+          "height": 278.78125
+        },
+        "runs": [
+          {
+            "text": "Build.",
+            "italic": false,
+            "color": "rgb(107, 107, 98)",
+            "family": "ui-sans-serif, system-ui, -apple-system, Inter, \"Helvetica Neue\", sans-serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 158.4,
+            "box": {
+              "x": 166,
+              "y": 116.5,
+              "width": 371.984375,
+              "height": 186
+            }
+          },
+          {
+            "text": "Push.",
+            "italic": false,
+            "color": "rgb(107, 107, 98)",
+            "family": "ui-sans-serif, system-ui, -apple-system, Inter, \"Helvetica Neue\", sans-serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 158.4,
+            "box": {
+              "x": 561.40625,
+              "y": 116.5,
+              "width": 377.25,
+              "height": 186
+            }
+          },
+          {
+            "text": "Pull.",
+            "italic": false,
+            "color": "rgb(107, 107, 98)",
+            "family": "ui-sans-serif, system-ui, -apple-system, Inter, \"Helvetica Neue\", sans-serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 158.4,
+            "box": {
+              "x": 962.078125,
+              "y": 116.5,
+              "width": 288.34375,
+              "height": 186
+            }
+          },
+          {
+            "text": "Reference.",
+            "italic": true,
+            "color": "rgb(44, 26, 255)",
+            "family": "ui-sans-serif, system-ui, -apple-system, Inter, \"Helvetica Neue\", sans-serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 158.4,
+            "box": {
+              "x": 166,
+              "y": 255.890625,
+              "width": 764.8125,
+              "height": 186
+            }
+          }
+        ],
+        "outerHTML": "<h1>\n      <span class=\"strike\">Build.</span> <span class=\"strike\">Push.</span> <span class=\"strike\">Pull.</span><br>\n      <span class=\"accent\">Reference.</span>\n    </h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.11,
+        "bodyFontRatio": 9.31764705882353,
+        "candidateCount": 2
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-containix.webp"
+    },
+    {
+      "name": "earlyconversions",
+      "website": "https://earlyconversions.com/",
+      "objectID": "reference-earlyconversions",
+      "yc_url": "https://earlyconversions.com/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/04-earlyconversions.webp",
+      "observedAt": "2026-09-11T05:57:18.645Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Early Conversions is upgrading to v1 · Early Conversions",
+      "finalUrl": "https://earlyconversions.com/",
+      "hero": {
+        "text": "Building v1.",
+        "tag": "h1",
+        "size": 62,
+        "box": {
+          "x": 445,
+          "y": 376.109375,
+          "width": 550,
+          "height": 58.265625
+        },
+        "runs": [
+          {
+            "text": "Building v1.",
+            "italic": false,
+            "color": "rgb(12, 59, 40)",
+            "family": "generalSans, \"generalSans Fallback\", ui-sans-serif, system-ui, sans-serif",
+            "weight": 760,
+            "gradient": false,
+            "size": 62,
+            "box": {
+              "x": 569.453125,
+              "y": 366.109375,
+              "width": 301.078125,
+              "height": 78
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"maintenance-module___7QalW__title\">Building v1.</h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.043055555555555555,
+        "bodyFontRatio": 3.875,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "no-match",
+        "matched": false,
+        "flags": {
+          "italic": false,
+          "color": false,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "No contrasting phrase within the dominant hero."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-earlyconversions.webp"
+    },
+    {
+      "name": "examinerly",
+      "website": "https://examinerly.com/",
+      "objectID": "reference-examinerly",
+      "yc_url": "https://examinerly.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/12-examinerly.webp",
+      "observedAt": "2026-09-11T05:57:15.849Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Free IELTS Writing Checker (Task 2 + GT Task 1) | Examinerly",
+      "finalUrl": "https://examinerly.com/",
+      "hero": {
+        "text": "The one thing blocking your Band 7.",
+        "tag": "h1",
+        "size": 66,
+        "box": {
+          "x": 188,
+          "y": 199.140625,
+          "width": 522.078125,
+          "height": 208.53125
+        },
+        "runs": [
+          {
+            "text": "The one thing blocking your",
+            "italic": false,
+            "color": "rgb(26, 23, 38)",
+            "family": "Newsreader, Georgia, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 66,
+            "box": {
+              "x": 188,
+              "y": 199.140625,
+              "width": 403.25,
+              "height": 133.96875
+            }
+          },
+          {
+            "text": "Band 7.",
+            "italic": true,
+            "color": "rgb(67, 56, 202)",
+            "family": "Newsreader, Georgia, \"Times New Roman\", serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 66,
+            "box": {
+              "x": 188,
+              "y": 338.078125,
+              "width": 218.875,
+              "height": 66
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"lp-h1\">The one thing blocking your<!-- --> <span class=\"lp-serif lp-em lp-nowrap\">Band&nbsp;7.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.04583333333333333,
+        "bodyFontRatio": 4.125,
+        "candidateCount": 2
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": true,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-examinerly.webp"
+    },
+    {
+      "name": "freelymemo",
+      "website": "https://www.freelymemo.xyz/",
+      "objectID": "reference-freelymemo",
+      "yc_url": "https://www.freelymemo.xyz/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/11-freelymemo.webp",
+      "observedAt": "2026-09-11T05:57:22.210Z",
+      "status": "blocked-or-http-error",
+      "httpStatus": 503,
+      "title": "503: SERVICE_UNAVAILABLE",
+      "finalUrl": "https://www.freelymemo.xyz/",
+      "classification": {
+        "category": "missing-data",
+        "matched": false,
+        "reason": "No dominant first-viewport hero found."
+      }
+    },
+    {
+      "name": "ghostmeet",
+      "website": "https://ghostmeet.sshlab.dev/",
+      "objectID": "reference-ghostmeet",
+      "yc_url": "https://ghostmeet.sshlab.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/07-ghostmeet.webp",
+      "observedAt": "2026-09-11T05:57:12.326Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "ghostmeet — the invisible AI meeting assistant",
+      "finalUrl": "https://ghostmeet.sshlab.dev/",
+      "hero": {
+        "text": "The invisible AI meeting assistant.",
+        "tag": "h1",
+        "size": 144,
+        "box": {
+          "x": 144,
+          "y": 224.5,
+          "width": 1152,
+          "height": 397.40625
+        },
+        "runs": [
+          {
+            "text": "The",
+            "italic": false,
+            "color": "rgb(245, 241, 232)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 144,
+            "box": {
+              "x": 144,
+              "y": 196.5,
+              "width": 189.515625,
+              "height": 188
+            }
+          },
+          {
+            "text": "invisible",
+            "italic": true,
+            "color": "rgb(184, 178, 161)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 144,
+            "box": {
+              "x": 333.515625,
+              "y": 196.5,
+              "width": 403.640625,
+              "height": 188
+            }
+          },
+          {
+            "text": "AI meeting",
+            "italic": false,
+            "color": "rgb(245, 241, 232)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 144,
+            "box": {
+              "x": 144,
+              "y": 328.96875,
+              "width": 472.90625,
+              "height": 188
+            }
+          },
+          {
+            "text": "assistant",
+            "italic": false,
+            "color": "rgb(245, 241, 232)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 144,
+            "box": {
+              "x": 144,
+              "y": 461.4375,
+              "width": 377,
+              "height": 188
+            }
+          },
+          {
+            "text": ".",
+            "italic": false,
+            "color": "rgb(163, 255, 107)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 144,
+            "box": {
+              "x": 521,
+              "y": 461.4375,
+              "width": 25.640625,
+              "height": 188
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"display-xl unfurl\" style=\"animation-delay:0.1s\">The <span class=\"italic-display\">invisible</span><br>AI meeting<br>assistant<span class=\"text-phosphor\">.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.1,
+        "bodyFontRatio": 9,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-ghostmeet.webp"
+    },
+    {
+      "name": "heard",
+      "website": "https://heard.dev/",
+      "objectID": "reference-heard",
+      "yc_url": "https://heard.dev/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/01-heard.webp",
+      "observedAt": "2026-09-11T05:57:15.970Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Heard — A Voice for Every Coding Agent",
+      "finalUrl": "https://heard.dev/",
+      "hero": {
+        "text": "Get more done with your eyes off the screen",
+        "tag": "h1",
+        "size": 72,
+        "box": {
+          "x": 458.59375,
+          "y": 224.5625,
+          "width": 522.8125,
+          "height": 136.78125
+        },
+        "runs": [
+          {
+            "text": "Get more done with",
+            "italic": false,
+            "color": "rgb(34, 38, 43)",
+            "family": "\"Instrument Serif\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 72,
+            "box": {
+              "x": 496.109375,
+              "y": 211.5625,
+              "width": 447.78125,
+              "height": 93
+            }
+          },
+          {
+            "text": "your eyes off the",
+            "italic": false,
+            "color": "rgb(34, 38, 43)",
+            "family": "\"Instrument Serif\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 72,
+            "box": {
+              "x": 458.59375,
+              "y": 279.953125,
+              "width": 368.71875,
+              "height": 93
+            }
+          },
+          {
+            "text": "screen",
+            "italic": false,
+            "color": "rgb(34, 38, 43)",
+            "family": "\"Instrument Serif\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 72,
+            "box": {
+              "x": 837.765625,
+              "y": 279.953125,
+              "width": 143.640625,
+              "height": 93
+            }
+          }
+        ],
+        "outerHTML": "<h1><span>Get more done with<!-- --> </span><span>your eyes off the<!-- --> <span class=\"xp_hero_superman_word\"><span class=\"xp_hero_superman_text\">screen</span><span class=\"heard-headphones-landing\" aria-hidden=\"true\" style=\"translate: none; rotate: none; scale: none; transform-origin: 50% 100%; transform: translate3d(0px, -0.0042px, 0px); opacity: 1; visibility: inherit;\"><img alt=\"\" width=\"334\" height=\"376\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" srcset=\"/_next/image?url=%2Fimages%2Fheadphone-concepts%2Fheard-headphones-photoroom.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fheadphone-concepts%2Fheard-headphones-photoroom.png&amp;w=750&amp;q=75 2x\" src=\"/_next/image?url=%2Fimages%2Fheadphone-concepts%2Fheard-headphones-photoroom.png&amp;w=750&amp;q=75\"></span></span></span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.05,
+        "bodyFontRatio": 5.142857142857143,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "no-match",
+        "matched": false,
+        "flags": {
+          "italic": false,
+          "color": false,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "No contrasting phrase within the dominant hero."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-heard.webp"
+    },
+    {
+      "name": "heyalo",
+      "website": "https://heyalo.ai/",
+      "objectID": "reference-heyalo",
+      "yc_url": "https://heyalo.ai/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/05-heyalo.webp",
+      "observedAt": "2026-09-11T05:57:12.099Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Heyalo - Real-time AI sales intelligence for live calls",
+      "finalUrl": "https://heyalo.ai/",
+      "hero": {
+        "text": "Win the call while you're still on it.",
+        "tag": "h1",
+        "size": 68,
+        "box": {
+          "x": 112,
+          "y": 160,
+          "width": 584,
+          "height": 142.78125
+        },
+        "runs": [
+          {
+            "text": "Win the call while",
+            "italic": false,
+            "color": "rgb(42, 40, 37)",
+            "family": "Fraunces, \"Fraunces Fallback\"",
+            "weight": 500,
+            "gradient": false,
+            "size": 68,
+            "box": {
+              "x": 112,
+              "y": 153,
+              "width": 537.53125,
+              "height": 84
+            }
+          },
+          {
+            "text": "you're still on it.",
+            "italic": true,
+            "color": "rgb(166, 93, 55)",
+            "family": "Fraunces, \"Fraunces Fallback\"",
+            "weight": 500,
+            "gradient": false,
+            "size": 68,
+            "box": {
+              "x": 112,
+              "y": 224.390625,
+              "width": 452.59375,
+              "height": 84
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"text-[clamp(40px,5.5vw,68px)] font-[family-name:var(--font-display)] font-medium leading-[1.05] tracking-[-0.03em] text-text-primary\">Win the call while<!-- --> <span class=\"italic text-brand\">you're still on it.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.04722222222222222,
+        "bodyFontRatio": 4.25,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-heyalo.webp"
+    },
+    {
+      "name": "keepember",
+      "website": "https://keepember.com/en",
+      "objectID": "reference-keepember",
+      "yc_url": "https://keepember.com/en",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/05-keepember.webp",
+      "observedAt": "2026-09-11T05:57:19.057Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Ember — Remember your people. Understand yourself.",
+      "finalUrl": "https://keepember.com/en",
+      "hero": {
+        "text": "Remember your people. Understand yourself. Live each day fully.",
+        "tag": "h1",
+        "size": 109.44,
+        "box": {
+          "x": 220,
+          "y": 186.59375,
+          "width": 1000,
+          "height": 472.75
+        },
+        "runs": [
+          {
+            "text": "Remember your people.",
+            "italic": false,
+            "color": "rgb(251, 249, 245)",
+            "family": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Inter, \"Inter Fallback\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "weight": 700,
+            "gradient": false,
+            "size": 109.44,
+            "box": {
+              "x": 440.640625,
+              "y": 180.59375,
+              "width": 558.71875,
+              "height": 247.1875
+            }
+          },
+          {
+            "text": "Understand yourself.",
+            "italic": false,
+            "color": "rgb(251, 249, 245)",
+            "family": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Inter, \"Inter Fallback\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "weight": 700,
+            "gradient": false,
+            "size": 109.44,
+            "box": {
+              "x": 238.546875,
+              "y": 416.96875,
+              "width": 962.890625,
+              "height": 129
+            }
+          },
+          {
+            "text": "Live each day fully.",
+            "italic": false,
+            "color": "rgb(255, 138, 110)",
+            "family": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Helvetica Neue\", Inter, \"Inter Fallback\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 109.44,
+            "box": {
+              "x": 306.90625,
+              "y": 535.15625,
+              "width": 826.1875,
+              "height": 129
+            }
+          }
+        ],
+        "outerHTML": "<h1 id=\"v2-hero-title\" data-reveal=\"in\" data-delay=\"1\"><span>Remember your people.<!-- --> <!-- -->Understand yourself.</span><span class=\"home-v2-module__vE0MKW__heroAccentLine\">Live each day fully.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.076,
+        "bodyFontRatio": 6.84,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "highlighted-phrase",
+        "matched": true,
+        "flags": {
+          "italic": false,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-keepember.webp"
+    },
+    {
+      "name": "larasend",
+      "website": "https://larasend.com/",
+      "objectID": "reference-larasend",
+      "yc_url": "https://larasend.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/01-larasend.webp",
+      "observedAt": "2026-09-11T05:57:09.648Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Self-hosted email operations for product teams - Larasend",
+      "finalUrl": "https://larasend.com/",
+      "hero": {
+        "text": "Send, receive, and run email on your terms.",
+        "tag": "h1",
+        "size": 92,
+        "box": {
+          "x": 220,
+          "y": 199,
+          "width": 1000,
+          "height": 180.3125
+        },
+        "runs": [
+          {
+            "text": "Send, receive, and run",
+            "italic": false,
+            "color": "rgb(238, 240, 243)",
+            "family": "Geist, ui-sans-serif, system-ui, sans-serif",
+            "weight": 650,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 286.3125,
+              "y": 184,
+              "width": 867.359375,
+              "height": 119
+            }
+          },
+          {
+            "text": "email on your terms.",
+            "italic": true,
+            "color": "rgb(84, 224, 192)",
+            "family": "\"Instrument Serif\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 394.125,
+              "y": 274.15625,
+              "width": 651.734375,
+              "height": 120
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"reveal hero-title is-visible\" data-v-6745921d=\"\"><span class=\"line\" data-v-6745921d=\"\">Send, receive, and run</span><span class=\"line accent-line\" data-v-6745921d=\"\">email on your terms.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.06388888888888888,
+        "bodyFontRatio": 5.75,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": true,
+          "weight": true,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-larasend.webp"
+    },
+    {
+      "name": "leadstack",
+      "website": "https://www.leadstack.dev/",
+      "objectID": "reference-leadstack",
+      "yc_url": "https://www.leadstack.dev/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/02-leadstack.webp",
+      "observedAt": "2026-09-11T05:57:16.229Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "LeadStack — Own Your CRM, Never Rent It Again",
+      "finalUrl": "https://www.leadstack.dev/",
+      "hero": {
+        "text": "The CRM agencies actually own.",
+        "tag": "h1",
+        "size": 80,
+        "box": {
+          "x": 336,
+          "y": 265.5,
+          "width": 768,
+          "height": 167.375
+        },
+        "runs": [
+          {
+            "text": "The CRM agencies",
+            "italic": false,
+            "color": "lab(2.75381 0 0)",
+            "family": "Times",
+            "weight": 600,
+            "gradient": false,
+            "size": 80,
+            "box": {
+              "x": 429.28125,
+              "y": 260.5,
+              "width": 448.921875,
+              "height": 176.1875
+            }
+          },
+          {
+            "text": "actually own.",
+            "italic": false,
+            "color": "rgba(0, 0, 0, 0)",
+            "family": "\"Instrument Serif\", \"Instrument Serif Fallback\"",
+            "weight": 400,
+            "gradient": true,
+            "size": 80,
+            "box": {
+              "x": 697.65625,
+              "y": 337.6875,
+              "width": 309.046875,
+              "height": 104
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"text-balance text-4xl font-semibold tracking-tighter sm:text-5xl md:text-6xl lg:text-[5rem] lg:leading-[1.04]\">The CRM agencies <span class=\"inline-block bg-gradient-to-r from-indigo-500 via-violet-500 to-pink-500 bg-clip-text pr-1 font-serif font-normal text-transparent\">actually own.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.05555555555555555,
+        "bodyFontRatio": 5,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "highlighted-phrase",
+        "matched": true,
+        "flags": {
+          "italic": false,
+          "color": false,
+          "family": true,
+          "weight": true,
+          "gradient": true
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-leadstack.webp"
+    },
+    {
+      "name": "mobilerun",
+      "website": "https://mobilerun.ai/",
+      "objectID": "reference-mobilerun",
+      "yc_url": "https://mobilerun.ai/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/02-mobilerun.webp",
+      "observedAt": "2026-09-11T05:57:09.648Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "mobilerun · cloud phones for AI agents",
+      "finalUrl": "https://mobilerun.ai/",
+      "hero": {
+        "text": "Give your AI Agent a phone.",
+        "tag": "h1",
+        "size": 96,
+        "box": {
+          "x": 132,
+          "y": 249.390625,
+          "width": 352.6875,
+          "height": 286.234375
+        },
+        "runs": [
+          {
+            "text": "Give your",
+            "italic": false,
+            "color": "rgb(10, 10, 10)",
+            "family": "Geist, Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 96,
+            "box": {
+              "x": 132,
+              "y": 239.390625,
+              "width": 352.6875,
+              "height": 113
+            }
+          },
+          {
+            "text": "AI Agent",
+            "italic": false,
+            "color": "rgb(10, 10, 10)",
+            "family": "Geist, Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 96,
+            "box": {
+              "x": 132,
+              "y": 333.46875,
+              "width": 322.140625,
+              "height": 113
+            }
+          },
+          {
+            "text": "a phone.",
+            "italic": true,
+            "color": "rgb(29, 78, 216)",
+            "family": "\"Instrument Serif\", \"Times New Roman\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 96,
+            "box": {
+              "x": 132,
+              "y": 434.546875,
+              "width": 309.109375,
+              "height": 107
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"h-display\">\nGive your <br> AI Agent<br><em>a phone.</em> </h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.06666666666666667,
+        "bodyFontRatio": 6,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": true,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-mobilerun.webp"
+    },
+    {
+      "name": "parchmint",
+      "website": "https://parchmint.app/",
+      "objectID": "reference-parchmint",
+      "yc_url": "https://parchmint.app/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/06-parchmint.webp",
+      "observedAt": "2026-09-11T05:57:12.235Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Parchmint — the Markdown editor for documents AI reads",
+      "finalUrl": "https://parchmint.app/",
+      "hero": {
+        "text": "Markdown, as the model reads it.",
+        "tag": "h1",
+        "size": 92,
+        "box": {
+          "x": 186,
+          "y": 238.390625,
+          "width": 510.140625,
+          "height": 270.46875
+        },
+        "runs": [
+          {
+            "text": "Markdown,",
+            "italic": false,
+            "color": "rgb(34, 29, 20)",
+            "family": "Fraunces, Georgia, serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 186,
+              "y": 226.390625,
+              "width": 437.09375,
+              "height": 113
+            }
+          },
+          {
+            "text": "as the",
+            "italic": false,
+            "color": "rgb(34, 29, 20)",
+            "family": "Fraunces, Georgia, serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 186,
+              "y": 316.546875,
+              "width": 221.5625,
+              "height": 113
+            }
+          },
+          {
+            "text": "model",
+            "italic": true,
+            "color": "rgb(15, 157, 118)",
+            "family": "Fraunces, Georgia, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 407.5625,
+              "y": 316.546875,
+              "width": 198.625,
+              "height": 113
+            }
+          },
+          {
+            "text": "reads it.",
+            "italic": false,
+            "color": "rgb(34, 29, 20)",
+            "family": "Fraunces, Georgia, serif",
+            "weight": 900,
+            "gradient": false,
+            "size": 92,
+            "box": {
+              "x": 186,
+              "y": 406.703125,
+              "width": 291.59375,
+              "height": 113
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"reveal\" style=\"--d:80ms\">\n          Markdown,<br>as the <em>model</em> reads it.\n        </h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.06388888888888888,
+        "bodyFontRatio": 5.111111111111111,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": true,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-parchmint.webp"
+    },
+    {
+      "name": "pip",
+      "website": "https://spendwithpip.com/",
+      "objectID": "reference-pip",
+      "yc_url": "https://spendwithpip.com/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/03-pip.webp",
+      "observedAt": "2026-09-11T05:57:16.308Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Pip - Before you spend, check one number",
+      "finalUrl": "https://spendwithpip.com/",
+      "hero": {
+        "text": "Before you spend, check Pip.",
+        "tag": "h1",
+        "size": 67.68,
+        "box": {
+          "x": 186.71875,
+          "y": 303.2109375,
+          "width": 535,
+          "height": 129.9375
+        },
+        "runs": [
+          {
+            "text": "Before you spend,",
+            "italic": false,
+            "color": "rgb(28, 27, 27)",
+            "family": "Newsreader, Georgia, \"Times New Roman\", Times, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 67.68,
+            "box": {
+              "x": 186.71875,
+              "y": 296.2109375,
+              "width": 535,
+              "height": 77
+            }
+          },
+          {
+            "text": "check Pip.",
+            "italic": true,
+            "color": "rgb(78, 101, 69)",
+            "family": "Newsreader, Georgia, \"Times New Roman\", Times, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 67.68,
+            "box": {
+              "x": 186.71875,
+              "y": 361.1796875,
+              "width": 302.21875,
+              "height": 77
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"pip-home-title pip-home-title-hero pip-home-title-lockup\" aria-label=\"Before you spend, check Pip.\"><span class=\"pip-title-line\">Before you spend,</span><span class=\"pip-title-line pip-title-line-accent\">check Pip.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.04700000000000001,
+        "bodyFontRatio": 4.23,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-pip.webp"
+    },
+    {
+      "name": "prio",
+      "website": "https://prio.sh/",
+      "objectID": "reference-prio",
+      "yc_url": "https://prio.sh/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/07-prio.webp",
+      "observedAt": "2026-09-11T05:57:20.331Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Prio — the AI chief of staff for founders & CEOs",
+      "finalUrl": "https://prio.sh/",
+      "hero": {
+        "text": "Run your company, not your inbox.",
+        "tag": "h1",
+        "size": 96,
+        "box": {
+          "x": 232,
+          "y": 208,
+          "width": 976,
+          "height": 199.65625
+        },
+        "runs": [
+          {
+            "text": "Run your company,",
+            "italic": false,
+            "color": "lab(0.30983 0 -0.00000298023)",
+            "family": "\"Bodoni Moda\", \"Bodoni Moda Fallback\", \"Bodoni MT\", Didot, ui-serif, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 96,
+            "box": {
+              "x": 300.90625,
+              "y": 184,
+              "width": 838.1875,
+              "height": 146
+            }
+          },
+          {
+            "text": "not your inbox.",
+            "italic": true,
+            "color": "lab(0.30983 0 -0.00000298023)",
+            "family": "\"Bodoni Moda\", \"Bodoni Moda Fallback\", \"Bodoni MT\", Didot, ui-serif, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 96,
+            "box": {
+              "x": 416.78125,
+              "y": 283.828125,
+              "width": 606.4375,
+              "height": 146
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.04] mb-8\"><span class=\"block\">Run your company,</span><span class=\"block italic\">not your inbox.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.06666666666666667,
+        "bodyFontRatio": 6,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": false,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-prio.webp"
+    },
+    {
+      "name": "rekody",
+      "website": "https://rekody.com/",
+      "objectID": "reference-rekody",
+      "yc_url": "https://rekody.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/11-rekody.webp",
+      "observedAt": "2026-09-11T05:57:14.428Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Rekody. You talk. Rekody types.",
+      "finalUrl": "https://rekody.com/",
+      "hero": {
+        "text": "You talk. Rekody types.",
+        "tag": "h1",
+        "size": 104,
+        "box": {
+          "x": 339.0625,
+          "y": 206,
+          "width": 761.875,
+          "height": 104
+        },
+        "runs": [
+          {
+            "text": "You talk.",
+            "italic": false,
+            "color": "rgb(15, 23, 23)",
+            "family": "Fraunces, \"Source Serif 4\", ui-serif, Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 104,
+            "box": {
+              "x": 339.0625,
+              "y": 193,
+              "width": 328.1875,
+              "height": 129
+            }
+          },
+          {
+            "text": "Rekody types.",
+            "italic": true,
+            "color": "rgb(32, 128, 141)",
+            "family": "Fraunces, \"Source Serif 4\", ui-serif, Georgia, serif",
+            "weight": 300,
+            "gradient": false,
+            "size": 104,
+            "box": {
+              "x": 667.25,
+              "y": 193,
+              "width": 433.6875,
+              "height": 129
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"display\" style=\"font-size:clamp(44px,8.5vw,104px);\" data-astro-cid-ge2uvauf=\"\">You talk. <span class=\"display-italic block sm:inline\" style=\"color:var(--color-teal);\" data-astro-cid-ge2uvauf=\"\">Rekody types.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.07222222222222222,
+        "bodyFontRatio": 6.5,
+        "candidateCount": 2
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-rekody.webp"
+    },
+    {
+      "name": "roninpeptides",
+      "website": "https://roninpeptides.ca/",
+      "objectID": "reference-roninpeptides",
+      "yc_url": "https://roninpeptides.ca/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/10-roninpeptides.webp",
+      "observedAt": "2026-09-11T05:57:22.106Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Research Peptides Canada — ≥99% HPLC Purity | Ronin Peptides",
+      "finalUrl": "https://roninpeptides.ca/",
+      "hero": {
+        "text": "Research peptides, verified.",
+        "tag": "h1",
+        "size": 64,
+        "box": {
+          "x": 130,
+          "y": 206.1875,
+          "width": 566.390625,
+          "height": 134.375
+        },
+        "runs": [
+          {
+            "text": "Research peptides,",
+            "italic": false,
+            "color": "rgb(26, 26, 30)",
+            "family": "\"Cormorant Garamond\", Georgia, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 64,
+            "box": {
+              "x": 130,
+              "y": 201.1875,
+              "width": 514.421875,
+              "height": 77
+            }
+          },
+          {
+            "text": "verified.",
+            "italic": true,
+            "color": "rgb(184, 0, 15)",
+            "family": "\"Cormorant Garamond\", Georgia, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 64,
+            "box": {
+              "x": 130,
+              "y": 268.375,
+              "width": 228.875,
+              "height": 77
+            }
+          }
+        ],
+        "outerHTML": "<h1 id=\"rp-hero-h1\" class=\"rp-hero-h1\">Research peptides,<br><span class=\"rp-hero-em\">verified.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.044444444444444446,
+        "bodyFontRatio": 3.764705882352941,
+        "candidateCount": 2
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-roninpeptides.webp"
+    },
+    {
+      "name": "shellular",
+      "website": "https://shellular.dev/",
+      "objectID": "reference-shellular",
+      "yc_url": "https://shellular.dev/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/04-shellular.webp",
+      "observedAt": "2026-09-11T05:57:09.648Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Shellular | Run Claude Code, Codex, Cursor & OpenCode on Your Phone",
+      "finalUrl": "https://shellular.dev/",
+      "hero": {
+        "text": "Your dev environment, in your pocket.",
+        "tag": "h1",
+        "size": 86.4,
+        "box": {
+          "x": 283.109375,
+          "y": 140,
+          "width": 873.765625,
+          "height": 176.25
+        },
+        "runs": [
+          {
+            "text": "Your dev environment,",
+            "italic": false,
+            "color": "rgb(26, 22, 21)",
+            "family": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+            "weight": 800,
+            "gradient": false,
+            "size": 86.4,
+            "box": {
+              "x": 283.109375,
+              "y": 129,
+              "width": 873.765625,
+              "height": 109
+            }
+          },
+          {
+            "text": "in your pocket.",
+            "italic": true,
+            "color": "rgb(181, 156, 114)",
+            "family": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 86.4,
+            "box": {
+              "x": 443,
+              "y": 217.125,
+              "width": 553.984375,
+              "height": 109
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"hero-title reveal reveal-delay-1 visible\" data-astro-cid-ge2uvauf=\"\">\n      Your dev environment,\n      <span class=\"hero-italic\" data-astro-cid-ge2uvauf=\"\">in your pocket.</span>\n    </h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.060000000000000005,
+        "bodyFontRatio": 5.4,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": true,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-shellular.webp"
+    },
+    {
+      "name": "siliform",
+      "website": "https://www.siliform.ai/",
+      "objectID": "reference-siliform",
+      "yc_url": "https://www.siliform.ai/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/12-siliform.webp",
+      "observedAt": "2026-09-11T05:57:23.461Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Form Builder That Flags Fake & AI-Written Responses | SiliForm",
+      "finalUrl": "https://www.siliform.ai/",
+      "hero": {
+        "text": "Anyone can collect answers. We tell you which ones are real.",
+        "tag": "h1",
+        "size": 60,
+        "box": {
+          "x": 168,
+          "y": 180.5,
+          "width": 640.3125,
+          "height": 180
+        },
+        "runs": [
+          {
+            "text": "A",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 168,
+              "y": 174.5,
+              "width": 39.359375,
+              "height": 72
+            }
+          },
+          {
+            "text": "n",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 207.359375,
+              "y": 174.5,
+              "width": 32.640625,
+              "height": 72
+            }
+          },
+          {
+            "text": "y",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 240,
+              "y": 174.5,
+              "width": 30.53125,
+              "height": 72
+            }
+          },
+          {
+            "text": "o",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 270.53125,
+              "y": 174.5,
+              "width": 32.4375,
+              "height": 72
+            }
+          },
+          {
+            "text": "n",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 302.96875,
+              "y": 174.5,
+              "width": 32.640625,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 335.609375,
+              "y": 174.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "c",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 377.859375,
+              "y": 174.5,
+              "width": 30.6875,
+              "height": 72
+            }
+          },
+          {
+            "text": "a",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 408.546875,
+              "y": 174.5,
+              "width": 30.59375,
+              "height": 72
+            }
+          },
+          {
+            "text": "n",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 439.140625,
+              "y": 174.5,
+              "width": 32.640625,
+              "height": 72
+            }
+          },
+          {
+            "text": "c",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 482.640625,
+              "y": 174.5,
+              "width": 30.6875,
+              "height": 72
+            }
+          },
+          {
+            "text": "o",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 513.328125,
+              "y": 174.5,
+              "width": 32.4375,
+              "height": 72
+            }
+          },
+          {
+            "text": "l",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 545.765625,
+              "y": 174.5,
+              "width": 11.609375,
+              "height": 72
+            }
+          },
+          {
+            "text": "l",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 557.375,
+              "y": 174.5,
+              "width": 11.609375,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 568.984375,
+              "y": 174.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "c",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 600.375,
+              "y": 174.5,
+              "width": 30.6875,
+              "height": 72
+            }
+          },
+          {
+            "text": "t",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 631.0625,
+              "y": 174.5,
+              "width": 18.765625,
+              "height": 72
+            }
+          },
+          {
+            "text": "a",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 168,
+              "y": 234.5,
+              "width": 30.59375,
+              "height": 72
+            }
+          },
+          {
+            "text": "n",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 198.59375,
+              "y": 234.5,
+              "width": 32.640625,
+              "height": 72
+            }
+          },
+          {
+            "text": "s",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 231.234375,
+              "y": 234.5,
+              "width": 28.875,
+              "height": 72
+            }
+          },
+          {
+            "text": "w",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 260.109375,
+              "y": 234.5,
+              "width": 46.203125,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 306.3125,
+              "y": 234.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "r",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 337.703125,
+              "y": 234.5,
+              "width": 19.765625,
+              "height": 72
+            }
+          },
+          {
+            "text": "s",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 357.46875,
+              "y": 234.5,
+              "width": 28.875,
+              "height": 72
+            }
+          },
+          {
+            "text": ".",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 386.34375,
+              "y": 234.5,
+              "width": 15.140625,
+              "height": 72
+            }
+          },
+          {
+            "text": "W",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 412.34375,
+              "y": 234.5,
+              "width": 56.53125,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 468.875,
+              "y": 234.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "t",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 511.125,
+              "y": 234.5,
+              "width": 18.765625,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 529.890625,
+              "y": 234.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "l",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 561.28125,
+              "y": 234.5,
+              "width": 11.609375,
+              "height": 72
+            }
+          },
+          {
+            "text": "l",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 572.890625,
+              "y": 234.5,
+              "width": 11.609375,
+              "height": 72
+            }
+          },
+          {
+            "text": "y",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 595.359375,
+              "y": 234.5,
+              "width": 30.53125,
+              "height": 72
+            }
+          },
+          {
+            "text": "o",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 625.890625,
+              "y": 234.5,
+              "width": 32.4375,
+              "height": 72
+            }
+          },
+          {
+            "text": "u",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 658.328125,
+              "y": 234.5,
+              "width": 32.46875,
+              "height": 72
+            }
+          },
+          {
+            "text": "w",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 168,
+              "y": 294.5,
+              "width": 46.203125,
+              "height": 72
+            }
+          },
+          {
+            "text": "h",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 214.203125,
+              "y": 294.5,
+              "width": 32.84375,
+              "height": 72
+            }
+          },
+          {
+            "text": "i",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 247.046875,
+              "y": 294.5,
+              "width": 11.609375,
+              "height": 72
+            }
+          },
+          {
+            "text": "c",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 258.65625,
+              "y": 294.5,
+              "width": 30.6875,
+              "height": 72
+            }
+          },
+          {
+            "text": "h",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 289.34375,
+              "y": 294.5,
+              "width": 32.84375,
+              "height": 72
+            }
+          },
+          {
+            "text": "o",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 333.046875,
+              "y": 294.5,
+              "width": 32.4375,
+              "height": 72
+            }
+          },
+          {
+            "text": "n",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 365.484375,
+              "y": 294.5,
+              "width": 32.640625,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 398.125,
+              "y": 294.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "s",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 429.515625,
+              "y": 294.5,
+              "width": 28.875,
+              "height": 72
+            }
+          },
+          {
+            "text": "a",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 469.25,
+              "y": 294.5,
+              "width": 30.59375,
+              "height": 72
+            }
+          },
+          {
+            "text": "r",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 499.84375,
+              "y": 294.5,
+              "width": 19.765625,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 519.609375,
+              "y": 294.5,
+              "width": 31.390625,
+              "height": 72
+            }
+          },
+          {
+            "text": "r",
+            "italic": true,
+            "color": "rgb(67, 56, 202)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 561.859375,
+              "y": 294.5,
+              "width": 19.828125,
+              "height": 72
+            }
+          },
+          {
+            "text": "e",
+            "italic": true,
+            "color": "rgb(67, 56, 202)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 581.6875,
+              "y": 294.5,
+              "width": 31.484375,
+              "height": 72
+            }
+          },
+          {
+            "text": "a",
+            "italic": true,
+            "color": "rgb(67, 56, 202)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 613.171875,
+              "y": 294.5,
+              "width": 30.5625,
+              "height": 72
+            }
+          },
+          {
+            "text": "l",
+            "italic": true,
+            "color": "rgb(67, 56, 202)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 643.734375,
+              "y": 294.5,
+              "width": 11.59375,
+              "height": 72
+            }
+          },
+          {
+            "text": ".",
+            "italic": false,
+            "color": "rgb(28, 25, 23)",
+            "family": "__Inter_Tight_f24698, __Inter_Tight_Fallback_f24698, ui-sans-serif, system-ui, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": 600,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 655.328125,
+              "y": 294.5,
+              "width": 15.140625,
+              "height": 72
+            }
+          }
+        ],
+        "outerHTML": "<h1 aria-label=\"Anyone can collect answers. We tell you which ones are real.\" class=\"font-display text-[2.75rem] font-semibold leading-[1] tracking-[-0.03em] text-stone-900 sm:text-[3.25rem] lg:text-[3.75rem]\" style=\"opacity: 1; transform: none;\"><span aria-hidden=\"true\"><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">A</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">n</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">y</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">o</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">n</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">e</span></span><span> </span><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">c</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">a</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">n</span></span><span> </span><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">c</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">o</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">l</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">l</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">e</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">c</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">t</span></span></span><br><span aria-hidden=\"true\"><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">a</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">n</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">s</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">w</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">e</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">r</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">s</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">.</span></span><span> </span><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">W</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">e</span></span><span> </span><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">t</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">e</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">l</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">l</span></span><span> </span><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">y</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">o</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">u</span></span></span><br><span aria-hidden=\"true\"><span class=\"inline-block whitespace-nowrap\"><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">w</span><span data-kinetic-char=\"true\" class=\"inline-block\" style=\"will-change:transform\">h</span><span data-kinetic-char=\"tr",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.041666666666666664,
+        "bodyFontRatio": 3.75,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-siliform.webp"
+    },
+    {
+      "name": "slapmetrics",
+      "website": "https://www.slapmetrics.com/",
+      "objectID": "reference-slapmetrics",
+      "yc_url": "https://www.slapmetrics.com/",
+      "referenceManifest": "gallery/manifest.json",
+      "archivedScreenshot": "assets/screenshots/03-slapmetrics.webp",
+      "observedAt": "2026-09-11T05:57:09.648Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "SlapMetrics — Stripe sale dinged. Your Mac moaned.",
+      "finalUrl": "https://www.slapmetrics.com/",
+      "hero": {
+        "text": "The native SaaS monitor built for founders",
+        "tag": "h1",
+        "size": 72,
+        "box": {
+          "x": 130,
+          "y": 205,
+          "width": 579.796875,
+          "height": 221.3125
+        },
+        "runs": [
+          {
+            "text": "The native SaaS monitor built for",
+            "italic": false,
+            "color": "rgb(28, 21, 35)",
+            "family": "Outfit, \"Outfit Fallback\", system-ui, sans-serif",
+            "weight": 800,
+            "gradient": false,
+            "size": 72,
+            "box": {
+              "x": 130,
+              "y": 196,
+              "width": 511.75,
+              "height": 164.4375
+            }
+          },
+          {
+            "text": "founders",
+            "italic": true,
+            "color": "rgb(75, 46, 224)",
+            "family": "Fraunces, \"Fraunces Fallback\", Georgia, serif",
+            "weight": 500,
+            "gradient": false,
+            "size": 72,
+            "box": {
+              "x": 130,
+              "y": 344.875,
+              "width": 279.21875,
+              "height": 88
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"lp-hero-headline\">The native SaaS monitor built for <em>founders</em></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.05,
+        "bodyFontRatio": 4.5,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": true,
+          "weight": true,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-slapmetrics.webp"
+    },
+    {
+      "name": "visionboardai",
+      "website": "https://visionboardai.org/",
+      "objectID": "reference-visionboardai",
+      "yc_url": "https://visionboardai.org/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/08-visionboardai.webp",
+      "observedAt": "2026-09-11T05:57:21.295Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "VisionBoardAI — Turn who you want to become into today's plan.",
+      "finalUrl": "https://visionboardai.org/",
+      "hero": {
+        "text": "Turn who you want to become into today's plan.",
+        "tag": "h1",
+        "size": 57.6,
+        "box": {
+          "x": 370,
+          "y": 218.46875,
+          "width": 700,
+          "height": 210.328125
+        },
+        "runs": [
+          {
+            "text": "Turn who you want to become",
+            "italic": false,
+            "color": "rgb(250, 250, 250)",
+            "family": "Inter, system-ui, sans-serif",
+            "weight": 700,
+            "gradient": false,
+            "size": 57.6,
+            "box": {
+              "x": 435.0625,
+              "y": 217.46875,
+              "width": 569.875,
+              "height": 139.109375
+            }
+          },
+          {
+            "text": "into today's plan.",
+            "italic": true,
+            "color": "rgb(250, 250, 250)",
+            "family": "\"Playfair Display\", Georgia, serif",
+            "weight": 700,
+            "gradient": true,
+            "size": 57.6,
+            "box": {
+              "x": 511.21875,
+              "y": 352.6875,
+              "width": 417.546875,
+              "height": 76
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"hero-headline\">Turn who you want to become<br><span class=\"display gradient-text\">into today's\n            plan.</span></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.04,
+        "bodyFontRatio": 3.6,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": false,
+          "family": true,
+          "weight": false,
+          "gradient": true
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-visionboardai.webp"
+    },
+    {
+      "name": "voxcraft",
+      "website": "https://voxcraft.app/",
+      "objectID": "reference-voxcraft",
+      "yc_url": "https://voxcraft.app/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/09-voxcraft.webp",
+      "observedAt": "2026-09-11T05:57:21.987Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "VoxCraft - Voice dictation with inline AI commands",
+      "finalUrl": "https://voxcraft.app/",
+      "hero": {
+        "text": "Hands free dictation with voice commands. Brain dump in, polished text out.",
+        "tag": "h1",
+        "size": 56,
+        "box": {
+          "x": 320,
+          "y": 153.4375,
+          "width": 800,
+          "height": 193.171875
+        },
+        "runs": [
+          {
+            "text": "Hands free dictation with voice commands.",
+            "italic": false,
+            "color": "oklch(0.93 0.008 80)",
+            "family": "Cormorant, Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 56,
+            "box": {
+              "x": 393.296875,
+              "y": 151.4375,
+              "width": 653.40625,
+              "height": 132.390625
+            }
+          },
+          {
+            "text": "Brain dump in, polished text out.",
+            "italic": true,
+            "color": "oklch(0.66 0.2 262.83)",
+            "family": "Cormorant, Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 56,
+            "box": {
+              "x": 413.171875,
+              "y": 280.21875,
+              "width": 613.640625,
+              "height": 68
+            }
+          }
+        ],
+        "outerHTML": "<h1 class=\"hero-title\">\n            Hands free dictation with voice commands.<br>\n            <em>Brain dump in, polished text out.</em>\n        </h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.03888888888888889,
+        "bodyFontRatio": 3.5,
+        "candidateCount": 1
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": false,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-voxcraft.webp"
+    },
+    {
+      "name": "yieldscope",
+      "website": "https://yieldscope.io/en/",
+      "objectID": "reference-yieldscope",
+      "yc_url": "https://yieldscope.io/en/",
+      "referenceManifest": "gallery/uneed-manifest.json",
+      "archivedScreenshot": "assets/uneed-screenshots/06-yieldscope.webp",
+      "observedAt": "2026-09-11T05:57:19.321Z",
+      "status": "observed",
+      "httpStatus": 200,
+      "title": "Crypto & Stablecoin Yield — Rates Ranked A–F · YieldScope",
+      "finalUrl": "https://yieldscope.io/en/",
+      "hero": {
+        "text": "Every crypto rate. Ranked by who you can trust.",
+        "tag": "h1",
+        "size": 60,
+        "box": {
+          "x": 154,
+          "y": 160,
+          "width": 900,
+          "height": 124.78125
+        },
+        "runs": [
+          {
+            "text": "Every crypto rate.",
+            "italic": false,
+            "color": "rgb(244, 244, 245)",
+            "family": "\"Instrument Serif\", \"Times New Roman\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 154,
+              "y": 152,
+              "width": 343.140625,
+              "height": 78
+            }
+          },
+          {
+            "text": "Ranked by",
+            "italic": false,
+            "color": "rgb(244, 244, 245)",
+            "family": "\"Instrument Serif\", \"Times New Roman\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 154,
+              "y": 214.390625,
+              "width": 220.03125,
+              "height": 78
+            }
+          },
+          {
+            "text": "who you can trust.",
+            "italic": true,
+            "color": "rgb(34, 197, 94)",
+            "family": "\"Instrument Serif\", \"Times New Roman\", Georgia, serif",
+            "weight": 400,
+            "gradient": false,
+            "size": 60,
+            "box": {
+              "x": 374.03125,
+              "y": 214.390625,
+              "width": 386.640625,
+              "height": 78
+            }
+          }
+        ],
+        "outerHTML": "<h1 data-astro-cid-pxzaltqq=\"\">Every crypto rate.<br data-astro-cid-pxzaltqq=\"\">Ranked by <em data-astro-cid-pxzaltqq=\"\">who you can trust.</em></h1>",
+        "viewportWidth": 1440,
+        "sizeViewportRatio": 0.041666666666666664,
+        "bodyFontRatio": 3.75,
+        "candidateCount": 5
+      },
+      "classification": {
+        "category": "italic-phrase",
+        "matched": true,
+        "flags": {
+          "italic": true,
+          "color": true,
+          "family": false,
+          "weight": false,
+          "gradient": false
+        },
+        "reason": "Large dominant hero contains visibly different text runs."
+      },
+      "screenshot": "assets/positive-reference-revisit/reference-yieldscope.webp"
+    }
+  ]
+}

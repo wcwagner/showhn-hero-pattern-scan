@@ -1,0 +1,239 @@
+{
+  "description": "15 visually selected italic-phrase examples from the publicly listed YC Spring 2026 batch, captured September 11. Selected from deterministic candidates; not an authorship claim or complete prevalence count. Thomas was rejected during visual review.",
+  "output": "assets/yc-spring-2026-contact-sheet.webp",
+  "width": 1800,
+  "height": 930,
+  "gap": 10,
+  "background": "#fdfcfa",
+  "quality": 86,
+  "rows": [
+    {
+      "count": 1,
+      "height": 245
+    },
+    {
+      "count": 2,
+      "height": 290
+    },
+    {
+      "count": 4,
+      "height": 220
+    },
+    {
+      "count": 8,
+      "height": 145
+    }
+  ],
+  "entries": [
+    {
+      "id": "31473",
+      "name": "Kuli",
+      "url": "https://kuli.one",
+      "yc_url": "https://www.ycombinator.com/companies/kuli",
+      "hero": "Run social media social media 10\u00d7 faster.",
+      "file": "assets/yc-spring-2026-screenshots/31473.webp",
+      "crop": {
+        "left": 290,
+        "top": 179,
+        "width": 860,
+        "height": 118
+      }
+    },
+    {
+      "id": "31552",
+      "name": "Arctic Health",
+      "url": "https://arctic.health",
+      "yc_url": "https://www.ycombinator.com/companies/arctic-health",
+      "hero": "Your providers, in-network. Without the headache.",
+      "file": "assets/yc-spring-2026-screenshots/31552.webp",
+      "crop": {
+        "left": 340,
+        "top": 223,
+        "width": 760,
+        "height": 247
+      }
+    },
+    {
+      "id": "31484",
+      "name": "AbInitio Bio",
+      "url": "https://www.abinitio-bio.com",
+      "yc_url": "https://www.ycombinator.com/companies/abinitio-bio",
+      "hero": "The operating platform for drug development and manufacturing.",
+      "file": "assets/yc-spring-2026-screenshots/31484.webp",
+      "crop": {
+        "left": 41,
+        "top": 283,
+        "width": 670,
+        "height": 218
+      }
+    },
+    {
+      "id": "31102",
+      "name": "Fuchsia",
+      "url": "https://getfuchsia.ai/",
+      "yc_url": "https://www.ycombinator.com/companies/fuchsia",
+      "hero": "Hardware compliance done on your timeline.",
+      "file": "assets/yc-spring-2026-screenshots/31102.webp",
+      "crop": {
+        "left": 40,
+        "top": 223,
+        "width": 618,
+        "height": 308
+      }
+    },
+    {
+      "id": "31441",
+      "name": "Infera",
+      "url": "https://www.infera.bio",
+      "yc_url": "https://www.ycombinator.com/companies/infera",
+      "hero": "The operating system for your laboratory.",
+      "file": "assets/yc-spring-2026-screenshots/31441.webp",
+      "crop": {
+        "left": 310,
+        "top": 202,
+        "width": 819,
+        "height": 408
+      }
+    },
+    {
+      "id": "31520",
+      "name": "Kinect",
+      "url": "https://www.trykinect.ai/",
+      "yc_url": "https://www.ycombinator.com/companies/kinect",
+      "hero": "Your storefront, adapted to every shopper.",
+      "file": "assets/yc-spring-2026-screenshots/31520.webp",
+      "crop": {
+        "left": 370,
+        "top": 78,
+        "width": 700,
+        "height": 349
+      }
+    },
+    {
+      "id": "31388",
+      "name": "Elyra",
+      "url": "https://www.elyrasystems.com/",
+      "yc_url": "https://www.ycombinator.com/companies/elyra",
+      "hero": "Every guest remembers how you made them feel.",
+      "file": "assets/yc-spring-2026-screenshots/31388.webp",
+      "crop": {
+        "left": 92,
+        "top": 173,
+        "width": 712,
+        "height": 355
+      }
+    },
+    {
+      "id": "31375",
+      "name": "Hub",
+      "url": "https://hub.xyz",
+      "yc_url": "https://www.ycombinator.com/companies/hub",
+      "hero": "Capturing Physical Experience for Embodied AI",
+      "file": "assets/yc-spring-2026-screenshots/31375.webp",
+      "crop": {
+        "left": 100,
+        "top": 163,
+        "width": 639,
+        "height": 430
+      }
+    },
+    {
+      "id": "30737",
+      "name": "Foresight",
+      "url": "https://foresight.tt/",
+      "yc_url": "https://www.ycombinator.com/companies/foresight",
+      "hero": "Consumer testing in minutes, not months",
+      "file": "assets/yc-spring-2026-screenshots/30737.webp",
+      "crop": {
+        "left": 84,
+        "top": 0,
+        "width": 1272,
+        "height": 854
+      }
+    },
+    {
+      "id": "31501",
+      "name": "General Aviation",
+      "url": "https://generalaviation.com",
+      "yc_url": "https://www.ycombinator.com/companies/general-aviation",
+      "hero": "Air traffic control where it's needed most",
+      "file": "assets/yc-spring-2026-screenshots/31501.webp",
+      "crop": {
+        "left": 160,
+        "top": 62,
+        "width": 552,
+        "height": 371
+      }
+    },
+    {
+      "id": "31481",
+      "name": "Saudara AI",
+      "url": "https://saudara.ai",
+      "yc_url": "https://www.ycombinator.com/companies/saudara-ai",
+      "hero": "Your Sourcing Easy Button. From First Sample to Scale.",
+      "file": "assets/yc-spring-2026-screenshots/31481.webp",
+      "crop": {
+        "left": 164,
+        "top": 15,
+        "width": 616,
+        "height": 414
+      }
+    },
+    {
+      "id": "31400",
+      "name": "shotwell.ai",
+      "url": "http://shotwell.ai/",
+      "yc_url": "https://www.ycombinator.com/companies/shotwellai",
+      "hero": "Annotations for robotics data",
+      "file": "assets/yc-spring-2026-screenshots/31400.webp",
+      "crop": {
+        "left": 50,
+        "top": 0,
+        "width": 1341,
+        "height": 900
+      }
+    },
+    {
+      "id": "31330",
+      "name": "Standard Signal",
+      "url": "https://standardsignal.com",
+      "yc_url": "https://www.ycombinator.com/companies/standard-signal",
+      "hero": "Our AI discovers and trades strategies beyond human insight",
+      "file": "assets/yc-spring-2026-screenshots/31330.webp",
+      "crop": {
+        "left": 191,
+        "top": 0,
+        "width": 1058,
+        "height": 711
+      }
+    },
+    {
+      "id": "31418",
+      "name": "Taiga",
+      "url": "https://taigabilling.com",
+      "yc_url": "https://www.ycombinator.com/companies/taiga",
+      "hero": "Themedicalbillingpartneryou wanttoworkwith.",
+      "file": "assets/yc-spring-2026-screenshots/31418.webp",
+      "crop": {
+        "left": 204,
+        "top": 0,
+        "width": 1032,
+        "height": 693
+      }
+    },
+    {
+      "id": "30963",
+      "name": "TakeCareOS",
+      "url": "https://takecareos.com",
+      "yc_url": "https://www.ycombinator.com/companies/takecareos",
+      "hero": "you can talk to. reason with. put to work.",
+      "file": "assets/yc-spring-2026-screenshots/30963.webp",
+      "crop": {
+        "left": 124,
+        "top": 0,
+        "width": 1192,
+        "height": 801
+      }
+    }
+  ]
+}
