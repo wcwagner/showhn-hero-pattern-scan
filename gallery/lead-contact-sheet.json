@@ -1,0 +1,106 @@
+{
+  "description": "Six preserved headline examples: Wispr Flow, Intercom, Antithesis, Larasend, Rekody and HERDR. Selected for clear phrase-level emphasis, including italic and color variants. Not evidence of AI authorship. Screenshot dates and sources are preserved in the underlying collections.",
+  "output": "assets/slopmark-lead-contact-sheet.webp",
+  "width": 1800,
+  "height": 744,
+  "gap": 12,
+  "background": "#fdfcfa",
+  "quality": 88,
+  "rows": [
+    {
+      "count": 2,
+      "height": 240
+    },
+    {
+      "count": 2,
+      "height": 240
+    },
+    {
+      "count": 2,
+      "height": 240
+    }
+  ],
+  "entries": [
+    {
+      "name": "Wispr Flow",
+      "url": "https://wisprflow.ai/",
+      "hero": "Don\u2019t type, just speak.",
+      "file": "assets/established-screenshots/wispr.png",
+      "crop": {
+        "left": 480,
+        "top": 205,
+        "width": 480,
+        "height": 205
+      },
+      "fit": "contain"
+    },
+    {
+      "name": "Intercom",
+      "url": "https://www.intercom.com/",
+      "hero": "A complete system for human and AI customer service",
+      "file": "assets/established-screenshots/intercom.png",
+      "crop": {
+        "left": 336,
+        "top": 227,
+        "width": 766,
+        "height": 260
+      },
+      "fit": "contain"
+    },
+    {
+      "name": "Antithesis",
+      "url": "https://antithesis.com/",
+      "hero": "Bug-free systems, unlimited velocity:",
+      "file": "assets/established-screenshots/antithesis.png",
+      "crop": {
+        "left": 110,
+        "top": 263,
+        "width": 772,
+        "height": 207
+      },
+      "fit": "contain"
+    },
+    {
+      "slug": "larasend",
+      "url": "https://larasend.com/",
+      "hero": "The email dashboard AWS never built.",
+      "file": "assets/screenshots/01-larasend.webp",
+      "crop": {
+        "left": 280,
+        "top": 174,
+        "width": 880,
+        "height": 236
+      },
+      "fit": "contain",
+      "name": "Larasend"
+    },
+    {
+      "slug": "rekody",
+      "url": "https://rekody.com/",
+      "hero": "You talk. It types.",
+      "file": "assets/screenshots/11-rekody.webp",
+      "crop": {
+        "left": 420,
+        "top": 210,
+        "width": 620,
+        "height": 120
+      },
+      "fit": "contain",
+      "name": "Rekody"
+    },
+    {
+      "slug": "herdr",
+      "url": "https://herdr.dev/",
+      "hero": "Run them anywhere. Leave them running.",
+      "file": "assets/september-screenshots/01-herdr.webp",
+      "crop": {
+        "left": 16,
+        "top": 163,
+        "width": 1276,
+        "height": 180
+      },
+      "fit": "contain",
+      "name": "HERDR"
+    }
+  ]
+}

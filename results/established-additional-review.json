@@ -1,0 +1,390 @@
+{
+  "reviewed_at": "2026-09-11T06:29:24.817798+00:00",
+  "candidate_count": 25,
+  "scope": "25 additional established-company current homepages, bounded editorial candidate search, not a prevalence study",
+  "selection_conclusion": "No new italic, weight-switch or font-switch hero found. Together AI and Superhuman retained only as optional color variants, not selected for final montage. Resend continuous whole-heading gradient rejected.",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "normal_site_fonts": true,
+  "ai_authorship_inferred": false,
+  "items": [
+    {
+      "name": "zapier",
+      "url": "https://zapier.com/",
+      "final_url": "https://zapier.com/",
+      "checked_at": "2026-09-11T06:25:53.852Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Actions speak louder than prompts"
+    },
+    {
+      "name": "retool",
+      "url": "https://retool.com/",
+      "final_url": "https://retool.com/",
+      "checked_at": "2026-09-11T06:25:53.855Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Secure your vibe-coded apps"
+    },
+    {
+      "name": "glean",
+      "url": "https://www.glean.com/",
+      "final_url": "https://www.glean.com/",
+      "checked_at": "2026-09-11T06:25:53.854Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Complete context that makes AI work at enterprise scale."
+    },
+    {
+      "name": "grammarly",
+      "url": "https://www.grammarly.com/",
+      "final_url": "https://www.grammarly.com/",
+      "checked_at": "2026-09-11T06:25:56.645Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Think big. We\u2019ll take care of the details.\n"
+    },
+    {
+      "name": "superhuman",
+      "url": "https://superhuman.com/",
+      "final_url": "https://superhuman.com/",
+      "checked_at": "2026-09-11T06:27:32.235Z",
+      "verdict": "optional-color-variant",
+      "reason": "Rotating product hero emphasizes product name with white against white alpha 0.65. Same font, weight and style.",
+      "heading": "Save 4+ hours each week with Superhuman Mail",
+      "verified_text_runs": [
+        {
+          "text": "Save 4+ hours each week with",
+          "chain": [
+            {
+              "tag": "SPAN",
+              "class": "color-text-soft",
+              "color": "color(srgb 1 1 1 / 0.65)",
+              "opacity": "1",
+              "font": "\"Super Sans VF\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "size": "49px",
+              "style": "normal",
+              "weight": "460",
+              "background": "none",
+              "textFill": "color(srgb 1 1 1 / 0.65)"
+            },
+            {
+              "tag": "H2",
+              "class": "text_text__RO8_0 type-heading-large color-text-base",
+              "color": "rgb(255, 255, 255)",
+              "opacity": "1",
+              "font": "\"Super Sans VF\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "size": "49px",
+              "style": "normal",
+              "weight": "460",
+              "background": "none",
+              "textFill": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "text": "Superhuman Mail",
+          "chain": [
+            {
+              "tag": "H2",
+              "class": "text_text__RO8_0 type-heading-large color-text-base",
+              "color": "rgb(255, 255, 255)",
+              "opacity": "1",
+              "font": "\"Super Sans VF\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "size": "49px",
+              "style": "normal",
+              "weight": "460",
+              "background": "none",
+              "textFill": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "heading_rect": {
+        "x": 80,
+        "y": 163,
+        "width": 624,
+        "height": 117.59375
+      }
+    },
+    {
+      "name": "granola",
+      "url": "https://www.granola.ai/",
+      "final_url": "https://www.granola.ai/",
+      "checked_at": "2026-09-11T06:25:58.949Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "The AI notepad for back-to-back meetings"
+    },
+    {
+      "name": "ramp",
+      "url": "https://ramp.com/",
+      "final_url": "https://ramp.com/",
+      "checked_at": "2026-09-11T06:26:31.281Z",
+      "verdict": "undetermined-response-error",
+      "reason": "Received non-rendered source/error page.",
+      "heading": null
+    },
+    {
+      "name": "mercury",
+      "url": "https://mercury.com/",
+      "final_url": "https://mercury.com/",
+      "checked_at": "2026-09-11T06:26:01.015Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Radically different banking"
+    },
+    {
+      "name": "descript",
+      "url": "https://www.descript.com/",
+      "final_url": "https://www.descript.com/",
+      "checked_at": "2026-09-11T06:25:56.633Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "AI VIDEO EDITOR"
+    },
+    {
+      "name": "vanta",
+      "url": "https://www.vanta.com/",
+      "final_url": "https://www.vanta.com/",
+      "checked_at": "2026-09-11T06:26:01.757Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Get your compliance together"
+    },
+    {
+      "name": "remote",
+      "url": "https://remote.com/",
+      "final_url": "https://remote.com/",
+      "checked_at": "2026-09-11T06:26:03.542Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Your choice regarding cookies on this site"
+    },
+    {
+      "name": "deel",
+      "url": "https://www.deel.com/",
+      "final_url": "https://www.deel.com/",
+      "checked_at": "2026-09-11T06:26:03.622Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Hire, manage, pay, & equip anyone, anywhere."
+    },
+    {
+      "name": "mistral",
+      "url": "https://mistral.ai/",
+      "final_url": "https://mistral.ai/",
+      "checked_at": "2026-09-11T06:26:31.282Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Frontier AI.\nIn your hands."
+    },
+    {
+      "name": "cohere",
+      "url": "https://cohere.com/",
+      "final_url": "https://cohere.com/",
+      "checked_at": "2026-09-11T06:26:05.542Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Your AI.\nYour rules."
+    },
+    {
+      "name": "together",
+      "url": "https://www.together.ai/",
+      "final_url": "https://www.together.ai/",
+      "checked_at": "2026-09-11T06:27:21.399Z",
+      "verdict": "optional-color-variant",
+      "reason": "Explicit opacity-0.4 span on second line; same font, weight and style. Not an italic/bold example.",
+      "heading": "Build what's next\non the AI Native Cloud",
+      "verified_text_runs": [
+        {
+          "text": "Build what's next",
+          "chain": [
+            {
+              "tag": "H1",
+              "class": "h-display-2",
+              "color": "rgb(0, 0, 0)",
+              "opacity": "1",
+              "font": "\"The Future\", Arial, sans-serif",
+              "size": "64px",
+              "style": "normal",
+              "weight": "500",
+              "background": "none",
+              "textFill": "rgb(0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "text": "on the AI Native Cloud",
+          "chain": [
+            {
+              "tag": "SPAN",
+              "class": "opacity-40",
+              "color": "rgb(0, 0, 0)",
+              "opacity": "0.4",
+              "font": "\"The Future\", Arial, sans-serif",
+              "size": "64px",
+              "style": "normal",
+              "weight": "500",
+              "background": "none",
+              "textFill": "rgb(0, 0, 0)"
+            },
+            {
+              "tag": "H1",
+              "class": "h-display-2",
+              "color": "rgb(0, 0, 0)",
+              "opacity": "1",
+              "font": "\"The Future\", Arial, sans-serif",
+              "size": "64px",
+              "style": "normal",
+              "weight": "500",
+              "background": "none",
+              "textFill": "rgb(0, 0, 0)"
+            }
+          ]
+        }
+      ],
+      "heading_rect": {
+        "x": 48,
+        "y": 268.734375,
+        "width": 656,
+        "height": 140.78125
+      }
+    },
+    {
+      "name": "replit",
+      "url": "https://replit.com/",
+      "final_url": "https://replit.com/",
+      "checked_at": "2026-09-11T06:26:06.536Z",
+      "verdict": "undetermined-blocked",
+      "reason": "Cloudflare blocked response.",
+      "heading": "Sorry, you have been blocked"
+    },
+    {
+      "name": "lovable",
+      "url": "https://lovable.dev/",
+      "final_url": "https://lovable.dev/",
+      "checked_at": "2026-09-11T06:26:07.700Z",
+      "verdict": "undetermined-challenge",
+      "reason": "Cloudflare security challenge.",
+      "heading": "lovable.dev"
+    },
+    {
+      "name": "bolt",
+      "url": "https://bolt.new/",
+      "final_url": "https://bolt.new/",
+      "checked_at": "2026-09-11T06:26:07.956Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "What will you build today?"
+    },
+    {
+      "name": "framer",
+      "url": "https://www.framer.com/",
+      "final_url": "https://www.framer.com/",
+      "checked_at": "2026-09-11T06:26:08.370Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Framer is the AI design agent for every step from idea to launch"
+    },
+    {
+      "name": "posthog",
+      "url": "https://posthog.com/",
+      "final_url": "https://posthog.com/",
+      "checked_at": "2026-09-11T06:26:10.413Z",
+      "verdict": "weak-color-match-not-selected",
+      "reason": "Blue self-driving phrase; same font/weight/style; H1 only36px.",
+      "heading": "Make your product self-driving"
+    },
+    {
+      "name": "webflow",
+      "url": "https://webflow.com/",
+      "final_url": "https://webflow.com/",
+      "checked_at": "2026-09-11T06:26:09.695Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Build for what\u2019s next"
+    },
+    {
+      "name": "resend",
+      "url": "https://resend.com/",
+      "final_url": "https://resend.com/",
+      "checked_at": "2026-09-11T06:27:26.858Z",
+      "verdict": "excluded-continuous-whole-heading-gradient",
+      "reason": "The entire H1 has one background gradient with transparent text fill; no subphrase style switch. Screenshot alone can mislead.",
+      "heading": "Email for\ndevelopers",
+      "verified_text_runs": [
+        {
+          "text": "Email for",
+          "chain": [
+            {
+              "tag": "H1",
+              "class": "effect-font-styling font-domaine text-[4rem] md:text-[6rem] tracking-[-0.01em] leading-[100%] effect-font-gradient relative text-center md:text-left pb-3",
+              "color": "rgb(240, 240, 240)",
+              "opacity": "1",
+              "font": "domaine, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "96px",
+              "style": "normal",
+              "weight": "400",
+              "background": "linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.5))",
+              "textFill": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "text": "developers",
+          "chain": [
+            {
+              "tag": "H1",
+              "class": "effect-font-styling font-domaine text-[4rem] md:text-[6rem] tracking-[-0.01em] leading-[100%] effect-font-gradient relative text-center md:text-left pb-3",
+              "color": "rgb(240, 240, 240)",
+              "opacity": "1",
+              "font": "domaine, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "96px",
+              "style": "normal",
+              "weight": "400",
+              "background": "linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.5))",
+              "textFill": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        }
+      ],
+      "heading_rect": {
+        "x": 168,
+        "y": 352,
+        "width": 480,
+        "height": 204
+      }
+    },
+    {
+      "name": "superwhisper",
+      "url": "https://superwhisper.com/",
+      "final_url": "https://superwhisper.com/",
+      "checked_at": "2026-09-11T06:26:35.033Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": null
+    },
+    {
+      "name": "fireflies",
+      "url": "https://fireflies.ai/",
+      "final_url": "https://fireflies.ai/",
+      "checked_at": "2026-09-11T06:26:15.554Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "The #1 AI Assistant For\nYour Meetings"
+    },
+    {
+      "name": "raycast",
+      "url": "https://www.raycast.com/",
+      "final_url": "https://www.raycast.com/",
+      "checked_at": "2026-09-11T06:26:31.282Z",
+      "verdict": "excluded-uniform-hero",
+      "reason": "Current rendered hero has no italic/weight/font/color subphrase variation.",
+      "heading": "Your shortcut to everything."
+    }
+  ],
+  "evidence_note": "Editorial review summary. Raw screenshots from this nonselected candidate search were retained locally, not bundled. Do not treat these exclusions as a prevalence study."
+}

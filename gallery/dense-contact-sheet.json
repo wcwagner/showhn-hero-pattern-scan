@@ -1,0 +1,911 @@
+{
+  "description": "Dense curated montage of actual public landing-page headline crops. Mixed discovery sources; not a prevalence estimate or AI-authorship classification.",
+  "output": "assets/slopmark-dense-contact-sheet.webp",
+  "reviewOutput": "assets/slopmark-dense-review.webp",
+  "width": 2240,
+  "gap": 7,
+  "quality": 86,
+  "layout": "Nine justified rows with five or six complete headline crops; crop aspect ratios preserved to pixel rounding. No letterboxing or crop-to-fill clipping.",
+  "entries": [
+    {
+      "name": "Foresight",
+      "id": 30737,
+      "url": "https://foresight.tt/",
+      "hero": "Consumer testing in minutes, not months",
+      "file": "assets/yc-spring-2026-screenshots/30737.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/foresight",
+      "capturedAt": "2026-09-11T05:56:38.532Z",
+      "crop": {
+        "left": 279,
+        "top": 282,
+        "width": 882,
+        "height": 76
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Saudara AI",
+      "id": 31481,
+      "url": "https://saudara.ai",
+      "hero": "Your Sourcing Easy Button. From First Sample to Scale.",
+      "file": "assets/yc-spring-2026-screenshots/31481.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/saudara-ai",
+      "capturedAt": "2026-09-11T05:55:12.769Z",
+      "crop": {
+        "left": 174,
+        "top": 154,
+        "width": 462,
+        "height": 144
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Arctic Health",
+      "id": 31552,
+      "url": "https://arctic.health",
+      "hero": "Your providers, in-network. Without the headache.",
+      "file": "assets/yc-spring-2026-screenshots/31552.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/arctic-health",
+      "capturedAt": "2026-09-11T05:54:40.143Z",
+      "crop": {
+        "left": 384,
+        "top": 217,
+        "width": 672,
+        "height": 258
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "General Aviation",
+      "id": 31501,
+      "url": "https://generalaviation.com",
+      "hero": "Air traffic control where it's needed most",
+      "file": "assets/yc-spring-2026-screenshots/31501.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/general-aviation",
+      "capturedAt": "2026-09-11T05:55:04.267Z",
+      "crop": {
+        "left": 170,
+        "top": 135,
+        "width": 429,
+        "height": 224
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Velum Labs",
+      "id": 30876,
+      "url": "https://www.velum-labs.com/",
+      "hero": "Own your intelligence. No single lab owns the frontier.",
+      "file": "assets/yc-winter-2026-screenshots/30876.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/velum-labs",
+      "capturedAt": "2026-09-11T06:12:06.924Z",
+      "crop": {
+        "left": 54,
+        "top": 262,
+        "width": 629,
+        "height": 390
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "MochaCare",
+      "id": 31269,
+      "url": "https://www.mochacare.com/",
+      "hero": "Care Organization Operations, Managed.",
+      "file": "assets/yc-winter-2026-screenshots/31269.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/mochacare",
+      "capturedAt": "2026-09-11T06:10:06.980Z",
+      "crop": {
+        "left": 444,
+        "top": 189,
+        "width": 552,
+        "height": 193
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Fuchsia",
+      "id": 31102,
+      "url": "https://getfuchsia.ai/",
+      "hero": "Hardware compliance done on your timeline.",
+      "file": "assets/yc-spring-2026-screenshots/31102.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/fuchsia",
+      "capturedAt": "2026-09-11T05:56:34.015Z",
+      "crop": {
+        "left": 94,
+        "top": 218,
+        "width": 389,
+        "height": 317
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Infera",
+      "id": 31441,
+      "url": "https://www.infera.bio",
+      "hero": "The operating system for your laboratory.",
+      "file": "assets/yc-spring-2026-screenshots/31441.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/infera",
+      "capturedAt": "2026-09-11T05:55:29.624Z",
+      "crop": {
+        "left": 320,
+        "top": 359,
+        "width": 800,
+        "height": 92
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "slug": "freelymemo",
+      "url": "https://www.freelymemo.xyz/",
+      "hero": "Your thoughts, always within reach.",
+      "file": "assets/uneed-screenshots/11-freelymemo.webp",
+      "crop": {
+        "left": 146,
+        "top": 210,
+        "width": 440,
+        "height": 264
+      },
+      "name": "freelymemo",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry.",
+      "cropReview": "Refined against 2×3 full-screenshot batch; preserves complete headline and excludes eyebrow/body/nav."
+    },
+    {
+      "slug": "voxcraft",
+      "url": "https://voxcraft.app/",
+      "hero": "Speak naturally. Get polished text.",
+      "file": "assets/uneed-screenshots/09-voxcraft.webp",
+      "crop": {
+        "left": 511,
+        "top": 145,
+        "width": 415,
+        "height": 163
+      },
+      "name": "voxcraft",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "heyalo",
+      "url": "https://heyalo.ai/",
+      "hero": "Win the call while you're still on it.",
+      "file": "assets/screenshots/05-heyalo.webp",
+      "crop": {
+        "left": 80,
+        "top": 152,
+        "width": 594,
+        "height": 159
+      },
+      "name": "heyalo",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "pip",
+      "url": "https://spendwithpip.com/",
+      "hero": "Before you spend, check Pip.",
+      "file": "assets/uneed-screenshots/03-pip.webp",
+      "crop": {
+        "left": 172,
+        "top": 298,
+        "width": 575,
+        "height": 142
+      },
+      "name": "pip",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry.",
+      "cropReview": "Refined against 2×3 full-screenshot batch; preserves complete headline and excludes eyebrow/body/nav."
+    },
+    {
+      "slug": "clusy",
+      "url": "https://www.clusy.io/",
+      "hero": "Ask for the experiment. Clusy runs every branch.",
+      "file": "assets/screenshots/09-clusy.webp",
+      "crop": {
+        "left": 118,
+        "top": 136,
+        "width": 784,
+        "height": 413
+      },
+      "name": "clusy",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "name": "Tasklet",
+      "id": 31470,
+      "url": "https://tasklet.ai",
+      "hero": "Run your business on agents",
+      "file": "assets/yc-spring-2026-screenshots/31470.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/tasklet-2",
+      "capturedAt": "2026-09-11T05:55:16.916Z",
+      "crop": {
+        "left": 338,
+        "top": 217,
+        "width": 764,
+        "height": 94
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Payna",
+      "id": 31066,
+      "url": "https://payna.com/",
+      "hero": "From the first license to the hundredth.",
+      "file": "assets/yc-winter-2026-screenshots/31066.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/payna",
+      "capturedAt": "2026-09-11T06:11:41.791Z",
+      "crop": {
+        "left": 62,
+        "top": 266,
+        "width": 584,
+        "height": 192
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Vector Legal",
+      "id": 31000,
+      "url": "https://vectorlegal.com",
+      "hero": "The premier AI-native law firm for venture capital",
+      "file": "assets/yc-winter-2026-screenshots/31000.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/vector-legal",
+      "capturedAt": "2026-09-11T06:11:55.710Z",
+      "crop": {
+        "left": 73,
+        "top": 254,
+        "width": 550,
+        "height": 216
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Ditto Biosciences",
+      "id": 31225,
+      "url": "https://www.dittobio.com/",
+      "hero": "Evolutionary therapies for autoimmune disease",
+      "file": "assets/yc-winter-2026-screenshots/31225.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/ditto-biosciences",
+      "capturedAt": "2026-09-11T06:10:23.538Z",
+      "crop": {
+        "left": 435,
+        "top": 348,
+        "width": 570,
+        "height": 132
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Hub",
+      "id": 31375,
+      "url": "https://hub.xyz",
+      "hero": "Capturing Physical Experience for Embodied AI",
+      "file": "assets/yc-spring-2026-screenshots/31375.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/hub",
+      "capturedAt": "2026-09-11T05:56:01.803Z",
+      "crop": {
+        "left": 110,
+        "top": 272,
+        "width": 485,
+        "height": 208
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Kinect",
+      "id": 31520,
+      "url": "https://www.trykinect.ai/",
+      "hero": "Your storefront, adapted to every shopper.",
+      "file": "assets/yc-spring-2026-screenshots/31520.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/kinect",
+      "capturedAt": "2026-09-11T05:54:54.397Z",
+      "crop": {
+        "left": 516,
+        "top": 185,
+        "width": 407,
+        "height": 135
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Kuli",
+      "id": 31473,
+      "url": "https://kuli.one",
+      "hero": "Run social media social media 10× faster.",
+      "file": "assets/yc-spring-2026-screenshots/31473.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/kuli",
+      "capturedAt": "2026-09-11T05:55:15.435Z",
+      "crop": {
+        "left": 299,
+        "top": 180,
+        "width": 916,
+        "height": 113
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "slug": "ghostmeet",
+      "url": "https://ghostmeet.sshlab.dev/",
+      "hero": "The invisible AI meeting assistant.",
+      "file": "assets/screenshots/07-ghostmeet.webp",
+      "crop": {
+        "left": 115,
+        "top": 218,
+        "width": 660,
+        "height": 413
+      },
+      "name": "ghostmeet",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "parchmint",
+      "url": "https://parchmint.app/",
+      "hero": "Markdown, as the model reads it.",
+      "file": "assets/screenshots/06-parchmint.webp",
+      "crop": {
+        "left": 160,
+        "top": 232,
+        "width": 489,
+        "height": 286
+      },
+      "name": "parchmint",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "slapmetrics",
+      "url": "https://www.slapmetrics.com/",
+      "hero": "Stripe sale just dinged. Your Mac moaned.",
+      "file": "assets/screenshots/03-slapmetrics.webp",
+      "crop": {
+        "left": 106,
+        "top": 245,
+        "width": 615,
+        "height": 237
+      },
+      "name": "slapmetrics",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "name": "shotwell.ai",
+      "id": 31400,
+      "url": "http://shotwell.ai/",
+      "hero": "Annotations for robotics data",
+      "file": "assets/yc-spring-2026-screenshots/31400.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/shotwellai",
+      "capturedAt": "2026-09-11T05:55:50.953Z",
+      "crop": {
+        "left": 273,
+        "top": 175,
+        "width": 894,
+        "height": 122
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Elyra",
+      "id": 31388,
+      "url": "https://www.elyrasystems.com/",
+      "hero": "Every guest remembers how you made them feel.",
+      "file": "assets/yc-spring-2026-screenshots/31388.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/elyra",
+      "capturedAt": "2026-09-11T05:55:55.779Z",
+      "crop": {
+        "left": 102,
+        "top": 175,
+        "width": 670,
+        "height": 350
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Signals",
+      "id": 30639,
+      "url": "https://www.returnsignals.com",
+      "hero": "The AI store associate that turns buyers into regulars",
+      "file": "assets/yc-winter-2026-screenshots/30639.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/signals",
+      "capturedAt": "2026-09-11T06:12:11.711Z",
+      "crop": {
+        "left": 400,
+        "top": 166,
+        "width": 640,
+        "height": 145
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Ashr",
+      "id": 31139,
+      "url": "https://ashr.io",
+      "hero": "Build a custom intelligence layer.",
+      "file": "assets/yc-winter-2026-screenshots/31139.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/ashr",
+      "capturedAt": "2026-09-11T06:11:11.088Z",
+      "crop": {
+        "left": 171,
+        "top": 156,
+        "width": 545,
+        "height": 173
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "AbInitio Bio",
+      "id": 31484,
+      "url": "https://www.abinitio-bio.com",
+      "hero": "The operating platform for drug development and manufacturing.",
+      "file": "assets/yc-spring-2026-screenshots/31484.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/abinitio-bio",
+      "capturedAt": "2026-09-11T05:55:12.345Z",
+      "crop": {
+        "left": 50,
+        "top": 292,
+        "width": 555,
+        "height": 199
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Standard Signal",
+      "id": 31330,
+      "url": "https://standardsignal.com",
+      "hero": "Our AI discovers and trades strategies beyond human insight",
+      "file": "assets/yc-spring-2026-screenshots/31330.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/standard-signal",
+      "capturedAt": "2026-09-11T05:56:23.993Z",
+      "crop": {
+        "left": 201,
+        "top": 149,
+        "width": 896,
+        "height": 143
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "slug": "zero2robot-com",
+      "url": "https://zero2robot.com/",
+      "hero": "Build a robot brain. No robot required.",
+      "file": "assets/slopmark-screenshots/49-zero2robot-com.webp",
+      "crop": {
+        "left": 381,
+        "top": 106,
+        "width": 443,
+        "height": 266
+      },
+      "name": "zero2robot-com",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "examinerly",
+      "url": "https://examinerly.com/",
+      "hero": "The one thing blocking your Band 7.",
+      "file": "assets/screenshots/12-examinerly.webp",
+      "crop": {
+        "left": 161,
+        "top": 191,
+        "width": 449,
+        "height": 225
+      },
+      "name": "examinerly",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "heard",
+      "url": "https://heard.dev/",
+      "hero": "Give your coding agents a voice.",
+      "file": "assets/uneed-screenshots/01-heard.webp",
+      "crop": {
+        "left": 360,
+        "top": 142,
+        "width": 716,
+        "height": 222
+      },
+      "name": "heard",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "shellular",
+      "url": "https://shellular.dev/",
+      "hero": "Your dev environment, in your pocket.",
+      "file": "assets/screenshots/04-shellular.webp",
+      "crop": {
+        "left": 259,
+        "top": 141,
+        "width": 918,
+        "height": 192
+      },
+      "name": "shellular",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "leadstack",
+      "url": "https://www.leadstack.dev/",
+      "hero": "The CRM agencies actually own.",
+      "file": "assets/uneed-screenshots/02-leadstack.webp",
+      "crop": {
+        "left": 406,
+        "top": 258,
+        "width": 625,
+        "height": 183
+      },
+      "name": "leadstack",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "visionboardai",
+      "url": "https://visionboardai.org/",
+      "hero": "Turn who you want to become into today's plan.",
+      "file": "assets/uneed-screenshots/08-visionboardai.webp",
+      "crop": {
+        "left": 412,
+        "top": 210,
+        "width": 617,
+        "height": 225
+      },
+      "name": "visionboardai",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "keepember",
+      "url": "https://keepember.com/en",
+      "hero": "Remember everything about the people you love.",
+      "file": "assets/uneed-screenshots/05-keepember.webp",
+      "crop": {
+        "left": 178,
+        "top": 210,
+        "width": 580,
+        "height": 294
+      },
+      "name": "keepember",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry.",
+      "cropReview": "Refined against 2×3 full-screenshot batch; preserves complete headline and excludes eyebrow/body/nav."
+    },
+    {
+      "name": "Taiga",
+      "id": 31418,
+      "url": "https://taigabilling.com",
+      "hero": "Themedicalbillingpartneryou wanttoworkwith.",
+      "file": "assets/yc-spring-2026-screenshots/31418.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/taiga",
+      "capturedAt": "2026-09-11T05:55:40.155Z",
+      "crop": {
+        "left": 276,
+        "top": 242,
+        "width": 872,
+        "height": 182
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Salus",
+      "id": 31147,
+      "url": "https://www.usesalus.ai/",
+      "hero": "Agents that act, safely.",
+      "file": "assets/yc-winter-2026-screenshots/31147.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/salus",
+      "capturedAt": "2026-09-11T06:11:06.665Z",
+      "crop": {
+        "left": 50,
+        "top": 236,
+        "width": 889,
+        "height": 143
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes.",
+      "cropReview": "Removed eyebrow above the large headline after batch review."
+    },
+    {
+      "name": "Zymbly",
+      "id": 31278,
+      "url": "https://www.zymbly.com",
+      "hero": "The AI copilot for aircraft maintenance",
+      "file": "assets/yc-winter-2026-screenshots/31278.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/zymbly",
+      "capturedAt": "2026-09-11T06:10:02.673Z",
+      "crop": {
+        "left": 30,
+        "top": 328,
+        "width": 447,
+        "height": 211
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Panta",
+      "id": 31077,
+      "url": "https://pantainsure.com",
+      "hero": "Insurance for the businesses that build the country. Insurance for the businesses that build haul pour wire ship serve the country.",
+      "file": "assets/yc-winter-2026-screenshots/31077.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/panta",
+      "capturedAt": "2026-09-11T06:11:41.174Z",
+      "crop": {
+        "left": 81,
+        "top": 216,
+        "width": 1359,
+        "height": 517
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Sentrial",
+      "id": 31100,
+      "url": "https://sentrial.com/",
+      "hero": "Production Monitoring for AI Agents",
+      "file": "assets/yc-winter-2026-screenshots/31100.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/sentrial",
+      "capturedAt": "2026-09-11T06:11:30.722Z",
+      "crop": {
+        "left": 303,
+        "top": 267,
+        "width": 833,
+        "height": 233
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Hedge",
+      "id": 31323,
+      "url": "https://www.hedgespecialty.com/",
+      "hero": "A wholesale insurance brokerage for hard‑to‑place risks.",
+      "file": "assets/yc-spring-2026-screenshots/31323.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/hedge",
+      "capturedAt": "2026-09-11T05:56:27.908Z",
+      "crop": {
+        "left": 47,
+        "top": 255,
+        "width": 1340,
+        "height": 236
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "slug": "mobilerun",
+      "url": "https://mobilerun.ai/",
+      "hero": "Give your AI Agent a phone.",
+      "file": "assets/screenshots/02-mobilerun.webp",
+      "crop": {
+        "left": 75,
+        "top": 237,
+        "width": 501,
+        "height": 302
+      },
+      "name": "mobilerun",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "slug": "yieldscope",
+      "url": "https://yieldscope.io/en/",
+      "hero": "Every crypto rate. Ranked by who you can trust.",
+      "file": "assets/uneed-screenshots/06-yieldscope.webp",
+      "crop": {
+        "left": 138,
+        "top": 200,
+        "width": 880,
+        "height": 170
+      },
+      "name": "yieldscope",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry.",
+      "cropReview": "Refined against 2×3 full-screenshot batch; preserves complete headline and excludes eyebrow/body/nav."
+    },
+    {
+      "slug": "prio",
+      "url": "https://prio.sh/",
+      "hero": "Run your company, not your inbox.",
+      "file": "assets/uneed-screenshots/07-prio.webp",
+      "crop": {
+        "left": 146,
+        "top": 257,
+        "width": 517,
+        "height": 240
+      },
+      "name": "prio",
+      "source": "historical launch galleries",
+      "sourceManifest": "gallery/post-contact-sheet.json",
+      "reason": "Previously selected contrasting-phrase headline; crop refined against archived heading geometry."
+    },
+    {
+      "name": "Allowance",
+      "id": 31447,
+      "url": "https://useallowance.com/",
+      "hero": "Give your AI a wallet with rules.",
+      "file": "assets/yc-spring-2026-screenshots/31447.webp",
+      "source": "YC Spring 2026",
+      "sourceReport": "results/yc-spring-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/allowance",
+      "capturedAt": "2026-09-11T05:55:27.178Z",
+      "crop": {
+        "left": 152,
+        "top": 262,
+        "width": 497,
+        "height": 176
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Lucent",
+      "id": 31087,
+      "url": "https://lucenthq.com",
+      "hero": "See what's really happening in your product",
+      "file": "assets/yc-winter-2026-screenshots/31087.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/lucent",
+      "capturedAt": "2026-09-11T06:11:37.349Z",
+      "crop": {
+        "left": 257,
+        "top": 281,
+        "width": 925,
+        "height": 178
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Chasi",
+      "id": 31233,
+      "url": "https://chasi.ai/",
+      "hero": "AI Revenue Engine for Equipment Sales, Rental, and Service",
+      "file": "assets/yc-winter-2026-screenshots/31233.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/chasi",
+      "capturedAt": "2026-09-11T06:10:19.640Z",
+      "crop": {
+        "left": 303,
+        "top": 144,
+        "width": 818,
+        "height": 158
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    },
+    {
+      "name": "Moritz",
+      "id": 31146,
+      "url": "http://moritzlegal.com/",
+      "hero": "BigLaw Attorneys with Same-Day Turnaround",
+      "file": "assets/yc-winter-2026-screenshots/31146.webp",
+      "source": "YC Winter 2026",
+      "sourceReport": "results/yc-winter-2026-2026-09-11.json",
+      "sourceListing": "https://www.ycombinator.com/companies/moritz",
+      "capturedAt": "2026-09-11T06:11:07.070Z",
+      "crop": {
+        "left": 70,
+        "top": 529,
+        "width": 515,
+        "height": 142
+      },
+      "reason": "Contrasting headline phrase, visually checked in 56-tile batch contact sheet; bounding union includes actual text-run boxes."
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "herdr",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "rekody",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "larasend",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "Wispr Flow",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "Antithesis",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "Intercom",
+      "reason": "Reserved for the six-example lead montage; avoid repeating it in the dense image."
+    },
+    {
+      "name": "TakeCareOS",
+      "reason": "Animated text/oversized adjacent heading intrudes into isolated-phrase crop."
+    }
+  ],
+  "visualReview": {
+    "method": "Batch contact sheets only; no individual site navigation or live screenshot capture.",
+    "count": 49,
+    "notes": "Whole headline crops; no author inference. Original public captures preserved. Typeface/color treatments belong to source sites.",
+    "status": "Reviewed complete headlines in batch contact sheets and final composed image; no stray navigation/body copy or clipped letters identified.",
+    "reviewArtifact": "assets/slopmark-dense-review.webp"
+  },
+  "rowCounts": [
+    5,
+    6,
+    5,
+    6,
+    5,
+    6,
+    5,
+    6,
+    5
+  ],
+  "height": 1044
+}
