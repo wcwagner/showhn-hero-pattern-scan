@@ -14,7 +14,7 @@
     "gallery:uneed:compose": "node src/gallery.mjs --manifest gallery/uneed-manifest.json --compose-only",
     "gallery:slopmark": "node src/gallery.mjs --manifest gallery/slopmark-wall-manifest.json",
     "gallery:slopmark:compose": "node src/gallery.mjs --manifest gallery/slopmark-wall-manifest.json --compose-only",
-    "check": "node --check src/scan.mjs && node --check src/inspect-pages.mjs && node --check src/gallery.mjs && node --check src/hero-detector.mjs && node --check src/scan-yc.mjs && node --check src/yc-source.mjs && node --check src/yc-contact-sheet.mjs && node --check src/contact-sheet.mjs",
+    "check": "node --check src/scan.mjs && node --check src/inspect-pages.mjs && node --check src/gallery.mjs && node --check src/hero-detector.mjs && node --check src/scan-yc.mjs && node --check src/yc-source.mjs && node --check src/yc-contact-sheet.mjs && node --check src/contact-sheet.mjs && node --check src/cohort-summary.mjs && node --check src/crawl-scale.mjs",
     "source:yc": "node src/yc-source.mjs --output results/yc-spring-2026-cohort.json",
     "scan:yc": "node src/scan-yc.mjs",
     "test": "node --test src/hero-detector.test.mjs"

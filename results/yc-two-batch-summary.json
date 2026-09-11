@@ -1,0 +1,3182 @@
+{
+  "generatedAt": "2026-09-11T06:12:25.624Z",
+  "scope": "All currently public company records in the two stated YC batches; no AI-name or industry filter.",
+  "interpretation": "Matches are deterministic visual candidates, not visually validated totals or AI-authorship labels. Both batches were rendered on the observation date, not their launch dates.",
+  "uniqueCompanyRecords": 392,
+  "uniqueWebsiteURLs": 391,
+  "totals": {
+    "companies": 392,
+    "observed": 347,
+    "matched": 93,
+    "italicPhrase": 30,
+    "highlightedPhrase": 63,
+    "noMatch": 254,
+    "missingData": 45
+  },
+  "batches": [
+    {
+      "batch": "Spring 2026",
+      "report": "results/yc-spring-2026-2026-09-11.json",
+      "detector": "2.1.0",
+      "companies": 193,
+      "observed": 174,
+      "matched": 48,
+      "italicPhrase": 16,
+      "highlightedPhrase": 32,
+      "noMatch": 126,
+      "missingData": 19,
+      "records": [
+        {
+          "id": "31193",
+          "name": "9 Mothers",
+          "yc_url": "https://www.ycombinator.com/companies/9-mothers-corporation",
+          "website": "https://9mothers.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31484",
+          "name": "AbInitio Bio",
+          "yc_url": "https://www.ycombinator.com/companies/abinitio-bio",
+          "website": "https://www.abinitio-bio.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31434",
+          "name": "Adialante",
+          "yc_url": "https://www.ycombinator.com/companies/adialante",
+          "website": "http://www.adialante.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31043",
+          "name": "Advanced Metal Research",
+          "yc_url": "https://www.ycombinator.com/companies/advanced-metal-research",
+          "website": "https://advancedmetalresearch.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31524",
+          "name": "AgentPhone",
+          "yc_url": "https://www.ycombinator.com/companies/agentphone",
+          "website": "https://agentphone.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31442",
+          "name": "AICE",
+          "yc_url": "https://www.ycombinator.com/companies/aice",
+          "website": "https://aicepower.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31576",
+          "name": "Akkari",
+          "yc_url": "https://www.ycombinator.com/companies/akkari",
+          "website": "https://akkari.io/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31447",
+          "name": "Allowance",
+          "yc_url": "https://www.ycombinator.com/companies/allowance",
+          "website": "https://useallowance.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31497",
+          "name": "Amboras",
+          "yc_url": "https://www.ycombinator.com/companies/amboras",
+          "website": "https://amboras.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31411",
+          "name": "Andco",
+          "yc_url": "https://www.ycombinator.com/companies/andco",
+          "website": "http://www.useandco.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31367",
+          "name": "Andustry",
+          "yc_url": "https://www.ycombinator.com/companies/andustry",
+          "website": "http://andustry.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31485",
+          "name": "ANORIA",
+          "yc_url": "https://www.ycombinator.com/companies/anoria",
+          "website": "https://www.anoria.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31503",
+          "name": "Apollo Atomics, Inc.",
+          "yc_url": "https://www.ycombinator.com/companies/apollo-atomics-inc",
+          "website": "https://apolloatomics.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31487",
+          "name": "AquaShield",
+          "yc_url": "https://www.ycombinator.com/companies/aquashield",
+          "website": "https://aquashieldai.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31451",
+          "name": "Archer",
+          "yc_url": "https://www.ycombinator.com/companies/archer",
+          "website": "https://archermoney.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31552",
+          "name": "Arctic Health",
+          "yc_url": "https://www.ycombinator.com/companies/arctic-health",
+          "website": "https://arctic.health",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31525",
+          "name": "Arden",
+          "yc_url": "https://www.ycombinator.com/companies/arden",
+          "website": "https://ardentech.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31475",
+          "name": "Ardent",
+          "yc_url": "https://www.ycombinator.com/companies/ardent",
+          "website": "https://tryardent.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31413",
+          "name": "Arga Labs",
+          "yc_url": "https://www.ycombinator.com/companies/arga-labs",
+          "website": "https://www.argalabs.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31535",
+          "name": "Arlo Industries",
+          "yc_url": "https://www.ycombinator.com/companies/arlo-industries",
+          "website": "https://arlo1.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31463",
+          "name": "Armature",
+          "yc_url": "https://www.ycombinator.com/companies/armature",
+          "website": "https://armature.tech",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31511",
+          "name": "Arzana",
+          "yc_url": "https://www.ycombinator.com/companies/arzana",
+          "website": "https://www.arzana.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31528",
+          "name": "Asendia AI",
+          "yc_url": "https://www.ycombinator.com/companies/asendia-ai",
+          "website": "https://asendia.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31465",
+          "name": "Aseon Labs",
+          "yc_url": "https://www.ycombinator.com/companies/aseon-labs",
+          "website": "https://www.aseonlabs.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31498",
+          "name": "Aster",
+          "yc_url": "https://www.ycombinator.com/companies/asterlab",
+          "website": "https://www.asterlab.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31534",
+          "name": "Astraea",
+          "yc_url": "https://www.ycombinator.com/companies/astraea",
+          "website": "https://tryastraea.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31373",
+          "name": "Atrisa",
+          "yc_url": "https://www.ycombinator.com/companies/atrisa",
+          "website": "https://atrisa.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30408",
+          "name": "Autostep",
+          "yc_url": "https://www.ycombinator.com/companies/autostep",
+          "website": "https://autostep.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31510",
+          "name": "Auxos",
+          "yc_url": "https://www.ycombinator.com/companies/auxos",
+          "website": "https://www.useauxos.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31530",
+          "name": "Avea Robotics",
+          "yc_url": "https://www.ycombinator.com/companies/avea-robotics",
+          "website": "https://www.avearobotics.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31423",
+          "name": "BentoLabs AI",
+          "yc_url": "https://www.ycombinator.com/companies/bentolabs-ai",
+          "website": "https://bentolabs.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31477",
+          "name": "BioStack Platforms",
+          "yc_url": "https://www.ycombinator.com/companies/biostack-platforms",
+          "website": "https://www.getbiostack.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31293",
+          "name": "Bloom",
+          "yc_url": "https://www.ycombinator.com/companies/trybloom",
+          "website": "https://trybloom.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31416",
+          "name": "Callab AI",
+          "yc_url": "https://www.ycombinator.com/companies/callab-ai",
+          "website": "https://callab.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31543",
+          "name": "CentralComs",
+          "yc_url": "https://www.ycombinator.com/companies/centralcoms",
+          "website": "https://centralcoms.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31513",
+          "name": "CharacterQuilt",
+          "yc_url": "https://www.ycombinator.com/companies/characterquilt",
+          "website": "https://characterquilt.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31364",
+          "name": "Chert",
+          "yc_url": "https://www.ycombinator.com/companies/chert",
+          "website": "https://www.trychert.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31468",
+          "name": "Chronicle Labs",
+          "yc_url": "https://www.ycombinator.com/companies/chronicle-labs",
+          "website": "https://chronicle-labs.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31117",
+          "name": "Cignara",
+          "yc_url": "https://www.ycombinator.com/companies/cignara",
+          "website": "https://cignara.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31063",
+          "name": "Clara",
+          "yc_url": "https://www.ycombinator.com/companies/clara-2",
+          "website": "http://askclara.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31554",
+          "name": "Clawvisor",
+          "yc_url": "https://www.ycombinator.com/companies/clawvisor",
+          "website": "https://clawvisor.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31562",
+          "name": "Cohesion",
+          "yc_url": "https://www.ycombinator.com/companies/cohesion",
+          "website": "https://cohesionplatform.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31443",
+          "name": "Complir",
+          "yc_url": "https://www.ycombinator.com/companies/complir",
+          "website": "https://complir.io/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31370",
+          "name": "Dayjob",
+          "yc_url": "https://www.ycombinator.com/companies/dayjob",
+          "website": "https://www.getdayjob.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31395",
+          "name": "Deep Interactions",
+          "yc_url": "https://www.ycombinator.com/companies/deep-interactions",
+          "website": "https://deepinteractions.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31362",
+          "name": "Discovered Materials",
+          "yc_url": "https://www.ycombinator.com/companies/discovered-materials",
+          "website": "https://discoveredmaterials.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31294",
+          "name": "Dispatch",
+          "yc_url": "https://www.ycombinator.com/companies/dispatch",
+          "website": "https://dispatch.space/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31157",
+          "name": "Drafted",
+          "yc_url": "https://www.ycombinator.com/companies/drafted",
+          "website": "https://www.drafted.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31414",
+          "name": "Dreach",
+          "yc_url": "https://www.ycombinator.com/companies/dreach",
+          "website": "https://dreach.ai",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31454",
+          "name": "E1O",
+          "yc_url": "https://www.ycombinator.com/companies/e1o",
+          "website": "https://e1o.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31489",
+          "name": "Eden Robotics",
+          "yc_url": "https://www.ycombinator.com/companies/eden-robotics",
+          "website": "https://www.edenrobotics.ai",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31388",
+          "name": "Elyra",
+          "yc_url": "https://www.ycombinator.com/companies/elyra",
+          "website": "https://www.elyrasystems.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31549",
+          "name": "Enjamb Labs",
+          "yc_url": "https://www.ycombinator.com/companies/enjamb-labs",
+          "website": "https://www.enjamb.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31516",
+          "name": "Expanse",
+          "yc_url": "https://www.ycombinator.com/companies/expanse",
+          "website": "https://expanse.sh",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30915",
+          "name": "FinalDose",
+          "yc_url": "https://www.ycombinator.com/companies/finaldose",
+          "website": "https://finaldose.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31538",
+          "name": "flowscope",
+          "yc_url": "https://www.ycombinator.com/companies/flowscope",
+          "website": "https://flowscope.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31488",
+          "name": "Foaster",
+          "yc_url": "https://www.ycombinator.com/companies/foaster",
+          "website": "https://foaster.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30737",
+          "name": "Foresight",
+          "yc_url": "https://www.ycombinator.com/companies/foresight",
+          "website": "https://foresight.tt/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31553",
+          "name": "Framewise Health",
+          "yc_url": "https://www.ycombinator.com/companies/framewise-health",
+          "website": "https://framewisehealth.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31102",
+          "name": "Fuchsia",
+          "yc_url": "https://www.ycombinator.com/companies/fuchsia",
+          "website": "https://getfuchsia.ai/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31501",
+          "name": "General Aviation",
+          "yc_url": "https://www.ycombinator.com/companies/general-aviation",
+          "website": "https://generalaviation.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31456",
+          "name": "General Instinct",
+          "yc_url": "https://www.ycombinator.com/companies/general-instinct",
+          "website": "https://general-instinct.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31536",
+          "name": "Gigacatalyst",
+          "yc_url": "https://www.ycombinator.com/companies/gigacatalyst",
+          "website": "https://gigacatalyst.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31426",
+          "name": "Gojiberry AI",
+          "yc_url": "https://www.ycombinator.com/companies/gojiberry-ai",
+          "website": "https://www.gojiberry.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31381",
+          "name": "GovGuard",
+          "yc_url": "https://www.ycombinator.com/companies/govguard",
+          "website": "https://govguard.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31522",
+          "name": "Gravy",
+          "yc_url": "https://www.ycombinator.com/companies/gravy",
+          "website": "https://gravy.finance",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31445",
+          "name": "Harbor",
+          "yc_url": "https://www.ycombinator.com/companies/runharbor",
+          "website": "https://runharbor.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31323",
+          "name": "Hedge",
+          "yc_url": "https://www.ycombinator.com/companies/hedge",
+          "website": "https://www.hedgespecialty.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31496",
+          "name": "Hessian",
+          "yc_url": "https://www.ycombinator.com/companies/hessian",
+          "website": "https://hessian.sh",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31391",
+          "name": "HEVN, inc",
+          "yc_url": "https://www.ycombinator.com/companies/hevn-inc",
+          "website": "https://gethevn.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31350",
+          "name": "Hexa",
+          "yc_url": "https://www.ycombinator.com/companies/hexa",
+          "website": "https://www.hexaagents.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31574",
+          "name": "HeyClicky",
+          "yc_url": "https://www.ycombinator.com/companies/heyclicky",
+          "website": "https://heyclicky.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31375",
+          "name": "Hub",
+          "yc_url": "https://www.ycombinator.com/companies/hub",
+          "website": "https://hub.xyz",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "30646",
+          "name": "Humwork",
+          "yc_url": "https://www.ycombinator.com/companies/humwork",
+          "website": "https://humwork.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31564",
+          "name": "Huscarl",
+          "yc_url": "https://www.ycombinator.com/companies/huscarl",
+          "website": "https://www.huscarl.io/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31548",
+          "name": "Hyper",
+          "yc_url": "https://www.ycombinator.com/companies/hyper-4",
+          "website": "https://heyhyper.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31076",
+          "name": "Imperfect",
+          "yc_url": "https://www.ycombinator.com/companies/imperfect",
+          "website": "https://imperfect.co",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31441",
+          "name": "Infera",
+          "yc_url": "https://www.ycombinator.com/companies/infera",
+          "website": "https://www.infera.bio",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31369",
+          "name": "InLoop Robotics",
+          "yc_url": "https://www.ycombinator.com/companies/inloop-robotics",
+          "website": "https://inloop-robotics.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31547",
+          "name": "InsForge",
+          "yc_url": "https://www.ycombinator.com/companies/insforge",
+          "website": "https://insforge.dev/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31409",
+          "name": "InstaAgent",
+          "yc_url": "https://www.ycombinator.com/companies/instaagent",
+          "website": "https://instaagent.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31560",
+          "name": "Intelligence Factory",
+          "yc_url": "https://www.ycombinator.com/companies/intelligence-factory",
+          "website": "https://intelligence-factory.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31386",
+          "name": "Interfaze",
+          "yc_url": "https://www.ycombinator.com/companies/interfaze",
+          "website": "https://interfaze.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31246",
+          "name": "Inth",
+          "yc_url": "https://www.ycombinator.com/companies/inth",
+          "website": "https://inth.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "29155",
+          "name": "jo",
+          "yc_url": "https://www.ycombinator.com/companies/jo",
+          "website": "https://askjo.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31383",
+          "name": "Juno",
+          "yc_url": "https://www.ycombinator.com/companies/juno-chat",
+          "website": "https://junocompanion.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31393",
+          "name": "KelAI",
+          "yc_url": "https://www.ycombinator.com/companies/kelai",
+          "website": "https://kelaitech.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31432",
+          "name": "Keyframe Labs",
+          "yc_url": "https://www.ycombinator.com/companies/keyframe-labs",
+          "website": "https://keyframelabs.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31420",
+          "name": "Kimpton",
+          "yc_url": "https://www.ycombinator.com/companies/kimpton",
+          "website": "https://kimpton.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31520",
+          "name": "Kinect",
+          "yc_url": "https://www.ycombinator.com/companies/kinect",
+          "website": "https://www.trykinect.ai/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31382",
+          "name": "Kinro",
+          "yc_url": "https://www.ycombinator.com/companies/kinro",
+          "website": "https://www.kinro.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31539",
+          "name": "Klaimee",
+          "yc_url": "https://www.ycombinator.com/companies/klaimee",
+          "website": "https://www.klaimee.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31326",
+          "name": "Klarify",
+          "yc_url": "https://www.ycombinator.com/companies/klarify",
+          "website": "https://www.klarify.ca/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31327",
+          "name": "Korso",
+          "yc_url": "https://www.ycombinator.com/companies/korso",
+          "website": "https://korsoai.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31540",
+          "name": "KugelAudio",
+          "yc_url": "https://www.ycombinator.com/companies/kugelaudio",
+          "website": "https://kugelaudio.com/en",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31473",
+          "name": "Kuli",
+          "yc_url": "https://www.ycombinator.com/companies/kuli",
+          "website": "https://kuli.one",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31424",
+          "name": "Lab0",
+          "yc_url": "https://www.ycombinator.com/companies/lab0",
+          "website": "https://lab0.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31421",
+          "name": "Lamina Labs",
+          "yc_url": "https://www.ycombinator.com/companies/lamina-labs",
+          "website": "https://laminalabs.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31533",
+          "name": "Lattice Health",
+          "yc_url": "https://www.ycombinator.com/companies/lattice-health",
+          "website": "https://www.latticehealthai.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31376",
+          "name": "Light Anchor",
+          "yc_url": "https://www.ycombinator.com/companies/light-anchor",
+          "website": "https://lightanchor.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31360",
+          "name": "LightSprint",
+          "yc_url": "https://www.ycombinator.com/companies/lightsprint",
+          "website": "https://lightsprint.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31377",
+          "name": "Limrun",
+          "yc_url": "https://www.ycombinator.com/companies/limrun",
+          "website": "https://lim.run",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31046",
+          "name": "Linzumi",
+          "yc_url": "https://www.ycombinator.com/companies/linzumi",
+          "website": "https://linzumi.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31435",
+          "name": "Lumius",
+          "yc_url": "https://www.ycombinator.com/companies/lumius",
+          "website": "https://www.lumius-imaging.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31399",
+          "name": "Madrone",
+          "yc_url": "https://www.ycombinator.com/companies/madrone",
+          "website": "https://madrone.cool/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31531",
+          "name": "Manicule",
+          "yc_url": "https://www.ycombinator.com/companies/manicule",
+          "website": "https://manicule.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31561",
+          "name": "Maquoketa Research",
+          "yc_url": "https://www.ycombinator.com/companies/maquoketa-research",
+          "website": "https://www.maquoketa.net",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31335",
+          "name": "Memoir",
+          "yc_url": "https://www.ycombinator.com/companies/memoir",
+          "website": "https://www.trymemoir.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31482",
+          "name": "Memory Store",
+          "yc_url": "https://www.ycombinator.com/companies/memory-store",
+          "website": "https://memory.store",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31453",
+          "name": "Minicor",
+          "yc_url": "https://www.ycombinator.com/companies/minicor",
+          "website": "https://minicor.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30723",
+          "name": "Miso Labs",
+          "yc_url": "https://www.ycombinator.com/companies/miso-labs",
+          "website": "https://misolabs.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31529",
+          "name": "Mochatrade",
+          "yc_url": "https://www.ycombinator.com/companies/mochatrade",
+          "website": "https://www.mochatrade.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31545",
+          "name": "Modern",
+          "yc_url": "https://www.ycombinator.com/companies/modern",
+          "website": "https://getmodern.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31440",
+          "name": "Mount",
+          "yc_url": "https://www.ycombinator.com/companies/mount",
+          "website": "https://mount.insure",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31343",
+          "name": "Multiplier",
+          "yc_url": "https://www.ycombinator.com/companies/multiplier",
+          "website": "https://multiplier.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31427",
+          "name": "Napkin Math",
+          "yc_url": "https://www.ycombinator.com/companies/napkin-math",
+          "website": "https://napkinmath.club",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31221",
+          "name": "Netter",
+          "yc_url": "https://www.ycombinator.com/companies/netter",
+          "website": "https://netter.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31366",
+          "name": "Nine Fives",
+          "yc_url": "https://www.ycombinator.com/companies/nine-fives",
+          "website": "https://ninefives.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31429",
+          "name": "Oddpool",
+          "yc_url": "https://www.ycombinator.com/companies/oddpool",
+          "website": "https://www.oddpool.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31428",
+          "name": "Ontora",
+          "yc_url": "https://www.ycombinator.com/companies/ontora",
+          "website": "https://ontora.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31500",
+          "name": "OpenProse",
+          "yc_url": "https://www.ycombinator.com/companies/openprose",
+          "website": "https://prose.md",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31505",
+          "name": "OpenWork",
+          "yc_url": "https://www.ycombinator.com/companies/openwork",
+          "website": "https://openworklabs.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31486",
+          "name": "Ornadyne",
+          "yc_url": "https://www.ycombinator.com/companies/ornadyne",
+          "website": "https://ornadyne.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31417",
+          "name": "Pairio",
+          "yc_url": "https://www.ycombinator.com/companies/pairio",
+          "website": "https://pairio.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31544",
+          "name": "Panacea",
+          "yc_url": "https://www.ycombinator.com/companies/panacea",
+          "website": "https://withpanacea.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31439",
+          "name": "Parrot",
+          "yc_url": "https://www.ycombinator.com/companies/useparrot",
+          "website": "https://www.useparrot.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31398",
+          "name": "Pavoot",
+          "yc_url": "https://www.ycombinator.com/companies/pavoot",
+          "website": "https://pavoot.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31512",
+          "name": "Pentagon",
+          "yc_url": "https://www.ycombinator.com/companies/pentagon",
+          "website": "https://pentagon.run",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31333",
+          "name": "PerfectBit, Inc.",
+          "yc_url": "https://www.ycombinator.com/companies/perfectbit-inc",
+          "website": "https://perfectbit.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31460",
+          "name": "PLAN0 AI",
+          "yc_url": "https://www.ycombinator.com/companies/plan0-ai",
+          "website": "https://plan0.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31493",
+          "name": "Plena Health",
+          "yc_url": "https://www.ycombinator.com/companies/plena-health",
+          "website": "https://www.plena.health/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31041",
+          "name": "Ploy",
+          "yc_url": "https://www.ycombinator.com/companies/ploy",
+          "website": "https://ploy.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31480",
+          "name": "Pops",
+          "yc_url": "https://www.ycombinator.com/companies/pops",
+          "website": "https://pops.fyi",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31329",
+          "name": "primitive",
+          "yc_url": "https://www.ycombinator.com/companies/primitive",
+          "website": "https://primitive.dev",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "30944",
+          "name": "Prism",
+          "yc_url": "https://www.ycombinator.com/companies/tryprism",
+          "website": "https://tryprism.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31507",
+          "name": "ProjectX",
+          "yc_url": "https://www.ycombinator.com/companies/projectx",
+          "website": "https://www.projectx.cloud/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31436",
+          "name": "Prototyping.io",
+          "yc_url": "https://www.ycombinator.com/companies/prototypingio",
+          "website": "https://www.prototyping.io",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31396",
+          "name": "qomplement",
+          "yc_url": "https://www.ycombinator.com/companies/qomplement",
+          "website": "https://qomplement.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31494",
+          "name": "RASPIRE",
+          "yc_url": "https://www.ycombinator.com/companies/raspire",
+          "website": "https://raspire.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31458",
+          "name": "Reason Machines",
+          "yc_url": "https://www.ycombinator.com/companies/reason-machines",
+          "website": "https://reasonmachines.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31546",
+          "name": "ReasonBlocks",
+          "yc_url": "https://www.ycombinator.com/companies/reasonblocks",
+          "website": "https://reasonblocks.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31279",
+          "name": "Regbase",
+          "yc_url": "https://www.ycombinator.com/companies/regbase",
+          "website": "https://regbase.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31410",
+          "name": "RentAHuman",
+          "yc_url": "https://www.ycombinator.com/companies/rentahuman",
+          "website": "https://rentahuman.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31345",
+          "name": "Replicas",
+          "yc_url": "https://www.ycombinator.com/companies/replicas",
+          "website": "https://replicas.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31438",
+          "name": "Result",
+          "yc_url": "https://www.ycombinator.com/companies/result",
+          "website": "https://result.dev/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31527",
+          "name": "Revnu",
+          "yc_url": "https://www.ycombinator.com/companies/revnu",
+          "website": "https://revnu.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31450",
+          "name": "River Markets",
+          "yc_url": "https://www.ycombinator.com/companies/river-markets",
+          "website": "https://www.rivermarkets.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31346",
+          "name": "Rudus",
+          "yc_url": "https://www.ycombinator.com/companies/rudus",
+          "website": "http://rudus.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31518",
+          "name": "Runtime",
+          "yc_url": "https://www.ycombinator.com/companies/runtime",
+          "website": "https://www.runtm.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31363",
+          "name": "Saffron",
+          "yc_url": "https://www.ycombinator.com/companies/saffron",
+          "website": "https://www.trysaffron.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31408",
+          "name": "Salesgraph",
+          "yc_url": "https://www.ycombinator.com/companies/salesgraph",
+          "website": "https://www.salesgraph.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31481",
+          "name": "Saudara AI",
+          "yc_url": "https://www.ycombinator.com/companies/saudara-ai",
+          "website": "https://saudara.ai",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31433",
+          "name": "Savant",
+          "yc_url": "https://www.ycombinator.com/companies/savant",
+          "website": "https://heysavant.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31211",
+          "name": "Sazabi",
+          "yc_url": "https://www.ycombinator.com/companies/sazabi",
+          "website": "https://www.sazabi.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31351",
+          "name": "Scope",
+          "yc_url": "https://www.ycombinator.com/companies/scope",
+          "website": "https://tryscope.app",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31407",
+          "name": "Sherpa",
+          "yc_url": "https://www.ycombinator.com/companies/sherpa",
+          "website": "https://www.withsherpa.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31400",
+          "name": "shotwell.ai",
+          "yc_url": "https://www.ycombinator.com/companies/shotwellai",
+          "website": "http://shotwell.ai/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31478",
+          "name": "Silmaril",
+          "yc_url": "https://www.ycombinator.com/companies/silmaril",
+          "website": "https://silmaril.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30779",
+          "name": "Smartbase",
+          "yc_url": "https://www.ycombinator.com/companies/smartbase",
+          "website": "https://www.smartbase.so/",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31448",
+          "name": "smol machines",
+          "yc_url": "https://www.ycombinator.com/companies/smol-machines",
+          "website": "https://smolmachines.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31464",
+          "name": "Soria",
+          "yc_url": "https://www.ycombinator.com/companies/soria",
+          "website": "https://www.soriaanalytics.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31419",
+          "name": "StableBrowse",
+          "yc_url": "https://www.ycombinator.com/companies/stablebrowse",
+          "website": "https://stablebrowse.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31332",
+          "name": "Stage",
+          "yc_url": "https://www.ycombinator.com/companies/stage",
+          "website": "https://www.tryluke.dev/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31330",
+          "name": "Standard Signal",
+          "yc_url": "https://www.ycombinator.com/companies/standard-signal",
+          "website": "https://standardsignal.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31402",
+          "name": "Standout",
+          "yc_url": "https://www.ycombinator.com/companies/standout",
+          "website": "https://standout.work",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31380",
+          "name": "Superlog",
+          "yc_url": "https://www.ycombinator.com/companies/superlog",
+          "website": "https://superlog.sh/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31222",
+          "name": "Superset",
+          "yc_url": "https://www.ycombinator.com/companies/superset",
+          "website": "https://www.superset.sh/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31325",
+          "name": "Surtr Defense Systems",
+          "yc_url": "https://www.ycombinator.com/companies/surtr-defense-systems",
+          "website": "https://surtrdefense.com",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31415",
+          "name": "Synphony",
+          "yc_url": "https://www.ycombinator.com/companies/synphony",
+          "website": "https://www.synphony.co/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31418",
+          "name": "Taiga",
+          "yc_url": "https://www.ycombinator.com/companies/taiga",
+          "website": "https://taigabilling.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "30963",
+          "name": "TakeCareOS",
+          "yc_url": "https://www.ycombinator.com/companies/takecareos",
+          "website": "https://takecareos.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31470",
+          "name": "Tasklet",
+          "yc_url": "https://www.ycombinator.com/companies/tasklet-2",
+          "website": "https://tasklet.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31455",
+          "name": "tday.com",
+          "yc_url": "https://www.ycombinator.com/companies/tdaycom",
+          "website": "https://tday.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31374",
+          "name": "Tenet Industries",
+          "yc_url": "https://www.ycombinator.com/companies/tenet-industries",
+          "website": "https://www.tenetindustries.com",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31491",
+          "name": "TesterArmy",
+          "yc_url": "https://www.ycombinator.com/companies/testerarmy",
+          "website": "https://tester.army",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31371",
+          "name": "The Company Company",
+          "yc_url": "https://www.ycombinator.com/companies/the-company-company",
+          "website": "https://www.thecompany.company",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31563",
+          "name": "Thomas",
+          "yc_url": "https://www.ycombinator.com/companies/thomas",
+          "website": "https://madebythomas.ai",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31506",
+          "name": "Tolmo",
+          "yc_url": "https://www.ycombinator.com/companies/tolmo",
+          "website": "https://www.tolmo.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31344",
+          "name": "Totalis",
+          "yc_url": "https://www.ycombinator.com/companies/totalis",
+          "website": "https://www.totalis.trade",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31403",
+          "name": "transload",
+          "yc_url": "https://www.ycombinator.com/companies/transload",
+          "website": "https://www.transload.ai",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31372",
+          "name": "Trellis",
+          "yc_url": "https://www.ycombinator.com/companies/trellistech",
+          "website": "https://trellistech.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31359",
+          "name": "Twolabs",
+          "yc_url": "https://www.ycombinator.com/companies/twolabs",
+          "website": "https://www.twolabs.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31526",
+          "name": "Uno Wallet",
+          "yc_url": "https://www.ycombinator.com/companies/uno-wallet",
+          "website": "https://myunowallet.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31404",
+          "name": "Userlens",
+          "yc_url": "https://www.ycombinator.com/companies/userlens",
+          "website": "https://userlens.io",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31457",
+          "name": "ValCtrl",
+          "yc_url": "https://www.ycombinator.com/companies/valctrl",
+          "website": "https://valctrl.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31430",
+          "name": "Voquill",
+          "yc_url": "https://www.ycombinator.com/companies/voquill",
+          "website": "https://voquill.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31466",
+          "name": "Walter",
+          "yc_url": "https://www.ycombinator.com/companies/walter",
+          "website": "https://www.walter.one",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31472",
+          "name": "Wato",
+          "yc_url": "https://www.ycombinator.com/companies/wato",
+          "website": "https://www.watolabs.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31390",
+          "name": "Wealor",
+          "yc_url": "https://www.ycombinator.com/companies/wealor",
+          "website": "https://wealor.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31517",
+          "name": "YouArt",
+          "yc_url": "https://www.ycombinator.com/companies/youart",
+          "website": "https://youart.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31368",
+          "name": "Zenbu",
+          "yc_url": "https://www.ycombinator.com/companies/zenbu-2",
+          "website": "https://www.zenbu.dev/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31459",
+          "name": "Zibra Labs",
+          "yc_url": "https://www.ycombinator.com/companies/zibra-labs",
+          "website": "https://zibralabs.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31385",
+          "name": "Zolvo",
+          "yc_url": "https://www.ycombinator.com/companies/zolvo",
+          "website": "https://zolvo.com/",
+          "status": "observed",
+          "category": "no-match"
+        }
+      ]
+    },
+    {
+      "batch": "Winter 2026",
+      "report": "results/yc-winter-2026-2026-09-11.json",
+      "detector": "2.1.0",
+      "companies": 199,
+      "observed": 173,
+      "matched": 45,
+      "italicPhrase": 14,
+      "highlightedPhrase": 31,
+      "noMatch": 128,
+      "missingData": 26,
+      "records": [
+        {
+          "id": "31118",
+          "name": "/dev/fast",
+          "yc_url": "https://www.ycombinator.com/companies/devfast",
+          "website": "https://dev.fast",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31098",
+          "name": "10x Science",
+          "yc_url": "https://www.ycombinator.com/companies/10x-science",
+          "website": "https://10xscience.com",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31123",
+          "name": "21st",
+          "yc_url": "https://www.ycombinator.com/companies/21st",
+          "website": "https://21st.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31138",
+          "name": "Aemon",
+          "yc_url": "https://www.ycombinator.com/companies/aemon",
+          "website": "https://aemon.ai/",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "30906",
+          "name": "Agentic Fabriq",
+          "yc_url": "https://www.ycombinator.com/companies/agentic-fabriq",
+          "website": "https://www.agenticfabriq.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30860",
+          "name": "Alt-X",
+          "yc_url": "https://www.ycombinator.com/companies/alt-x",
+          "website": "https://alt-x.co",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31231",
+          "name": "Anchorhead",
+          "yc_url": "https://www.ycombinator.com/companies/anchorhead",
+          "website": "https://www.anchorhead.ai",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31192",
+          "name": "Approxima",
+          "yc_url": "https://www.ycombinator.com/companies/approxima",
+          "website": "https://approxima.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31054",
+          "name": "ARC Prize Foundation",
+          "yc_url": "https://www.ycombinator.com/companies/arc-prize-foundation",
+          "website": "https://arcprize.org/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31139",
+          "name": "Ashr",
+          "yc_url": "https://www.ycombinator.com/companies/ashr",
+          "website": "https://ashr.io",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31095",
+          "name": "Asimov",
+          "yc_url": "https://www.ycombinator.com/companies/asimov",
+          "website": "https://tryasimov.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31292",
+          "name": "Aurorin CAD",
+          "yc_url": "https://www.ycombinator.com/companies/aurorin-cad",
+          "website": "https://aurorincad.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31130",
+          "name": "AutoSitu",
+          "yc_url": "https://www.ycombinator.com/companies/autositu",
+          "website": "https://autositu.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "30715",
+          "name": "Autumn AI",
+          "yc_url": "https://www.ycombinator.com/companies/autumn-ai",
+          "website": "https://autumn.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31121",
+          "name": "Avoice",
+          "yc_url": "https://www.ycombinator.com/companies/avoice",
+          "website": "https://avoice.co/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31209",
+          "name": "AxionOrbital Space",
+          "yc_url": "https://www.ycombinator.com/companies/axionorbital-space",
+          "website": "https://axionorbital.space/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31092",
+          "name": "Axis",
+          "yc_url": "https://www.ycombinator.com/companies/axis-2",
+          "website": "https://axisanalysis.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31236",
+          "name": "Balance",
+          "yc_url": "https://www.ycombinator.com/companies/getbalance",
+          "website": "https://getbalance.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31107",
+          "name": "BaseFrame",
+          "yc_url": "https://www.ycombinator.com/companies/baseframe",
+          "website": "https://baseframe.co",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31109",
+          "name": "Beacon Health",
+          "yc_url": "https://www.ycombinator.com/companies/beacon-health",
+          "website": "https://www.beaconhealth.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31248",
+          "name": "BeeSafe AI",
+          "yc_url": "https://www.ycombinator.com/companies/beesafe-ai",
+          "website": "https://beesafe.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31142",
+          "name": "Beyond Reach Labs",
+          "yc_url": "https://www.ycombinator.com/companies/beyond-reach-labs",
+          "website": "https://www.beyondreachlabs.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30620",
+          "name": "Bidflow",
+          "yc_url": "https://www.ycombinator.com/companies/bidflow",
+          "website": "https://usebidflow.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31242",
+          "name": "Booko",
+          "yc_url": "https://www.ycombinator.com/companies/booko",
+          "website": "https://bookoapp.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31285",
+          "name": "Brumby (Formerly GrazeMate)",
+          "yc_url": "https://www.ycombinator.com/companies/brumby",
+          "website": "https://brumby",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31215",
+          "name": "Bubble Lab",
+          "yc_url": "https://www.ycombinator.com/companies/bubble-lab",
+          "website": "https://bubblelab.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31112",
+          "name": "Burt",
+          "yc_url": "https://www.ycombinator.com/companies/burt",
+          "website": "https://www.burthq.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30770",
+          "name": "Button Computer",
+          "yc_url": "https://www.ycombinator.com/companies/button-computer",
+          "website": "https://buttoncomputer.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31213",
+          "name": "Byteport",
+          "yc_url": "https://www.ycombinator.com/companies/byteport",
+          "website": "https://byteport.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31170",
+          "name": "Cajal",
+          "yc_url": "https://www.ycombinator.com/companies/cajal-technologies",
+          "website": "https://caj.al/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31256",
+          "name": "Canary",
+          "yc_url": "https://www.ycombinator.com/companies/canary",
+          "website": "https://www.runcanary.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30913",
+          "name": "Captain",
+          "yc_url": "https://www.ycombinator.com/companies/captain",
+          "website": "https://captain.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31178",
+          "name": "Cardboard",
+          "yc_url": "https://www.ycombinator.com/companies/cardboard",
+          "website": "https://cardboard.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31311",
+          "name": "Cardinal",
+          "yc_url": "https://www.ycombinator.com/companies/trycardinal-ai",
+          "website": "https://trycardinal.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31207",
+          "name": "Caretta",
+          "yc_url": "https://www.ycombinator.com/companies/caretta",
+          "website": "https://www.caretta.so",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31295",
+          "name": "Carrot Labs",
+          "yc_url": "https://www.ycombinator.com/companies/carrot-labs",
+          "website": "https://superpenguin.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31110",
+          "name": "Cascade",
+          "yc_url": "https://www.ycombinator.com/companies/cascade",
+          "website": "https://runcascade.com/",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31040",
+          "name": "CatchBack Cards",
+          "yc_url": "https://www.ycombinator.com/companies/catchback-cards",
+          "website": "https://catchbackcards.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31113",
+          "name": "CellType",
+          "yc_url": "https://www.ycombinator.com/companies/celltype",
+          "website": "https://www.celltype.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31185",
+          "name": "Chamber",
+          "yc_url": "https://www.ycombinator.com/companies/chamber",
+          "website": "https://www.usechamber.io",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31233",
+          "name": "Chasi",
+          "yc_url": "https://www.ycombinator.com/companies/chasi",
+          "website": "https://chasi.ai/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31025",
+          "name": "ClaimGlide",
+          "yc_url": "https://www.ycombinator.com/companies/claimglide",
+          "website": "https://claimglide.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31140",
+          "name": "CodeWisp",
+          "yc_url": "https://www.ycombinator.com/companies/codewisp",
+          "website": "https://codewisp.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31104",
+          "name": "Cofia",
+          "yc_url": "https://www.ycombinator.com/companies/cofia",
+          "website": "https://cofia.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31164",
+          "name": "Compresr",
+          "yc_url": "https://www.ycombinator.com/companies/compresr",
+          "website": "https://compresr.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31303",
+          "name": "Condor Energy",
+          "yc_url": "https://www.ycombinator.com/companies/condor-energy",
+          "website": "https://www.condor.energy",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31162",
+          "name": "Confluence Labs",
+          "yc_url": "https://www.ycombinator.com/companies/confluence-labs",
+          "website": "https://confluence.sh",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31196",
+          "name": "Congruent",
+          "yc_url": "https://www.ycombinator.com/companies/congruent",
+          "website": "https://congruent.io",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31212",
+          "name": "Constellation Space",
+          "yc_url": "https://www.ycombinator.com/companies/constellation-space",
+          "website": "https://constellation.space/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31260",
+          "name": "Copperlane",
+          "yc_url": "https://www.ycombinator.com/companies/copperlane",
+          "website": "https://www.copperlane.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31241",
+          "name": "Corelayer",
+          "yc_url": "https://www.ycombinator.com/companies/corelayer",
+          "website": "https://www.corelayer.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31051",
+          "name": "Corvera",
+          "yc_url": "https://www.ycombinator.com/companies/corvera",
+          "website": "https://corvera.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31016",
+          "name": "Crosslayer Labs",
+          "yc_url": "https://www.ycombinator.com/companies/crosslayer-labs",
+          "website": "https://www.crosslayerlabs.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31128",
+          "name": "Cumulus Labs",
+          "yc_url": "https://www.ycombinator.com/companies/cumulus-labs",
+          "website": "https://cumuluslabs.io",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31287",
+          "name": "DAIVIN!",
+          "yc_url": "https://www.ycombinator.com/companies/daivin",
+          "website": "https://www.daivin.tech/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31080",
+          "name": "Didit",
+          "yc_url": "https://www.ycombinator.com/companies/didit",
+          "website": "https://didit.me/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31225",
+          "name": "Ditto Biosciences",
+          "yc_url": "https://www.ycombinator.com/companies/ditto-biosciences",
+          "website": "https://www.dittobio.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31090",
+          "name": "Docura Health",
+          "yc_url": "https://www.ycombinator.com/companies/docura-health",
+          "website": "https://docurahealth.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31229",
+          "name": "Doomersion",
+          "yc_url": "https://www.ycombinator.com/companies/doomersion",
+          "website": "https://doomersion.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31149",
+          "name": "EigenPal",
+          "yc_url": "https://www.ycombinator.com/companies/eigenpal",
+          "website": "https://www.eigenpal.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31199",
+          "name": "Emdash",
+          "yc_url": "https://www.ycombinator.com/companies/emdash",
+          "website": "https://emdash.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31186",
+          "name": "End Close",
+          "yc_url": "https://www.ycombinator.com/companies/end-close",
+          "website": "https://endclose.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31111",
+          "name": "Envariant",
+          "yc_url": "https://www.ycombinator.com/companies/envariant",
+          "website": "https://envariant.ai/",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31058",
+          "name": "Eos AI",
+          "yc_url": "https://www.ycombinator.com/companies/eos-ai",
+          "website": "https://www.helloeos.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31247",
+          "name": "Fed10",
+          "yc_url": "https://www.ycombinator.com/companies/fed10",
+          "website": "https://www.fed10.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31187",
+          "name": "Fenrock AI",
+          "yc_url": "https://www.ycombinator.com/companies/fenrock-ai",
+          "website": "https://fenrock.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31152",
+          "name": "Fern",
+          "yc_url": "https://www.ycombinator.com/companies/fern-bot",
+          "website": "https://fern.bot",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31289",
+          "name": "Fixture",
+          "yc_url": "https://www.ycombinator.com/companies/fixture",
+          "website": "https://fixture.app",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31243",
+          "name": "Foreman",
+          "yc_url": "https://www.ycombinator.com/companies/foreman",
+          "website": "https://foreman.co",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31239",
+          "name": "Fort",
+          "yc_url": "https://www.ycombinator.com/companies/fort",
+          "website": "https://fort.cx",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31204",
+          "name": "Forum",
+          "yc_url": "https://www.ycombinator.com/companies/forum",
+          "website": "https://www.forum.market/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31048",
+          "name": "FullSeam",
+          "yc_url": "https://www.ycombinator.com/companies/fullseam",
+          "website": "https://fullseam.com",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "30635",
+          "name": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+          "yc_url": "https://www.ycombinator.com/companies/galactic-resource-utilization-space-inc-gru-space",
+          "website": "https://gru.space",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30973",
+          "name": "General Astronautics",
+          "yc_url": "https://www.ycombinator.com/companies/generalastro",
+          "website": "https://generalastro.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31240",
+          "name": "General Legal",
+          "yc_url": "https://www.ycombinator.com/companies/general-legal",
+          "website": "https://general.legal",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31255",
+          "name": "Grade",
+          "yc_url": "https://www.ycombinator.com/companies/grade",
+          "website": "https://usegrade.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31030",
+          "name": "Haladir",
+          "yc_url": "https://www.ycombinator.com/companies/haladir",
+          "website": "https://www.haladir.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31062",
+          "name": "Hlabs",
+          "yc_url": "https://www.ycombinator.com/companies/hlabs",
+          "website": "https://www.hlaboratories.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31205",
+          "name": "Human Archive",
+          "yc_url": "https://www.ycombinator.com/companies/human-archive",
+          "website": "https://www.humanarchive.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31165",
+          "name": "IncidentFox",
+          "yc_url": "https://www.ycombinator.com/companies/brownie",
+          "website": "https://incidentfox.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31168",
+          "name": "Instinct",
+          "yc_url": "https://www.ycombinator.com/companies/instinct-xyz",
+          "website": "https://instinct.xyz",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31197",
+          "name": "InventoryQuant",
+          "yc_url": "https://www.ycombinator.com/companies/inventoryquant",
+          "website": "https://www.inventoryquant.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31023",
+          "name": "Inviscid AI",
+          "yc_url": "https://www.ycombinator.com/companies/inviscid-ai",
+          "website": "https://inviscidai.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31179",
+          "name": "Jinba",
+          "yc_url": "https://www.ycombinator.com/companies/jinba",
+          "website": "https://jinba.io",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31274",
+          "name": "Khotan (formerly Pollinate)",
+          "yc_url": "https://www.ycombinator.com/companies/khotan",
+          "website": "https://www.khotan.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31083",
+          "name": "Kita",
+          "yc_url": "https://www.ycombinator.com/companies/kita",
+          "website": "https://www.kita.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31084",
+          "name": "Klaus AI",
+          "yc_url": "https://www.ycombinator.com/companies/klaus-ai",
+          "website": "https://klausai.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31120",
+          "name": "Kyten Technologies",
+          "yc_url": "https://www.ycombinator.com/companies/kyten-technologies",
+          "website": "https://kytentech.com",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31089",
+          "name": "Lance",
+          "yc_url": "https://www.ycombinator.com/companies/lance",
+          "website": "https://www.lance.live",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31173",
+          "name": "Laurence",
+          "yc_url": "https://www.ycombinator.com/companies/laurence",
+          "website": "https://laurence.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31101",
+          "name": "LegalOS",
+          "yc_url": "https://www.ycombinator.com/companies/legalos",
+          "website": "https://www.legalos.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31094",
+          "name": "Lexius",
+          "yc_url": "https://www.ycombinator.com/companies/lexius",
+          "website": "https://www.lexius.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31087",
+          "name": "Lucent",
+          "yc_url": "https://www.ycombinator.com/companies/lucent",
+          "website": "https://lucenthq.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31137",
+          "name": "Luel",
+          "yc_url": "https://www.ycombinator.com/companies/luel",
+          "website": "https://luel.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31160",
+          "name": "Mango Medical",
+          "yc_url": "https://www.ycombinator.com/companies/mango-medical-inc",
+          "website": "https://mangomedical.io",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31036",
+          "name": "Mantis",
+          "yc_url": "https://www.ycombinator.com/companies/mantis",
+          "website": "https://mantisbiotech.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31306",
+          "name": "Martini",
+          "yc_url": "https://www.ycombinator.com/companies/martini",
+          "website": "https://martini.film",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31253",
+          "name": "Maven",
+          "yc_url": "https://www.ycombinator.com/companies/maven",
+          "website": "https://trymaven.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31188",
+          "name": "Maywood",
+          "yc_url": "https://www.ycombinator.com/companies/maywood",
+          "website": "https://maywoodai.com/",
+          "status": "blocked-or-http-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31210",
+          "name": "Mendral",
+          "yc_url": "https://www.ycombinator.com/companies/mendral",
+          "website": "https://mendral.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "28879",
+          "name": "Menza",
+          "yc_url": "https://www.ycombinator.com/companies/menza",
+          "website": "https://menza.ai/",
+          "status": "navigation-error",
+          "category": "missing-data"
+        },
+        {
+          "id": "31144",
+          "name": "Milliray",
+          "yc_url": "https://www.ycombinator.com/companies/milliray",
+          "website": "https://milliray.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31091",
+          "name": "Mirabelle",
+          "yc_url": "https://www.ycombinator.com/companies/mirabelle",
+          "website": "https://meetmirabelle.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31269",
+          "name": "MochaCare",
+          "yc_url": "https://www.ycombinator.com/companies/mochacare",
+          "website": "https://www.mochacare.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31252",
+          "name": "Moda",
+          "yc_url": "https://www.ycombinator.com/companies/moda",
+          "website": "https://moda.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31146",
+          "name": "Moritz",
+          "yc_url": "https://www.ycombinator.com/companies/moritz",
+          "website": "http://moritzlegal.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31132",
+          "name": "MouseCat",
+          "yc_url": "https://www.ycombinator.com/companies/mousecat",
+          "website": "https://www.mousecat.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31019",
+          "name": "Ndea",
+          "yc_url": "https://www.ycombinator.com/companies/ndea-com",
+          "website": "https://ndea.com",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31230",
+          "name": "o11",
+          "yc_url": "https://www.ycombinator.com/companies/o11",
+          "website": "https://o11.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31141",
+          "name": "OctaPulse",
+          "yc_url": "https://www.ycombinator.com/companies/octapulse",
+          "website": "https://www.tryoctapulse.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31081",
+          "name": "One Robot",
+          "yc_url": "https://www.ycombinator.com/companies/one-robot",
+          "website": "https://www.onerobot.io/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31163",
+          "name": "Opalite Health",
+          "yc_url": "https://www.ycombinator.com/companies/opalite-health",
+          "website": "http://opalitehealth.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31116",
+          "name": "OpenSpec",
+          "yc_url": "https://www.ycombinator.com/companies/openspec",
+          "website": "http://openspec.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31284",
+          "name": "Origami Robotics",
+          "yc_url": "https://www.ycombinator.com/companies/origami-robotics",
+          "website": "https://www.origami-robotics.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31064",
+          "name": "Origin",
+          "yc_url": "https://www.ycombinator.com/companies/origin-bio",
+          "website": "https://origin.bio/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31154",
+          "name": "Orthogonal",
+          "yc_url": "https://www.ycombinator.com/companies/orthogonal",
+          "website": "https://orthogonal.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31283",
+          "name": "Ossus",
+          "yc_url": "https://www.ycombinator.com/companies/ossus",
+          "website": "https://www.ossus.com",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "30641",
+          "name": "Overdrive Health",
+          "yc_url": "https://www.ycombinator.com/companies/overdrive-health",
+          "website": "https://overdrive.health",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31171",
+          "name": "Overshoot",
+          "yc_url": "https://www.ycombinator.com/companies/overshoot",
+          "website": "https://overshoot.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31208",
+          "name": "Oximy",
+          "yc_url": "https://www.ycombinator.com/companies/oximy",
+          "website": "https://oximy.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30927",
+          "name": "Oxus",
+          "yc_url": "https://www.ycombinator.com/companies/oxus",
+          "website": "https://oxus-ai.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31126",
+          "name": "Palus Finance",
+          "yc_url": "https://www.ycombinator.com/companies/palus-finance",
+          "website": "https://palus.finance",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31077",
+          "name": "Panta",
+          "yc_url": "https://www.ycombinator.com/companies/panta",
+          "website": "https://pantainsure.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31174",
+          "name": "Parameter",
+          "yc_url": "https://www.ycombinator.com/companies/parameter",
+          "website": "https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31183",
+          "name": "Patientdesk.ai",
+          "yc_url": "https://www.ycombinator.com/companies/patientdeskai",
+          "website": "https://patientdesk.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31175",
+          "name": "Pax Historia",
+          "yc_url": "https://www.ycombinator.com/companies/pax-historia",
+          "website": "https://www.paxhistoria.co",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31066",
+          "name": "Payna",
+          "yc_url": "https://www.ycombinator.com/companies/payna",
+          "website": "https://payna.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31153",
+          "name": "Perfectly",
+          "yc_url": "https://www.ycombinator.com/companies/perfectly",
+          "website": "https://www.perfectly.so/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31114",
+          "name": "Piris Labs",
+          "yc_url": "https://www.ycombinator.com/companies/pirislabs",
+          "website": "https://pirislabs.io/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31214",
+          "name": "Pocket",
+          "yc_url": "https://www.ycombinator.com/companies/pocket",
+          "website": "https://heypocket.com/now",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30765",
+          "name": "Pollen",
+          "yc_url": "https://www.ycombinator.com/companies/pollen",
+          "website": "https://www.pollen.cx/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31217",
+          "name": "Polymath",
+          "yc_url": "https://www.ycombinator.com/companies/polymath",
+          "website": "https://polymathlabs.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31275",
+          "name": "Polymorph",
+          "yc_url": "https://www.ycombinator.com/companies/polymorph",
+          "website": "https://usepolymorph.com/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31177",
+          "name": "Prana",
+          "yc_url": "https://www.ycombinator.com/companies/prana-health",
+          "website": "https://pranadoc.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31106",
+          "name": "Protent",
+          "yc_url": "https://www.ycombinator.com/companies/protent",
+          "website": "https://protent.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31169",
+          "name": "Proximitty",
+          "yc_url": "https://www.ycombinator.com/companies/proximitty",
+          "website": "https://proximitty.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31155",
+          "name": "Q2Q",
+          "yc_url": "https://www.ycombinator.com/companies/q2q",
+          "website": "https://www.tryq2q.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31082",
+          "name": "Quotient Labs",
+          "yc_url": "https://www.ycombinator.com/companies/quotient-labs",
+          "website": "https://quotientlabs.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31145",
+          "name": "RamAIn",
+          "yc_url": "https://www.ycombinator.com/companies/ramain",
+          "website": "https://ramain.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31195",
+          "name": "Reframe",
+          "yc_url": "https://www.ycombinator.com/companies/usereframe",
+          "website": "http://usereframe.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31302",
+          "name": "Remix",
+          "yc_url": "https://www.ycombinator.com/companies/remix-3",
+          "website": "https://remix.re",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31232",
+          "name": "Remy AI",
+          "yc_url": "https://www.ycombinator.com/companies/remy-ai",
+          "website": "https://www.tryremy.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31200",
+          "name": "Ressl AI",
+          "yc_url": "https://www.ycombinator.com/companies/ressl-ai",
+          "website": "https://ressl.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31097",
+          "name": "REV1",
+          "yc_url": "https://www.ycombinator.com/companies/rev1",
+          "website": "https://rev1.so",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31189",
+          "name": "Revion",
+          "yc_url": "https://www.ycombinator.com/companies/revion",
+          "website": "https://revion.inc",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31176",
+          "name": "Rhizome AI",
+          "yc_url": "https://www.ycombinator.com/companies/rhizome-ai",
+          "website": "https://rhizomeai.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31276",
+          "name": "Ritivel",
+          "yc_url": "https://www.ycombinator.com/companies/ritivel",
+          "website": "https://www.ritivel.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31201",
+          "name": "Robby",
+          "yc_url": "https://www.ycombinator.com/companies/robby",
+          "website": "https://tryrobby.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31135",
+          "name": "RoboDock",
+          "yc_url": "https://www.ycombinator.com/companies/robodock",
+          "website": "https://www.robodock.tech/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31280",
+          "name": "Rubric AI",
+          "yc_url": "https://www.ycombinator.com/companies/rubric-ai",
+          "website": null,
+          "status": "missing-website",
+          "category": "missing-data"
+        },
+        {
+          "id": "31085",
+          "name": "Ruma Care",
+          "yc_url": "https://www.ycombinator.com/companies/ruma-care",
+          "website": "https://rumacare.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31088",
+          "name": "RunAnywhere",
+          "yc_url": "https://www.ycombinator.com/companies/runanywhere",
+          "website": "https://www.runanywhere.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31147",
+          "name": "Salus",
+          "yc_url": "https://www.ycombinator.com/companies/salus",
+          "website": "https://www.usesalus.ai/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31206",
+          "name": "Samora AI",
+          "yc_url": "https://www.ycombinator.com/companies/samora-ai",
+          "website": "https://samora.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31136",
+          "name": "Scheduling Wizard",
+          "yc_url": "https://www.ycombinator.com/companies/scheduling-wizard",
+          "website": "https://www.schedulingwiz.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31180",
+          "name": "Seeing Systems",
+          "yc_url": "https://www.ycombinator.com/companies/seeing-systems",
+          "website": "https://www.seeing-systems.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31100",
+          "name": "Sentrial",
+          "yc_url": "https://www.ycombinator.com/companies/sentrial",
+          "website": "https://sentrial.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31227",
+          "name": "Sequence Markets",
+          "yc_url": "https://www.ycombinator.com/companies/sequence-markets",
+          "website": "https://sequencemkts.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31224",
+          "name": "Servo7",
+          "yc_url": "https://www.ycombinator.com/companies/servo7",
+          "website": "https://servo7.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31300",
+          "name": "Shofo",
+          "yc_url": "https://www.ycombinator.com/companies/shofo",
+          "website": "https://shofo.ai/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31096",
+          "name": "shortkit",
+          "yc_url": "https://www.ycombinator.com/companies/shortkit",
+          "website": "https://www.shortkit.dev",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "30639",
+          "name": "Signals",
+          "yc_url": "https://www.ycombinator.com/companies/signals",
+          "website": "https://www.returnsignals.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31254",
+          "name": "Sila",
+          "yc_url": "https://www.ycombinator.com/companies/sila",
+          "website": "https://silahq.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31203",
+          "name": "Sitefire",
+          "yc_url": "https://www.ycombinator.com/companies/sitefire",
+          "website": "https://sitefire.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31133",
+          "name": "Skillsync",
+          "yc_url": "https://www.ycombinator.com/companies/skillsync",
+          "website": "https://skillsync.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31151",
+          "name": "Sparkles",
+          "yc_url": "https://www.ycombinator.com/companies/sparkles",
+          "website": "https://sparkles.dev",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31159",
+          "name": "Sponge",
+          "yc_url": "https://www.ycombinator.com/companies/sponge",
+          "website": "https://paysponge.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31273",
+          "name": "SpotPay",
+          "yc_url": "https://www.ycombinator.com/companies/spotpay",
+          "website": "https://www.spotpay.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31245",
+          "name": "Squid",
+          "yc_url": "https://www.ycombinator.com/companies/squid",
+          "website": "https://squid.energy",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31167",
+          "name": "Stilta",
+          "yc_url": "https://www.ycombinator.com/companies/stilta",
+          "website": "https://stilta.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31108",
+          "name": "Strand AI",
+          "yc_url": "https://www.ycombinator.com/companies/strand-ai",
+          "website": "https://strandai.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31181",
+          "name": "Synthetic Sciences",
+          "yc_url": "https://www.ycombinator.com/companies/synthetic-sciences",
+          "website": "https://syntheticsciences.ai/",
+          "status": "no-hero",
+          "category": "missing-data"
+        },
+        {
+          "id": "31262",
+          "name": "Talking Computers",
+          "yc_url": "https://www.ycombinator.com/companies/talking-computers",
+          "website": "https://talkingcomputers.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31127",
+          "name": "Tepali",
+          "yc_url": "https://www.ycombinator.com/companies/tepali",
+          "website": "https://tepali.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31172",
+          "name": "Terminal Use",
+          "yc_url": "https://www.ycombinator.com/companies/terminal-use",
+          "website": "https://www.terminaluse.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31158",
+          "name": "Terranox AI",
+          "yc_url": "https://www.ycombinator.com/companies/terranox-ai",
+          "website": "https://terranox.ai",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31250",
+          "name": "The Token Company",
+          "yc_url": "https://www.ycombinator.com/companies/the-token-company",
+          "website": "https://thetokencompany.com",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31191",
+          "name": "Traverse",
+          "yc_url": "https://www.ycombinator.com/companies/traverse",
+          "website": "https://www.traverse.so",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30905",
+          "name": "Travo",
+          "yc_url": "https://www.ycombinator.com/companies/travo",
+          "website": "https://www.travoai.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31244",
+          "name": "Turnstone",
+          "yc_url": "https://www.ycombinator.com/companies/turnstone",
+          "website": "https://myturnstone.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31296",
+          "name": "Unifold",
+          "yc_url": "https://www.ycombinator.com/companies/unifold",
+          "website": "https://unifold.io",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31166",
+          "name": "Unisson",
+          "yc_url": "https://www.ycombinator.com/companies/unisson",
+          "website": "https://www.unisson.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31194",
+          "name": "Valence",
+          "yc_url": "https://www.ycombinator.com/companies/valence",
+          "website": "https://valence.trade",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31057",
+          "name": "Valgo",
+          "yc_url": "https://www.ycombinator.com/companies/valgo",
+          "website": "https://valgo.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31000",
+          "name": "Vector Legal",
+          "yc_url": "https://www.ycombinator.com/companies/vector-legal",
+          "website": "https://vectorlegal.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31264",
+          "name": "Vela",
+          "yc_url": "https://www.ycombinator.com/companies/vela",
+          "website": "https://tryvela.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "30876",
+          "name": "Velum Labs",
+          "yc_url": "https://www.ycombinator.com/companies/velum-labs",
+          "website": "https://www.velum-labs.com/",
+          "status": "observed",
+          "category": "italic-phrase"
+        },
+        {
+          "id": "31156",
+          "name": "Ventura",
+          "yc_url": "https://www.ycombinator.com/companies/ventura",
+          "website": "https://www.ventura.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31129",
+          "name": "Verdex",
+          "yc_url": "https://www.ycombinator.com/companies/verdex",
+          "website": "https://www.verdexai.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31263",
+          "name": "Veriad",
+          "yc_url": "https://www.ycombinator.com/companies/veriad",
+          "website": "https://veriad.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31182",
+          "name": "Visibl Semiconductors",
+          "yc_url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+          "website": "https://visiblsemi.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31003",
+          "name": "Voltair",
+          "yc_url": "https://www.ycombinator.com/companies/voltair",
+          "website": "https://voltairlabs.com/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31219",
+          "name": "Voxel Energy",
+          "yc_url": "https://www.ycombinator.com/companies/voxel-energy",
+          "website": "https://voxelenergy.com/",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31271",
+          "name": "VOYGR",
+          "yc_url": "https://www.ycombinator.com/companies/voygr",
+          "website": "https://voygr.tech",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31299",
+          "name": "Wayco",
+          "yc_url": "https://www.ycombinator.com/companies/wayco",
+          "website": "https://wayco.ai",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31307",
+          "name": "Wideframe",
+          "yc_url": "https://www.ycombinator.com/companies/wideframe",
+          "website": "https://wideframe.com",
+          "status": "observed",
+          "category": "no-match"
+        },
+        {
+          "id": "31131",
+          "name": "Zatanna",
+          "yc_url": "https://www.ycombinator.com/companies/zatanna",
+          "website": "https://www.zatanna.ai/",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31119",
+          "name": "ZeroSettle",
+          "yc_url": "https://www.ycombinator.com/companies/zerosettle",
+          "website": "https://zerosettle.io",
+          "status": "observed",
+          "category": "highlighted-phrase"
+        },
+        {
+          "id": "31278",
+          "name": "Zymbly",
+          "yc_url": "https://www.ycombinator.com/companies/zymbly",
+          "website": "https://www.zymbly.com",
+          "status": "observed",
+          "category": "italic-phrase"
+        }
+      ]
+    }
+  ]
+}

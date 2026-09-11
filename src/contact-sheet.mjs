@@ -14,7 +14,10 @@ for(const row of rows){
   const tileWidth=Math.floor((width-gap*(row.count-1))/row.count);
   for(let col=0;col<row.count;col++){
     const entry=entries[index++];
-    const input=await sharp(resolve(root,entry.file)).extract(entry.crop).resize(tileWidth,row.height,{fit:'cover'}).toBuffer();
+    const cropped=await sharp(resolve(root,entry.file)).extract(entry.crop).toBuffer();
+    const pixel=await sharp(cropped).extract({left:0,top:0,width:1,height:1}).removeAlpha().raw().toBuffer();
+    const tileBackground={r:pixel[0],g:pixel[1],b:pixel[2]};
+    const input=await sharp(cropped).resize(tileWidth,row.height,{fit:entry.fit || 'cover',background:tileBackground}).toBuffer();
     layers.push({input,left:col*(tileWidth+gap),top});
   }
   top+=row.height+gap;

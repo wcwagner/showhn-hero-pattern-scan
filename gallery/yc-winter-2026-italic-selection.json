@@ -1,0 +1,119 @@
+{
+  "report": "results/yc-winter-2026-2026-09-11.json",
+  "selection": "italic",
+  "rule": "All italic deterministic classifications; not visually verified labels.",
+  "entries": [
+    {
+      "index": 1,
+      "name": "Ashr",
+      "id": "31139",
+      "yc_url": "https://www.ycombinator.com/companies/ashr",
+      "website": "https://ashr.io",
+      "screenshot": "assets/yc-winter-2026-screenshots/31139.webp"
+    },
+    {
+      "index": 2,
+      "name": "Chasi",
+      "id": "31233",
+      "yc_url": "https://www.ycombinator.com/companies/chasi",
+      "website": "https://chasi.ai/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31233.webp"
+    },
+    {
+      "index": 3,
+      "name": "Ditto Biosciences",
+      "id": "31225",
+      "yc_url": "https://www.ycombinator.com/companies/ditto-biosciences",
+      "website": "https://www.dittobio.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31225.webp"
+    },
+    {
+      "index": 4,
+      "name": "Lucent",
+      "id": "31087",
+      "yc_url": "https://www.ycombinator.com/companies/lucent",
+      "website": "https://lucenthq.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31087.webp"
+    },
+    {
+      "index": 5,
+      "name": "MochaCare",
+      "id": "31269",
+      "yc_url": "https://www.ycombinator.com/companies/mochacare",
+      "website": "https://www.mochacare.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31269.webp"
+    },
+    {
+      "index": 6,
+      "name": "Moritz",
+      "id": "31146",
+      "yc_url": "https://www.ycombinator.com/companies/moritz",
+      "website": "http://moritzlegal.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31146.webp"
+    },
+    {
+      "index": 7,
+      "name": "Panta",
+      "id": "31077",
+      "yc_url": "https://www.ycombinator.com/companies/panta",
+      "website": "https://pantainsure.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31077.webp"
+    },
+    {
+      "index": 8,
+      "name": "Payna",
+      "id": "31066",
+      "yc_url": "https://www.ycombinator.com/companies/payna",
+      "website": "https://payna.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31066.webp"
+    },
+    {
+      "index": 9,
+      "name": "Salus",
+      "id": "31147",
+      "yc_url": "https://www.ycombinator.com/companies/salus",
+      "website": "https://www.usesalus.ai/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31147.webp"
+    },
+    {
+      "index": 10,
+      "name": "Sentrial",
+      "id": "31100",
+      "yc_url": "https://www.ycombinator.com/companies/sentrial",
+      "website": "https://sentrial.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31100.webp"
+    },
+    {
+      "index": 11,
+      "name": "Signals",
+      "id": "30639",
+      "yc_url": "https://www.ycombinator.com/companies/signals",
+      "website": "https://www.returnsignals.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/30639.webp"
+    },
+    {
+      "index": 12,
+      "name": "Vector Legal",
+      "id": "31000",
+      "yc_url": "https://www.ycombinator.com/companies/vector-legal",
+      "website": "https://vectorlegal.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31000.webp"
+    },
+    {
+      "index": 13,
+      "name": "Velum Labs",
+      "id": "30876",
+      "yc_url": "https://www.ycombinator.com/companies/velum-labs",
+      "website": "https://www.velum-labs.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/30876.webp"
+    },
+    {
+      "index": 14,
+      "name": "Zymbly",
+      "id": "31278",
+      "yc_url": "https://www.ycombinator.com/companies/zymbly",
+      "website": "https://www.zymbly.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31278.webp"
+    }
+  ]
+}

@@ -149,7 +149,7 @@ Only six of the 226 Uneed hosts also appeared in the same-dated Show HN corpus, 
 
 ## Slopmark evidence wall
 
-![Fifty non-seed, high-confidence slopmark examples arranged as a dense evidence wall](assets/slopmark-evidence-wall.webp)
+![Fifty non-seed, higher-scoring slopmark examples arranged as a dense evidence wall](assets/slopmark-evidence-wall.webp)
 
 The evidence wall contains 50 unique hosts: 33 discovered through Show HN and 17 through Uneed. All satisfy the strict signature, all score 12 or higher, and all URLs from `examples/seed-urls.json` are excluded. The wall is therefore a dense view of detector results beyond the examples that motivated the investigation, not a mood board assembled from the seed set.
 
@@ -178,23 +178,26 @@ node src/gallery.mjs --manifest gallery/september-manifest.json
 
 The original July reports and screenshot directories are preserved. The September pass uses the same style thresholds as July; the scanner changes only clarify limiting, record rendering settings, validate numeric arguments, and select bounded samples newest first.
 
-## YC Spring 2026: complete public directory cohort
+## YC: complete public directory batches
 
-The September 11 follow-up collects every **currently public** [Spring 2026 YC directory record](https://www.ycombinator.com/companies?batch=Spring%202026), not only the search hits. It records separate membership flags for the directory's `query=ai` result and literal, case-insensitive whole-word `AI` in the company name. The directory query searches text with prefix matching: it can match “aircraft,” so it is not an AI-company classification.
+The September 11 follow-up collects **every currently public company** in the [Spring 2026](https://www.ycombinator.com/companies?batch=Spring%202026) and [Winter 2026](https://www.ycombinator.com/companies?batch=Winter%202026) YC directory batches. Selection does not require AI in the company name, industry, or description. The two batches contain 392 distinct companies with 391 distinct website URLs and one missing website. These are current landing pages captured on the same date, not reconstructions of launch-day designs or a time series.
 
-| Scope | Companies | Observed heroes | Italic phrase | Other highlighted phrase | No match | Missing data |
+| Scope | Companies | Observed heroes | Italic candidates | Other highlighted candidates | No detected match | Missing data |
 |---|---:|---:|---:|---:|---:|---:|
 | Complete public Spring 2026 batch | 193 | 174 | 16 | 32 | 126 | 19 |
-| Directory `query=ai` subset | 156 | 144 | 16 | 25 | 103 | 12 |
-| Literal `AI` in company name | 7 | 7 | 2 | 2 | 3 | 0 |
+| Complete public Winter 2026 batch | 199 | 173 | 14 | 31 | 128 | 26 |
+| Both public batches | 392 | 347 | 30 | 63 | 254 | 45 |
 
-These are deterministic detector outputs, not counts of AI-generated websites or manually confirmed examples. Missing data includes unavailable pages, blocking, and no detectable first-viewport hero; it is never counted as a negative result. Hidden or unlaunched cohort members cannot be collected from the public directory.
+These are **candidate counts**, not visually validated totals or counts of AI-generated websites. The heuristics are useful for finding examples, but are not reliable enough to label the whole cohort without review: the blinded Spring sample exposed three misses, and separate candidate review rejected Thomas as a false positive. The 15-example Spring post image is a separate, visually reviewed selection. Missing data includes unavailable pages, blocking, and no detectable first-viewport hero; it is never counted as a negative result. Hidden or unlaunched cohort members cannot be collected from the public directory.
 
 ### Reproduce the cohort and crawl
 
 ```sh
 npm run source:yc
 npm run scan:yc
+node src/yc-source.mjs --batch "Winter 2026" --output results/yc-winter-2026-cohort.json
+node src/scan-yc.mjs --input results/yc-winter-2026-cohort.json --output results/yc-winter-2026-2026-09-11.json --screenshots assets/yc-winter-2026-screenshots
+node src/cohort-summary.mjs
 node src/yc-contact-sheet.mjs --selection italic
 node src/yc-contact-sheet.mjs --selection audit
 npm test
@@ -202,15 +205,26 @@ npm test
 
 `src/yc-source.mjs` reads the public directory frontend's search configuration and queries its intended public index. The public restricted search credential stays in memory and is never logged or saved. [Cohort records](results/yc-spring-2026-cohort.json), [per-page observations](results/yc-spring-2026-2026-09-11.json), and [screenshots](assets/yc-spring-2026-screenshots/) preserve batch, URLs, names, query membership, timestamps, missing-data status, DOM fragments, typography runs, and screenshot geometry.
 
+The [Winter cohort](results/yc-winter-2026-cohort.json), [Winter observations](results/yc-winter-2026-2026-09-11.json), and [combined summary](results/yc-two-batch-summary.json) preserve the adjacent-batch extension. Both runs inspect complete public batches with four concurrent browser contexts and deterministic JavaScript; there is no model call per page. The Winter run completed in 2 minutes 24 seconds. Historical query/name flags remain in raw source metadata for provenance, but do not filter either cohort.
+
+The additional contact sheets reproduce without network access:
+
+```sh
+node src/yc-contact-sheet.mjs --report results/yc-winter-2026-2026-09-11.json --selection italic --output assets/yc-winter-2026-italic --manifest gallery/yc-winter-2026-italic-selection.json
+node src/yc-contact-sheet.mjs --report results/yc-winter-2026-2026-09-11.json --selection audit --count 16 --output assets/yc-winter-2026-audit --manifest gallery/yc-winter-2026-audit-selection.json
+```
+
 ### Detector v2.1 and validation
 
 The YC detector is separate from the historical July scoring system. It selects the largest visible heading-like text in a fixed 1440×900 viewport, using semantic H1 as a tie-break. It requires a proposition of 12–220 characters, at least two words, and type at least 44px. It compares actual text runs and does **not** require a terminal period. Normal fonts and images are loaded; video/audio resources are blocked.
 
-A phrase can differ by italics, font family, font weight (at least 200), gradient use, or RGB distance (at least 40 on 0–255 channels). Runs below 70% of the dominant font size are excluded to avoid treating small labels as hero emphasis. Adjacent runs with identical styling are merged so letter-by-letter spans remain detectable. Unsupported computed color spaces are ignored conservatively for color-only detection. Each result retains the applied settings and classifier version. The initial YC observations were collected with v2.0 classifications, then all saved text runs were rescored with frozen v2.1; the report preserves both versions. Future runs use v2.1 directly.
+A phrase can differ by italics, font family, font weight (at least 200), gradient use, or RGB distance (at least 40 on 0–255 channels). Runs below 70% of the dominant font size are excluded to avoid treating small labels as hero emphasis. Adjacent runs with identical styling are merged so letter-by-letter spans remain detectable. Unsupported computed color spaces are ignored conservatively for color-only detection. Each result retains the applied settings and classifier version. The initial Spring observations were collected with v2.0 classifications, then all saved text runs were rescored with frozen v2.1; the report preserves both versions. The Winter scan and future runs use frozen v2.1 directly; thresholds were not retuned on the review sample.
 
 Nine deterministic/browser fixtures cover meaningful edge cases: no period, whole-heading italics, tiny subtitles, nearly identical colors, real color contrast, split-letter spans, weight-only emphasis, missing heroes, and small-logo H1 versus a dominant H2.
 
 A separate agent visually labeled a [24-page sample](gallery/yc-audit-selection.json), chosen by SHA-256 of company-profile URLs independently of predictions and reviewed without classifier output. There were 8 visual matches, 15 nonmatches, and 1 uncertain animated heading. Frozen v2.1 agreed on 20 of the 23 adjudicated pages and missed 3; it produced no false positives in this small sample. This is a sanity check, not a general accuracy estimate. [Labels and disagreements](results/yc-spring-2026-visual-audit.json) remain inspectable. The misses expose known limitations: propositions split across separate headings (Mochatrade, Plena Health), and a visibly emphasized line smaller than the conservative run-size threshold (Zolvo).
+
+A second blinded [Winter sample](results/yc-winter-2026-visual-audit.json) used the same SHA-256 selection rule for 16 companies, with classifier v2.1 unchanged. Visual labels were 5 matches, 9 nonmatches, 1 missing hero, and 1 uncertain faint heading. The classifier agreed on 13 of the 14 adjudicated match/nonmatch cases; it missed Tepali by selecting a large statistics block instead of the actual headline. The missing hero remained missing data. These small checks are not estimates of whole-batch accuracy, and the known Thomas false positive outside the samples still matters.
 
 The two existing curated 12-image sets are positive-enriched references, not an independent test set. A [current revisit of those 24 URLs](results/positive-reference-revisit-2026-09-11.json) produced 20 matches, 3 current nonmatches, and 1 blocked page. Heard and EarlyConversions had changed substantially. This measures present-day agreement with historical reference URLs; it does not rescore the old screenshots or establish precision/recall.
 
@@ -222,6 +236,20 @@ The final [15-example YC contact sheet](assets/yc-spring-2026-contact-sheet.webp
 
 ```sh
 node src/contact-sheet.mjs gallery/yc-post-contact-sheet.json
+```
+
+## Two-batch scale and established-company examples
+
+The [two-batch scale graphic](assets/yc-two-batch-scale.svg) uses one mark for each of the 392 company records in the [combined crawl summary](results/yc-two-batch-summary.json): 93 heuristic candidates, 254 nonmatches, and 45 unclassified records. It does not imply that all candidates were visually confirmed. The [WebP version](assets/yc-two-batch-scale.webp) is available for the post.
+
+A separate [three-example established-company collage](assets/established-contact-sheet.webp) shows Wispr Flow, Antithesis, and Intercom. Wispr uses an italic phrase; Antithesis and Intercom use phrase-level color contrast. These were visually selected from a bounded 12-site check, with [review notes](results/established-review.md), [public-page observations](results/established-results.json), and [reviewed results](results/established-reviewed-results.json). The [crop manifest](gallery/established-contact-sheet.json) preserves source URLs and screenshot paths. This comparison makes no AI-authorship claim.
+
+Reproduce both from preserved observations and screenshots:
+
+```sh
+node src/cohort-summary.mjs
+node src/crawl-scale.mjs
+node src/contact-sheet.mjs gallery/established-contact-sheet.json
 ```
 
 ## Compact post contact sheet
@@ -239,7 +267,7 @@ Its layout and provenance are recorded in [gallery/post-contact-sheet.json](gall
 - Pages change. A rerun measures the current landing page, not necessarily what appeared on launch day.
 - Client-side rendering, bot protection, consent screens, A/B tests, and network failures create missing or misleading observations.
 - GitHub, app-store, document, social, and similar links are excluded because they are not product landing pages.
-- The fast scanner blocks images, media, and fonts and waits only 500 ms after DOM load. Custom fonts and late animations can change the actual visual result. The current detector also ignores styled fragments narrower than 100 px or shorter than 20 px, and does not score font-weight changes alone; it can miss the short bold or italic word that motivated this search. Use full-resource screenshots for visual review.
+- The legacy Show HN/Uneed scanner blocks images, media, and fonts and waits only 500 ms after DOM load. Custom fonts and late animations can change the actual visual result. That legacy detector also ignores styled fragments narrower than 100 px or shorter than 20 px, and does not score font-weight changes alone; it can miss the short bold or italic word that motivated this search. Use full-resource screenshots for visual review.
 - Color changes can be semantic for reasons unrelated to this pattern; rankings require visual review.
 - The framework hints are diagnostics, not evidence. Astro, Next.js, Webflow, Framer, and plain HTML can all produce the same composition.
 - Most importantly: visual convergence cannot establish whether a human, an agent, a template, or some mixture produced a page.

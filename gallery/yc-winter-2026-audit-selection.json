@@ -1,0 +1,135 @@
+{
+  "report": "results/yc-winter-2026-2026-09-11.json",
+  "selection": "audit",
+  "rule": "First 16 company-profile URLs ordered by SHA-256, independent of model/classifier output. Missing-data rows remain in sample.",
+  "entries": [
+    {
+      "index": 1,
+      "name": "Protent",
+      "id": "31106",
+      "yc_url": "https://www.ycombinator.com/companies/protent",
+      "website": "https://protent.ai",
+      "screenshot": "assets/yc-winter-2026-screenshots/31106.webp"
+    },
+    {
+      "index": 2,
+      "name": "Docura Health",
+      "id": "31090",
+      "yc_url": "https://www.ycombinator.com/companies/docura-health",
+      "website": "https://docurahealth.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31090.webp"
+    },
+    {
+      "index": 3,
+      "name": "General Astronautics",
+      "id": "30973",
+      "yc_url": "https://www.ycombinator.com/companies/generalastro",
+      "website": "https://generalastro.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/30973.webp"
+    },
+    {
+      "index": 4,
+      "name": "Fenrock AI",
+      "id": "31187",
+      "yc_url": "https://www.ycombinator.com/companies/fenrock-ai",
+      "website": "https://fenrock.ai/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31187.webp"
+    },
+    {
+      "index": 5,
+      "name": "Fed10",
+      "id": "31247",
+      "yc_url": "https://www.ycombinator.com/companies/fed10",
+      "website": "https://www.fed10.ai",
+      "screenshot": "assets/yc-winter-2026-screenshots/31247.webp"
+    },
+    {
+      "index": 6,
+      "name": "Payna",
+      "id": "31066",
+      "yc_url": "https://www.ycombinator.com/companies/payna",
+      "website": "https://payna.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31066.webp"
+    },
+    {
+      "index": 7,
+      "name": "Asimov",
+      "id": "31095",
+      "yc_url": "https://www.ycombinator.com/companies/asimov",
+      "website": "https://tryasimov.ai/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31095.webp"
+    },
+    {
+      "index": 8,
+      "name": "Doomersion",
+      "id": "31229",
+      "yc_url": "https://www.ycombinator.com/companies/doomersion",
+      "website": "https://doomersion.com/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31229.webp"
+    },
+    {
+      "index": 9,
+      "name": "o11",
+      "id": "31230",
+      "yc_url": "https://www.ycombinator.com/companies/o11",
+      "website": "https://o11.ai",
+      "screenshot": "assets/yc-winter-2026-screenshots/31230.webp"
+    },
+    {
+      "index": 10,
+      "name": "Tepali",
+      "id": "31127",
+      "yc_url": "https://www.ycombinator.com/companies/tepali",
+      "website": "https://tepali.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31127.webp"
+    },
+    {
+      "index": 11,
+      "name": "Foreman",
+      "id": "31243",
+      "yc_url": "https://www.ycombinator.com/companies/foreman",
+      "website": "https://foreman.co",
+      "screenshot": "assets/yc-winter-2026-screenshots/31243.webp"
+    },
+    {
+      "index": 12,
+      "name": "Fort",
+      "id": "31239",
+      "yc_url": "https://www.ycombinator.com/companies/fort",
+      "website": "https://fort.cx",
+      "screenshot": "assets/yc-winter-2026-screenshots/31239.webp"
+    },
+    {
+      "index": 13,
+      "name": "End Close",
+      "id": "31186",
+      "yc_url": "https://www.ycombinator.com/companies/end-close",
+      "website": "https://endclose.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31186.webp"
+    },
+    {
+      "index": 14,
+      "name": "SpotPay",
+      "id": "31273",
+      "yc_url": "https://www.ycombinator.com/companies/spotpay",
+      "website": "https://www.spotpay.ai/",
+      "screenshot": "assets/yc-winter-2026-screenshots/31273.webp"
+    },
+    {
+      "index": 15,
+      "name": "Origami Robotics",
+      "id": "31284",
+      "yc_url": "https://www.ycombinator.com/companies/origami-robotics",
+      "website": "https://www.origami-robotics.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31284.webp"
+    },
+    {
+      "index": 16,
+      "name": "Panta",
+      "id": "31077",
+      "yc_url": "https://www.ycombinator.com/companies/panta",
+      "website": "https://pantainsure.com",
+      "screenshot": "assets/yc-winter-2026-screenshots/31077.webp"
+    }
+  ]
+}

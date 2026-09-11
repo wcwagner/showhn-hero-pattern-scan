@@ -1,0 +1,693 @@
+[
+  {
+    "name": "antithesis",
+    "url": "https://antithesis.com/",
+    "checked_at": "2026-09-11T06:10:24.143Z",
+    "final_url": "https://antithesis.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Bug-free systems,\nunlimited velocity:",
+        "rect": {
+          "x": 124,
+          "y": 277,
+          "width": 758.65625,
+          "height": 144
+        },
+        "runs": [
+          {
+            "text": "Bug-free systems,",
+            "font": "Stringer-c6f30cf7e392bd91, \"Stringer-c6f30cf7e392bd91 fallback: Times New Roman\", Georgia, serif",
+            "size": "72px",
+            "weight": "200",
+            "style": "normal",
+            "color": "rgb(252, 251, 249)"
+          },
+          {
+            "text": "unlimited velocity:",
+            "font": "Stringer-c6f30cf7e392bd91, \"Stringer-c6f30cf7e392bd91 fallback: Times New Roman\", Georgia, serif",
+            "size": "72px",
+            "weight": "200",
+            "style": "normal",
+            "color": "rgb(255, 160, 145)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/antithesis.png",
+    "verdict": "strong match",
+    "accent": "unlimited velocity:",
+    "mechanism": "white/coral split within 72px Stringer serif hero",
+    "credibility_source": "https://antithesis.com/",
+    "credibility": "Homepage publishes named Jane Street, Formance, Tigris, ParadeDB, Kubernetes/etcd and Mysten testimonials; product use by Ethereum Foundation also described."
+  },
+  {
+    "name": "wispr",
+    "url": "https://wisprflow.ai/",
+    "checked_at": "2026-09-11T06:10:24.142Z",
+    "final_url": "https://wisprflow.ai/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Don\u2019t type,\njust speak.",
+        "rect": {
+          "x": 224,
+          "y": 214.984375,
+          "width": 992,
+          "height": 182.375
+        },
+        "runs": [
+          {
+            "text": "Don\u2019t type,",
+            "font": "\"Eb garamond\", Arial, sans-serif",
+            "size": "96px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(26, 26, 26)"
+          },
+          {
+            "text": "just speak.",
+            "font": "\"Eb garamond\", Arial, sans-serif",
+            "size": "96px",
+            "weight": "400",
+            "style": "italic",
+            "color": "rgb(26, 26, 26)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/wispr.png",
+    "verdict": "strong match",
+    "accent": "just speak.",
+    "mechanism": "normal/italic split, same EB Garamond face and 96px size",
+    "credibility_source": "https://wisprflow.ai/new-funding",
+    "credibility": "Official November 20, 2025 announcement of funding (see source for amounts)."
+  },
+  {
+    "name": "clay",
+    "url": "https://www.clay.com/",
+    "checked_at": "2026-09-11T06:10:26.134Z",
+    "final_url": "https://www.clay.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Build systems to grow revenue",
+        "rect": {
+          "x": 128,
+          "y": 576,
+          "width": 720,
+          "height": 176
+        },
+        "runs": [
+          {
+            "text": "Build systems to grow revenue",
+            "font": "Roobertvf, Arial, sans-serif",
+            "size": "88px",
+            "weight": "575",
+            "style": "normal",
+            "color": "rgb(254, 253, 251)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/clay.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  },
+  {
+    "name": "linear",
+    "url": "https://linear.app/",
+    "checked_at": "2026-09-11T06:10:28.938Z",
+    "final_url": "https://linear.app/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "The product development\nsystem for teams and agents\nThe product development system for teams and agents",
+        "rect": {
+          "x": 78,
+          "y": 272,
+          "width": 1282,
+          "height": 128
+        },
+        "runs": [
+          {
+            "text": "The product",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "development",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "system for teams",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "and agents",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "The product development",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "system for teams and agents",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          },
+          {
+            "text": "The product development system for teams and agents",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "weight": "510",
+            "style": "normal",
+            "color": "rgb(247, 248, 248)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/linear.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  },
+  {
+    "name": "cursor",
+    "url": "https://cursor.com/",
+    "checked_at": "2026-09-11T06:10:28.614Z",
+    "final_url": "https://cursor.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Cursor is your coding agent for building ambitious software.",
+        "rect": {
+          "x": 70,
+          "y": 164,
+          "width": 658.3125,
+          "height": 65
+        },
+        "runs": [
+          {
+            "text": "Cursor is your coding agent for building ambitious software.",
+            "font": "CursorGothic, \"CursorGothic Fallback\", system-ui, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "26px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(38, 37, 30)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/cursor.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  },
+  {
+    "name": "intercom",
+    "url": "https://www.intercom.com/",
+    "checked_at": "2026-09-11T06:10:31.688Z",
+    "final_url": "https://www.intercom.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "A complete system for\nhuman and AI\ncustomer service",
+        "rect": {
+          "x": 349.21875,
+          "y": 235.59375,
+          "width": 741.53125,
+          "height": 240
+        },
+        "runs": [
+          {
+            "text": "A complete",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "80px",
+            "weight": "400",
+            "style": "normal",
+            "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)"
+          },
+          {
+            "text": "system for",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "80px",
+            "weight": "400",
+            "style": "normal",
+            "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)"
+          },
+          {
+            "text": "human and AI",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "80px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(17, 17, 17)"
+          },
+          {
+            "text": "customer service",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "80px",
+            "weight": "400",
+            "style": "normal",
+            "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)"
+          }
+        ]
+      },
+      {
+        "tag": "H2",
+        "text": "Two products, one seamless experience",
+        "rect": {
+          "x": 134.65625,
+          "y": 846.359375,
+          "width": 1170.671875,
+          "height": 24
+        },
+        "runs": [
+          {
+            "text": "Two products,",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "24px",
+            "weight": "400",
+            "style": "normal",
+            "color": "oklab(0.177637 0.00000810623 0.00000356138 / 0.4)"
+          },
+          {
+            "text": "one seamless experience",
+            "font": "Saans, \"Saans Fallback\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", ui-sans-serif, system-ui, sans-serif",
+            "size": "24px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(17, 17, 17)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/intercom.png",
+    "verdict": "strong match, color-only variant",
+    "accent": "human and AI",
+    "mechanism": "black central subphrase against gray surrounding lines, 80px Saans",
+    "credibility_source": "https://www.intercom.com/blog/announcing-intercom-for-enterprise/",
+    "credibility": "Official 2022 post says company active since 2011 and had thousands of customers."
+  },
+  {
+    "name": "notion",
+    "url": "https://www.notion.com/",
+    "checked_at": "2026-09-11T06:10:31.643Z",
+    "final_url": "https://www.notion.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Where teams and agents \nThink\n together.",
+        "rect": {
+          "x": 94,
+          "y": 248,
+          "width": 1252,
+          "height": 210.109375
+        },
+        "runs": [
+          {
+            "text": "Where teams and agents",
+            "font": "NotionInter, Inter, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+            "size": "96px",
+            "weight": "600",
+            "style": "normal",
+            "color": "rgba(0, 0, 0, 0.95)"
+          },
+          {
+            "text": "Think",
+            "font": "NotionInter, Inter, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+            "size": "72px",
+            "weight": "500",
+            "style": "normal",
+            "color": "rgba(0, 0, 0, 0.95)"
+          },
+          {
+            "text": "together.",
+            "font": "NotionInter, Inter, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+            "size": "96px",
+            "weight": "600",
+            "style": "normal",
+            "color": "rgba(0, 0, 0, 0.95)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/notion.png",
+    "verdict": "adjacent variant, recommend exclude from strict set",
+    "accent": "Think",
+    "mechanism": "smaller variable word in blue rounded badge inside dominant headline; no italic/color/font-family split in text",
+    "credibility_source": "https://www.notion.com/",
+    "credibility": "Official homepage customer logos include OpenAI, Figma, Ramp, Cursor, Vercel, Nvidia, Volvo, L\u2019Oreal and Discord."
+  },
+  {
+    "name": "beacon",
+    "url": "https://www.ignitebeacon.com/",
+    "checked_at": "2026-09-11T06:10:24.142Z",
+    "final_url": "https://www.ignitebeacon.com/",
+    "headings": [],
+    "proof": "assets/established-screenshots/beacon.png",
+    "verdict": "no current match",
+    "reason": "Current page is fullbleed sunset photograph and uniform beacon logo. July 27 William capture describes earlier matching design; do not substitute current screenshot."
+  },
+  {
+    "name": "perplexity",
+    "url": "https://www.perplexity.ai/",
+    "checked_at": "2026-09-11T06:10:34.114Z",
+    "final_url": "https://www.perplexity.ai/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "www.perplexity.ai",
+        "rect": {
+          "x": 328,
+          "y": 128,
+          "width": 318.078125,
+          "height": 50
+        },
+        "runs": [
+          {
+            "text": "www.perplexity.ai",
+            "font": "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "40px",
+            "weight": "600",
+            "style": "normal",
+            "color": "rgb(49, 49, 49)"
+          }
+        ]
+      },
+      {
+        "tag": "H2",
+        "text": "Performing security verification",
+        "rect": {
+          "x": 272,
+          "y": 186,
+          "width": 896,
+          "height": 30
+        },
+        "runs": [
+          {
+            "text": "Performing security verification",
+            "font": "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "size": "24px",
+            "weight": "600",
+            "style": "normal",
+            "color": "rgb(49, 49, 49)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/perplexity.png",
+    "verdict": "blocked",
+    "reason": "Cloudflare challenge; no homepage design determination."
+  },
+  {
+    "name": "anthropic",
+    "url": "https://www.anthropic.com/",
+    "checked_at": "2026-09-11T06:10:34.039Z",
+    "final_url": "https://www.anthropic.com/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "AI research and products that put safety at the frontier\nAI research and products that put safety at the frontier",
+        "rect": {
+          "x": 77.734375,
+          "y": 218.59375,
+          "width": 736.1875,
+          "height": 178.9375
+        },
+        "runs": [
+          {
+            "text": "AI",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "research",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "and",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "products",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "that put safety at the frontier",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "AI",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "research",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "and",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "products",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "that",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "put",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "safety",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "at",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "the",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          },
+          {
+            "text": "frontier",
+            "font": "\"Anthropic Sans\", Arial, sans-serif",
+            "size": "60.8653px",
+            "weight": "700",
+            "style": "normal",
+            "color": "rgb(20, 20, 19)"
+          }
+        ]
+      },
+      {
+        "tag": "H2",
+        "text": ":Claude: Fable 5.1\nand Mythos 5.1",
+        "rect": {
+          "x": 405.625,
+          "y": 728.609375,
+          "width": 628.75,
+          "height": 125.78125
+        },
+        "runs": [
+          {
+            "text": ":Claude:",
+            "font": "\"Anthropic Serif\", Georgia, sans-serif",
+            "size": "68.3429px",
+            "weight": "500",
+            "style": "normal",
+            "color": "rgb(250, 249, 245)"
+          },
+          {
+            "text": "Fable 5.1",
+            "font": "\"Anthropic Serif\", Georgia, sans-serif",
+            "size": "68.3429px",
+            "weight": "500",
+            "style": "normal",
+            "color": "rgb(250, 249, 245)"
+          },
+          {
+            "text": "and Mythos 5.1",
+            "font": "\"Anthropic Serif\", Georgia, sans-serif",
+            "size": "68.3429px",
+            "weight": "500",
+            "style": "normal",
+            "color": "rgb(250, 249, 245)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/anthropic.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  },
+  {
+    "name": "elevenlabs",
+    "url": "https://elevenlabs.io/",
+    "checked_at": "2026-09-11T06:10:36.271Z",
+    "final_url": "https://elevenlabs.io/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Bringing\ntechnology to life",
+        "rect": {
+          "x": 132,
+          "y": 184,
+          "width": 564,
+          "height": 86.5
+        },
+        "runs": [
+          {
+            "text": "Bringing",
+            "font": "Waldenburg, \"Waldenburg Fallback\"",
+            "size": "48px",
+            "weight": "300",
+            "style": "normal",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "text": "technology to life",
+            "font": "Waldenburg, \"Waldenburg Fallback\"",
+            "size": "48px",
+            "weight": "300",
+            "style": "normal",
+            "color": "rgb(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "tag": "H2",
+        "text": "Powering the best enterprises, creators, and developers. From ElevenAgents for customer experience, ElevenCreative for content creation, to the leading AI voice generator.",
+        "rect": {
+          "x": 744,
+          "y": 211,
+          "width": 564,
+          "height": 59.5
+        },
+        "runs": [
+          {
+            "text": "Powering the best enterprises, creators, and developers. From ElevenAgents for customer experience, ElevenCreative for content creation, to the leading AI voice generator.",
+            "font": "Inter, \"Inter Fallback\"",
+            "size": "16px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(0, 0, 0)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/elevenlabs.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  },
+  {
+    "name": "harvey",
+    "url": "https://www.harvey.ai/",
+    "checked_at": "2026-09-11T06:10:36.318Z",
+    "final_url": "https://www.harvey.ai/",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Build a Frontier Legal Organization",
+        "rect": {
+          "x": 32,
+          "y": 180,
+          "width": 680,
+          "height": 151.1875
+        },
+        "runs": [
+          {
+            "text": "Build a Frontier Legal Organization",
+            "font": "HarveySerifFont, \"HarveySerifFont Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif, sans-serif",
+            "size": "72px",
+            "weight": "400",
+            "style": "normal",
+            "color": "rgb(15, 14, 13)"
+          }
+        ]
+      }
+    ],
+    "proof": "assets/established-screenshots/harvey.png",
+    "verdict": "no match",
+    "reason": "Current dominant homepage heading has uniform font, weight, style and color."
+  }
+]

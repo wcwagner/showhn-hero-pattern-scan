@@ -1,0 +1,60 @@
+{
+  "description": "Three current homepage heroes, captured September 11, 2026. Wispr uses italics; Antithesis and Intercom use phrase-level color contrast. Preserved screenshot crops, no text replacement. This is a composition comparison, not evidence of AI authorship.",
+  "output": "assets/established-contact-sheet.webp",
+  "width": 1800,
+  "height": 640,
+  "gap": 12,
+  "background": "#fdfcfa",
+  "quality": 88,
+  "rows": [
+    {
+      "count": 1,
+      "height": 240
+    },
+    {
+      "count": 2,
+      "height": 388
+    }
+  ],
+  "entries": [
+    {
+      "name": "Wispr Flow",
+      "url": "https://wisprflow.ai/",
+      "hero": "Don\u2019t type, just speak.",
+      "file": "assets/established-screenshots/wispr.png",
+      "crop": {
+        "left": 480,
+        "top": 205,
+        "width": 480,
+        "height": 205
+      },
+      "fit": "contain"
+    },
+    {
+      "name": "Antithesis",
+      "url": "https://antithesis.com/",
+      "hero": "Bug-free systems, unlimited velocity:",
+      "file": "assets/established-screenshots/antithesis.png",
+      "crop": {
+        "left": 95,
+        "top": 268,
+        "width": 820,
+        "height": 161
+      },
+      "fit": "contain"
+    },
+    {
+      "name": "Intercom",
+      "url": "https://www.intercom.com/",
+      "hero": "A complete system for human and AI customer service",
+      "file": "assets/established-screenshots/intercom.png",
+      "crop": {
+        "left": 336,
+        "top": 227,
+        "width": 766,
+        "height": 260
+      },
+      "fit": "contain"
+    }
+  ]
+}
