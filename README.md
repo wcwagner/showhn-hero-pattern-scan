@@ -2,6 +2,8 @@
 
 A collection of oversized landing-page headlines with a word or phrase set apart in italics, another typeface, or an accent color.
 
+Adrian Krebs got there first. His April 20, 2026 [post](https://www.adriankrebs.ch/blog/design-slop) identifies the italic accent-word pattern, and his [Design Slop Cop](https://github.com/AdrianKrebs/design-slop-cop) scans for a broader set of design tells. I built this gallery and scanner independently in July, before I knew his work. I discovered it in September and picked this project back up because of it. I’m glad people are noticing.
+
 ![A selection of landing-page headlines with a contrasting word or phrase](assets/slopmark-lead-contact-sheet.webp)
 
 ![More examples of the same recurring headline pattern](assets/slopmark-dense-contact-sheet.webp)
